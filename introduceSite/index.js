@@ -2,10 +2,11 @@ const express        = require('express');
 const app            = express();
 
 const PORT = process.env.PORT || 5000;
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public',express.static('introduceSite/public'));
 
-express()
+
+app
   .get('/', function(req, res) {
 	res.sendfile('introduceSite/index.html');
   })
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
