@@ -1,0 +1,34 @@
+/* Your custom styles */
+
+/* Image with text */
+
+.img-flex{
+    width:100%;
+    height:auto;
+}
+.center-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.h1-auto-text-size{
+    font-size: calc(6vw)
+}
+.h2-auto-text-size{
+    font-size: calc(5vw)
+}
+.h3-auto-text-size{
+    font-size: calc(4vw)
+}
+.h4-auto-text-size{
+    font-size: calc(3vw)
+}
+.h5-auto-text-size{
+    font-size: calc(2vw)
+}
+.h6-auto-text-size{
+    font-size: calc(1vw)
+}
