@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'baseCSSImports.twig' %}
+
+<body>
+
+
+<!-- Start your project here-->
+<div class="view overlay">
+    <img src="public/myResource/myImage/intro.jpg" class="img-flex">
+    <div class="mask waves-effect waves-light"></div>
+    <div class="center-text white-text">
+        <div class="h1-auto-text-size wow fadeInUp">Welcome to portfolio site!</div>
+    </div>
+</div>
+<!--Navbar-->
+{% include 'navBar.twig' %}
+<!--Card Regular-->
+
+<div class="project-item-list">
+    <div class="project-item">
+        <h2 class="project-item-list-title">Created in codeX team</h2>
+    </div>
+    <!--Card Dark-->
+    <div class="card hawk-color project-card project-item">
+        <!--Card image-->
+        <!--/.Card image-->
+        <!--Card content-->
+        <div class="card-body ">
+            <!--Social shares button-->
+            <!--Title-->
+            <div style="display: flex">
+                <div>
+                    <h4 class="h4-auto-text-size white-text font-weight-bold">HAWK.SO</h4>
+                    <!--Text-->
+                    <p class="white-text">Fast and lightweight errors tracking service. Catchers for JavaScript, Python,
+                        PHP, Node.js, Swift are available</p>
+                    <p class="white-text"><strong>Technology stack</strong>: NodeJS, Twig, MongoDB</p>
+                </div>
+                <div style="text-align: -moz-center;">
+                    <img src="public/myResource/myImage/hawk.png" class="img-fluid card"
+                         style="max-width: 711px;max-height: 620px; width: 70%; height: 70%" alt="">
+
+                </div>
+            </div>
+
+            <a href="https://github.com/codex-team/hawk" class="d-flex flex-row-reverse" style="margin-top: 20px">
+                <h5 class="waves-effect waves-light p-2 white-text">Read more on github<i class="fa fa-chevron-right"
+                                                                                          style="margin-left: 3px"></i>
+                </h5>
+            </a>
+
+        </div>
+        <!--/.Card content-->
+    </div>
+    <div class="card project-card project-item">
+        <!--Card image-->
+        <!--/.Card image-->
+        <!--Card content-->
+        <div class="card-body">
+            <!--Social shares button-->
+            <!--Title-->
+            <div style="display: flex">
+                <div>
+                    <h4 class="h4-auto-text-size dark-grey-text font-weight-bold">Capella</h4>
+                    <!--Text-->
+                    <p class="dark-grey-text">Cloud service for image storage and delivery. Upload files and accept
+                        image-filters on the fly with simple API </p>
+                    <p class="dark-grey-text"><strong>Technology stack</strong>: PHP, Imagick</p>
+                </div>
+                <div style="margin: auto">
+                    <img src="public/myResource/myImage/capella.png" class="img-fluid card"
+                         style="max-width: 711px;max-height: 512px; width: 70%; height: 70%" alt="">
+                </div>
+            </div>
+            <a href="https://github.com/codex-team/capella" class="d-flex flex-row-reverse" style="margin-top: 20px">
+                <h5 class="waves-effect waves-light p-2 dark-grey-text">Read more on github<i
+                            class="fa fa-chevron-right" style="margin-left: 3px"></i></h5>
+            </a>
+
+        </div>
+        <!--/.Card content-->
+    </div>
+
+</div>
+<!--/.Card Dark-->
+<!--/.Card Regular-->
+
+<!--/.Card content-->
+<!-- Collapsible content -->
+
+<!-- /Start your project here-->
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+{% include 'baseScriptImports.twig' %}
+
+<script>
+  new WOW().init()
+</script>
+</body>
+
+</html>

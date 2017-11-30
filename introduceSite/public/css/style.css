@@ -2,6 +2,11 @@
 
 /* Image with text */
 
+.dark-grey-text
+{
+    color: #1C2A48;
+}
+
 .img-flex{
     width:100%;
     height:auto;
@@ -32,3 +37,42 @@
 .h6-auto-text-size{
     font-size: calc(1vw)
 }
+
+.hawk-color
+{
+    background: #2e2e3c;
+}
+
+@media screen and (min-width: 700px) {
+
+    .project-card {
+        margin: 0px 135px;
+    }
+}
+@media screen and (max-width: 700px){
+
+    .project-card {
+        margin: 0px 20px;
+    }
+}
+
+
+.project-item-list
+{
+   display: list-item;
+}
+
+.project-item
+{
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: fit-content;
+}
+
+.project-item-list-title
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
