@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 800px){
     .profile-card
     {
         margin-left: 3%;
@@ -32,17 +32,30 @@
         width: 100%;
         padding-left: 20px;
     }
-    ul.instagram-photos li img{margin:0}.media .icon-shadow
-    {
-        padding-left: 10px;
-    }
+    ul.instagram-photos li img{margin:0}.media .icon-shadow {
+                                            padding-left: 10px;  }
 
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     .profile-card
     {
         width: 100%;
+    }
+    .navbar-expand .navbar-collapse .navbar-nav
+    {
+        display: list-item;
+    }
+    .navbar-expand
+    {
+        display: list-item;
     }
 }
 
