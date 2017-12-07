@@ -1,28 +1,22 @@
 
 <nav class="navbar navbar-expand navbar-dark unique-color-dark">
+    <a class="navbar-brand" href="#">{{ navbar.myName }}</a>
 
-    <!--Mask with wave-->
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Aksenov Vladimir</a>
-
-    <!-- Collapsible content -->
     <div class="navbar-collapse">
 
-        <!-- Links -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Main</a>
+                <a class="nav-link" href="/">{{ navbar.main }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/projects">Projects</a>
+                <a class="nav-link" href="/projects">{{ navbar.projects }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Teams">Teams</a>
+                <a class="nav-link" href="/teams">{{ navbar.teams }}</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/Contacts">Contact</a>
+                <a class="nav-link" href="/contacts">{{ navbar.contacts }}</a>
             </li>
         </ul>
     </div>

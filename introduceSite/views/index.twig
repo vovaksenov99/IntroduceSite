@@ -2,49 +2,38 @@
 
 {% include 'baseCSSImports.twig' %}
 
+
 <body>
 
-{% include 'navBar.twig' %}
 
 <div class="view overlay">
-    <img src="public/myResource/myImage/intro{{ randomIntroNum }}.jpg" class="img-flex wow fadeIn">
+    <img src="public/myResource/myImage/intro{{ randomIntroNum }}.jpg" class="img-flex wow fadeInDown">
     <div class="mask waves-effect waves-light"></div>
     <div class="center-text white-text">
-        <div class="h1-auto-text-size wow fadeInUp">Welcome to portfolio site!</div>
+        <div class="h1-auto-text-size wow fadeInDown">{{ indexIntroTitle }}</div>
     </div>
 </div>
+{% include 'navBar.twig' %}
 
-<!--Card Regular-->
 <div class="card card-cascade profile-card">
 
     <div class="profile-info">
 
         <div>
-            <!--Card image-->
             <div class="view overlay hm-white-slight">
                 <img src="public/myResource/myImage/my_photo.jpg" class="img-flex">
                 <a>
                     <div class="mask"></div>
                 </a>
             </div>
-            <!--/.Card image-->
-
-            <!--Card content-->
             <div class="card-body text-center">
-                <!--Title-->
-                <h4 class="card-title"><strong>Aksenov Vladimir</strong></h4>
-                <h5>Developer</h5>
+                <h4 class="card-title"><strong>{{ navbar.myName }}</strong></h4>
+                <h5>{{ developer }}</h5>
 
-                <p class="card-text">Jamque opus exegi quod nec Jovis ira, nec ignis, nec poterit ferrum, nec edax abolere
-                    vetustas.
-                    Juris praecepta sunt haec: honeste vivere, alterum non laedere, suum cuique tribuere.
-                    Juris praecepta sunt haec: honeste vivere, alterum non laedere, suum cuique tribuere.
-                    Nullum crimen sine poena, nulla poena sine lege, nullum crimen sine poena legali
+                <p class="card-text">{{ myDescribe }}
                 </p>
             </div>
-            <!--/.Card content-->
         </div>
-        <!--Skills content-->
         <div class="skills-list">
             <div class="media mb-1 skill">
                 <div class="media-body">
@@ -53,10 +42,10 @@
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ csharpDescribe }}</p>
                 </div>
             </div>
 
@@ -67,10 +56,10 @@
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ javaDescribe }}</p>
                 </div>
             </div>
             <div class="media mb-1 skill">
@@ -83,7 +72,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ kotlinDescribe }}</p>
                 </div>
             </div>
             <div class="media mb-1 skill">
@@ -92,11 +81,11 @@
                     <ul class="rating inline-ul" style="padding: 0px">
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
+                        <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ phpDescribe }}</p>
                 </div>
             </div>
 
@@ -110,7 +99,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ sqlDescribe }}</p>
                 </div>
             </div>
 
@@ -120,43 +109,54 @@
                     <ul class="rating inline-ul" style="padding: 0px">
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
+                        <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ webDescribe }}</p>
                 </div>
             </div>
 
             <div class="media mb-1 skill">
                 <div class="media-body">
-                    <h4 class="">C++   NodeJs,.Net,Twig,MongoDB,Bootstrap,SQL database</h4>
+                    <h4 class="">C++</h4>
                     <ul class="rating inline-ul" style="padding: 0px">
                         <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>Text</p>
+                    <p>{{ cppDescribe }}</p>
+                </div>
+            </div>
+
+            <div class="media mb-1 skill">
+                <div class="media-body">
+                    <h4 class="">{{ technologyStack }}</h4>
+                    <p>
+                        NodeJs, .Net, Twig, MongoDB, Bootstrap
+                        <br>
+                        SQL databases
+                        <lu>
+                            <li>MS SQL SERVER</li>
+                            <li>MYSQL</li>
+                            <li>SQLITE</li>
+                        </lu>
+                        <br>
+                        Github, stackOverflow
+                        <br>
+                        Intermediate technical english level
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!--/.Skills content-->
-
 </div>
 
-<!--/.Card Regular-->
 
-<!--/.Card content-->
-<!-- Collapsible content -->
+{% include 'copyright.twig' %}
 
-<!-- /Start your project here-->
-
-<!-- SCRIPTS -->
-
-<!-- JQuery -->
 {% include 'baseScriptImports.twig' %}
 
 <script>
