@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/index.js" afterPath="$PROJECT_DIR$/introduceSite/index.js" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/projects.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/content/content.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/css/main.css" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/index.twig" afterPath="$PROJECT_DIR$/introduceSite/views/index.twig" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/navBar.twig" afterPath="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/projects.twig" afterPath="$PROJECT_DIR$/introduceSite/views/projects.twig" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,6 +75,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1819">
+              <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/content/content.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -129,16 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/content/values.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/index.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,6 +149,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0.8.8</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -190,6 +185,7 @@
         <option value="$PROJECT_DIR$/introduceSite/index.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/contacts.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/content.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -339,12 +335,12 @@
       <workItem from="1511900656109" duration="19000" />
       <workItem from="1511900693578" duration="40737000" />
       <workItem from="1512334212263" duration="1269000" />
-      <workItem from="1512662972176" duration="14986000" />
+      <workItem from="1512662972176" duration="15169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63126000" />
+    <option name="totallyTimeSpent" value="63309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -571,14 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9673">
-          <caret line="569" column="5" lean-forward="false" selection-start-line="569" selection-start-column="5" selection-end-line="569" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -780,6 +768,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1819">
+          <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
           <folding />
         </state>
       </provider>
