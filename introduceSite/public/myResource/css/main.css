@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1300px){
     .profile-card
     {
         margin-left: 3%;
@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1300px){
     .profile-card
     {
         width: 100%;

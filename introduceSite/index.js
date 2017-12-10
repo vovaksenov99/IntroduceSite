@@ -1,7 +1,9 @@
 const express        = require('express');
 const path = require('path')
 const values = require('./public/myResource/content/values')
+const fs = require('fs')
 const app            = express();
+var request = require('request');
 
 const PORT = process.env.PORT || 5000;//listen heruku port or 5000 if it localhost
 app.use('/public',express.static('introduceSite/public'));
@@ -16,7 +18,6 @@ app.use(function (req,res,next) {
   }
   next();
 });
-
 
 app.get('/contacts', function(req, res){
   res.render('contacts.twig', {
@@ -38,7 +39,7 @@ app.get('/projects', function(req, res){
 app.get('/', function(req, res){
   res.render('index.twig', {
     randomIntroNum : getRandomArbitraryInt(0,2),
-    indexIntroTitle : values.getValue("indexIntroTitle"),
+    skills : values.getValue("skills"),
     developer : values.getValue("developer"),
     myDescribe : values.getValue("myDescribe"),
     developer : values.getValue("developer"),

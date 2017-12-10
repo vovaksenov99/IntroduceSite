@@ -15,6 +15,7 @@
     "express": "^4.16.2",
     "mongodb": "^2.2.33",
     "node-twig": "^1.1.0",
+    "request": "^2.83.0",
     "twig": "^1.10.5"
   },
   "devDependencies": {}
