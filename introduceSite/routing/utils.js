@@ -1,7 +1,8 @@
 module.exports = function () {
-  let getLanguage = function getLanguage (req) {
+  let availableLangs =["En","Rus"];
+    let getLanguage = function getLanguage (req) {
     let lang = req.query.lang;
-    return lang === undefined ? config.defaultLanguage : lang;
+    return (lang === undefined || !availableLangs.includes(lang)) ? config.defaultLanguage : lang;
   };
 
   return {
