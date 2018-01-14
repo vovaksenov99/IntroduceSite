@@ -8,7 +8,8 @@ let frontendController = (function (self) {
 
   self.href = function(href)
   {
-    window.location = href+'?lang='+localStorage.getItem("lang");
+    if(localStorage.getItem("lang") != null)
+      window.location = href+'?lang='+localStorage.getItem("lang");
 
 
   }
