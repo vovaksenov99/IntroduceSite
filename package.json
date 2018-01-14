@@ -2,9 +2,10 @@
   "name": "experiments",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -13,10 +14,17 @@
     "content": "^4.0.3",
     "ejs-locals": "^1.0.2",
     "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fs": "0.0.1-security",
+    "module": "^1.2.5",
     "mongodb": "^2.2.33",
     "node-twig": "^1.1.0",
+    "public": "^0.1.2",
     "request": "^2.83.0",
-    "twig": "^1.10.5"
+    "twig": "^1.10.5",
+    "webpack": "^3.10.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.7"
+  }
 }

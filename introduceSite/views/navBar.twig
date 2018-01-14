@@ -1,29 +1,30 @@
 
+
 <nav class="navbar navbar-expand navbar-dark unique-color-dark">
     <div>
         <a class="navbar-brand" href="#"></a>
     </div>
-
     <div class="navbar-collapse">
 
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">{{ navbar.main }}</a>
+                <a class="nav-link" onclick="frontendController.href('/profile')">{{ res.main }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/projects">{{ navbar.projects }}</a>
+                <a class="nav-link" onclick="frontendController.href('/projects')">{{ res.projects }}</a>
             </li>
+            <!--
             <li class="nav-item">
-                <a class="nav-link" href="/teams">{{ navbar.teams }}</a>
+                <a class="nav-link" onclick="frontendController.href('/teams')">{{ res.teams }}</a>
             </li>
-
+            -->
             <li class="nav-item">
-                <a class="nav-link" href="/contacts">{{ navbar.contacts }}</a>
+                <a class="nav-link" onclick="frontendController.href('/contacts')">{{ res.contacts }}</a>
             </li>
         </ul>
-        <div>
-            <a href="?lang=Rus" class="waves-effect waves-light unique-color-dark lang-button white-text" role="button">Rus</a>
-            <a href="?lang=En" class="waves-effect waves-light unique-color-dark lang-button white-text" role="button">En</a>
+        <div style="display: flex">
+            <div  class="waves-effect waves-light unique-color-dark lang-button white-text" role="button" onclick="frontendController.setLang('Rus');">Rus</div>
+            <div class="waves-effect waves-light unique-color-dark lang-button white-text" role="button" onclick="frontendController.setLang('En');">En</div>
         </div>
 
 

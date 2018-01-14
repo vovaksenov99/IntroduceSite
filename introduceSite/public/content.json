@@ -1,0 +1,42 @@
+{
+  "En": {
+    "skills": "Skills",
+    "main": "Main",
+    "projects": "Projects",
+    "teams": "Teams",
+    "contacts": "Contacts",
+    "myName": "Aksenov Vladimir",
+    "myFullName": "Aksenov Vladimir Alekseevich",
+    "developer": "Developer",
+    "myDescribe": "In progress",
+    "technologyStack": "Technology stack",
+    "csharpDescribe": "",
+    "javaDescribeStack": "",
+    "kotlinDescribe": "",
+    "phpDescribe": "",
+    "sqlDescribe": "",
+    "webDescribe": "",
+    "cppDescribe": "",
+    "inProgress": "In progress..."
+  },
+  "Rus": {
+    "skills": "Навыки",
+    "main": "Главная страница",
+    "projects": "Проекты",
+    "teams": "Команды",
+    "contacts": "Контакты",
+    "myName": "Аксенов Владимир",
+    "myFullName": "Аксенов Владимир Алексеевич",
+    "developer": "Разработчик общего профиля",
+    "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств(Android). Разработкой занимаюсь 4 года.",
+    "technologyStack": "Стек используемых технологий",
+    "csharpDescribe": "",
+    "javaDescribeStack": "",
+    "kotlinDescribe": "",
+    "phpDescribe": "",
+    "sqlDescribe": "",
+    "webDescribe": "",
+    "cppDescribe": "",
+    "inProgress": "В процессе заполнения..."
+  }
+}
