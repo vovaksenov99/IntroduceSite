@@ -3,174 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" afterPath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" afterPath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/LICENSE" afterPath="$PROJECT_DIR$/node_modules/dns-packet/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/README.md" afterPath="$PROJECT_DIR$/node_modules/dns-packet/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/index.js" afterPath="$PROJECT_DIR$/node_modules/dns-packet/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/package.json" afterPath="$PROJECT_DIR$/node_modules/dns-packet/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/types.js" afterPath="$PROJECT_DIR$/node_modules/dns-packet/types.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/import-local/fixtures/cli.js" afterPath="$PROJECT_DIR$/node_modules/import-local/fixtures/cli.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/import-local/index.js" afterPath="$PROJECT_DIR$/node_modules/import-local/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/import-local/license" afterPath="$PROJECT_DIR$/node_modules/import-local/license" />
-      <change beforePath="$PROJECT_DIR$/node_modules/import-local/package.json" afterPath="$PROJECT_DIR$/node_modules/import-local/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/import-local/readme.md" afterPath="$PROJECT_DIR$/node_modules/import-local/readme.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/loglevel/.editorconfig" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/loglevel/.jshintrc" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/loglevel/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/Gruntfile.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/Gruntfile.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/README.md" afterPath="$PROJECT_DIR$/node_modules/loglevel/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/bower.json" afterPath="$PROJECT_DIR$/node_modules/loglevel/bower.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.min.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.min.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/lib/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/loglevel/lib/.jshintrc" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/lib/loglevel.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/lib/loglevel.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/package.json" afterPath="$PROJECT_DIR$/node_modules/loglevel/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/.jshintrc" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/default-level-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/default-level-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/get-current-level-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/get-current-level-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration-with-new-context.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration-with-new-context.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/integration-smoke-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/integration-smoke-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/level-setting-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/level-setting-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/local-storage-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/local-storage-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/method-factory-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/method-factory-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/multiple-logger-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/multiple-logger-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-context-using-apply.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/test-context-using-apply.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-helpers.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/test-helpers.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/yarn.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/README.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" afterPath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" />
-      <change beforePath="$PROJECT_DIR$/node_modules/opn/index.js" afterPath="$PROJECT_DIR$/node_modules/opn/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/opn/license" afterPath="$PROJECT_DIR$/node_modules/opn/license" />
-      <change beforePath="$PROJECT_DIR$/node_modules/opn/package.json" afterPath="$PROJECT_DIR$/node_modules/opn/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/opn/readme.md" afterPath="$PROJECT_DIR$/node_modules/opn/readme.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/opn/xdg-open" afterPath="$PROJECT_DIR$/node_modules/opn/xdg-open" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/COPYING" afterPath="$PROJECT_DIR$/node_modules/sockjs/COPYING" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/Changelog" afterPath="$PROJECT_DIR$/node_modules/sockjs/Changelog" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sockjs/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/Makefile" afterPath="$PROJECT_DIR$/node_modules/sockjs/Makefile" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/README.md" afterPath="$PROJECT_DIR$/node_modules/sockjs/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/README.md" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/echo/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express-3.x/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/express/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/express/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/html/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/html/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/hapi/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/haproxy.cfg" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/haproxy.cfg" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/koa/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/README.md" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/index.html" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/index.html" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/server.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/examples/multiplex/server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/index.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/chunking-test.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/chunking-test.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/iframe.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/iframe.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/sockjs.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/sockjs.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-eventsource.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-eventsource.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-htmlfile.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-htmlfile.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-jsonp.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-jsonp.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-websocket.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-websocket.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-xhr.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/trans-xhr.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/transport.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/transport.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/utils.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/lib/webjs.js" afterPath="$PROJECT_DIR$/node_modules/sockjs/lib/webjs.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/bench.gnu" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/bench.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/benchmark-native.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/benchmark.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/benchmark/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/misc/compare.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/misc/perf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/rng-browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/rng.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/test/mocha.opts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/test/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/node_modules/uuid/uuid.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/package.json" afterPath="$PROJECT_DIR$/node_modules/sockjs/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/tests/test_server/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/tests/test_server/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/tests/test_server/server.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sockjs/tests/test_server/sockjs_app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/dist/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/dist/store2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/dist/store2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/dist/store2.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.array.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.bind.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.cache.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.deep.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.dom.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.dot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.measure.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.old.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.on.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.onlyreal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.overflow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store.quota.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store2/src/store2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/README.md" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/index.bundle.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/index.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/index.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/live.bundle.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/live.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/live.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/overlay.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/overlay.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/page.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/socket.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/socket.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/sockjs.bundle.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/sockjs.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/sockjs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/web_modules/jquery/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/webpack.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/client/webpack.sockjs.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/lib/Server.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/lib/Server.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/lib/optionsSchema.json" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/lib/optionsSchema.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/package.json" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/app.js" afterPath="$PROJECT_DIR$/introduceSite/app.js" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/config.json" afterPath="$PROJECT_DIR$/introduceSite/config.json" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/style.css" afterPath="$PROJECT_DIR$/introduceSite/public/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/background_NeuralNetwork.png" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/background_NeuralNetwork.png" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/routing/projects" afterPath="$PROJECT_DIR$/introduceSite/routing/projects" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/layout.twig" afterPath="$PROJECT_DIR$/introduceSite/views/layout.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -193,98 +32,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
+      <file leaf-file-name="projects" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navBar.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projects.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="215" column="34" lean-forward="true" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introTitle.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/introTitle.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#630#683#0#HTML" expanded="true" />
-                <element signature="e#11957#12048#0#HTML" expanded="true" />
-                <element signature="e#12468#12525#0#HTML" expanded="true" />
-                <element signature="e#12655#12702#0#HTML" expanded="true" />
-                <element signature="e#12763#12803#0#HTML" expanded="true" />
-                <element signature="e#13197#13217#0#HTML" expanded="true" />
+                <element signature="e#148#182#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+      <file leaf-file-name="cardContent.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/routing/contacts">
+      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+      <file leaf-file-name="modules.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="e#102#146#0#HTML" expanded="true" />
+                <element signature="e#304#328#0#HTML" expanded="true" />
+                <element signature="e#402#426#0#HTML" expanded="true" />
+                <element signature="e#699#724#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/routing/utils.js">
+      <file leaf-file-name="projects.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frontendController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -318,15 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/introduceSite/Test.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Test.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/baseInports.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/baseImports.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/navBar.html" />
-        <option value="$PROJECT_DIR$/introduceSite/index.html" />
-        <option value="$PROJECT_DIR$/introduceSite/views/baseScriptImports.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/tsconfig.json" />
-        <option value="$PROJECT_DIR$/introduceSite/views/copyright.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/contacts.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/projects.twig" />
@@ -335,7 +161,6 @@
         <option value="$PROJECT_DIR$/introduceSite/views/imports/achievements" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/myImage/cup.svg" />
         <option value="$PROJECT_DIR$/introduceSite/views/index.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/achievements.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/values.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/content.js" />
@@ -353,28 +178,44 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/introduceSite/config" />
-        <option value="$PROJECT_DIR$/introduceSite/config.json" />
         <option value="$PROJECT_DIR$/introduceSite/routing/profile" />
-        <option value="$PROJECT_DIR$/introduceSite/routing/projects" />
         <option value="$PROJECT_DIR$/introduceSite/routing/contacts" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/teams" />
         <option value="$PROJECT_DIR$/introduceSite/views/Teams/teams.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/app.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/routing/utils.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/introduceSite/app.js" />
+        <option value="$PROJECT_DIR$/introduceSite/projects.json" />
+        <option value="$PROJECT_DIR$/introduceSite/config.json" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/cardContent.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/modules.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/projectsB.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/projects.json" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/intro.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Projects/projectsM.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/routing/projects" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -384,10 +225,24 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -404,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -427,13 +283,6 @@
               <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routing" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -441,13 +290,6 @@
               <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Main" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
@@ -467,31 +309,31 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MedicalRNN/NodeJS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.8.1" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\content" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Contacts" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Teams" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public\myResource\content" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects\card" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\content" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Contacts" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -544,25 +386,26 @@
       <workItem from="1515959570577" duration="1425000" />
       <workItem from="1516047423121" duration="960000" />
       <workItem from="1516108840422" duration="1954000" />
-      <workItem from="1516266428036" duration="1964000" />
+      <workItem from="1516266428036" duration="2824000" />
+      <workItem from="1516482470921" duration="20814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150317000" />
+    <option name="totallyTimeSpent" value="171991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.4873817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.4873817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13095239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5126183" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13095239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14935064" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -592,51 +435,17 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/introduceSite/routing/utils.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/introduceSite/routing/utils.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/introduceSite/routing/projects</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/myImage/intro0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/myImage/intro1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/myImage/intro2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/projects.html" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/project.twig" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/myImage/cup.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/twig/twig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="7513" column="0" lean-forward="false" selection-start-line="7513" selection-start-column="0" selection-end-line="7513" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -677,13 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -782,34 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/teams">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Teams/teams.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -817,42 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
           <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/contacts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -889,6 +631,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/teams">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/contacts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/twig/twig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -897,18 +679,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/myResource/myImage/background_translator.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#102#146#0#HTML" expanded="true" />
+            <element signature="e#304#328#0#HTML" expanded="true" />
+            <element signature="e#402#426#0#HTML" expanded="true" />
+            <element signature="e#699#724#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projects.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="215" column="34" lean-forward="true" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projectsM.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
-            <element signature="e#630#683#0#HTML" expanded="true" />
-            <element signature="e#11957#12048#0#HTML" expanded="true" />
-            <element signature="e#12468#12525#0#HTML" expanded="true" />
-            <element signature="e#12655#12702#0#HTML" expanded="true" />
-            <element signature="e#12763#12803#0#HTML" expanded="true" />
-            <element signature="e#13197#13217#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/introTitle.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#148#182#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projects.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

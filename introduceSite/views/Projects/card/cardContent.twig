@@ -1,0 +1,51 @@
+{% block project %}
+    {% set style =  project.customStyle %}
+
+    <div class="card project-card project-item">
+        <div class="card-body card-grid"
+             style="padding-top: 25px;background: {{ style.background }} no-repeat;background-size: 100% 100%;">
+            <div style="grid-column: 1/1">
+                <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
+                <p class="{{ style.textColorClass }}">{{ project.description }}</p>
+                <p class="{{ style.textColorClass }}"><strong>Technology
+                        stack: </strong>{{ project.technologyStack|join(', ') }}</p>
+
+                <p class="{{ style.textColorClass }}"><strong>Teams:</strong>
+                    {% for team in project.teams %}
+                        <a href="{{ team.link }}">{{ team.name }}</a>
+                    {% endfor %}
+                </p>
+                {% if  project.more.text is not empty%}
+                <a href="{{ project.more.link}}" class="d-flex flex-row-reverse">
+                    <h5 class="waves-effect waves-light p-2 {{ style.textColorClass }}">{{ project.more.text}}<i
+                                class="fa fa-chevron-right" style="margin-left: 10px"></i></h5>
+                </a>
+                {% endif %}
+                {% for badge in project.badges %}
+                <a href="{{ badge.link }}">
+                    <img src="{{ badge.image }}" class="img-fluid"
+                         style="max-width: 150px"/>
+                </a>
+                {% endfor %}
+                {% block modules %}
+                    {% include './modules.twig' with {modules: project.modules, style:style} %}
+                {% endblock %}
+
+            </div>
+
+            <div style="grid-column: 2/2; padding: 30px;margin: auto">
+                <img src="{{ project.imageLink }}" class="img-fluid" style="max-height: 650px;max-width: 100%">
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
+
+<style>
+    .card-grid {
+        display: grid;
+        grid-auto-columns: 40% 60%;
+        height: fit-content;
+    }
+</style>
