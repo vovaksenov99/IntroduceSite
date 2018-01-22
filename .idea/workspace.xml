@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/app.js" afterPath="$PROJECT_DIR$/introduceSite/app.js" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/config.json" afterPath="$PROJECT_DIR$/introduceSite/config.json" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/style.css" afterPath="$PROJECT_DIR$/introduceSite/public/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/background_NeuralNetwork.png" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/background_NeuralNetwork.png" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/routing/profile" afterPath="$PROJECT_DIR$/introduceSite/routing/profile" />
       <change beforePath="$PROJECT_DIR$/introduceSite/routing/projects" afterPath="$PROJECT_DIR$/introduceSite/routing/projects" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/layout.twig" afterPath="$PROJECT_DIR$/introduceSite/views/layout.twig" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" afterPath="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" afterPath="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/introTitle.twig" afterPath="$PROJECT_DIR$/introduceSite/views/introTitle.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,12 +31,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#496#541#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,26 +87,8 @@
         <entry file="file://$PROJECT_DIR$/introduceSite/views/introTitle.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#148#182#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cardContent.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,36 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
+      <file leaf-file-name="projects.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="-11">
+              <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
+      <file leaf-file-name="events.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="e#102#146#0#HTML" expanded="true" />
-                <element signature="e#304#328#0#HTML" expanded="true" />
-                <element signature="e#402#426#0#HTML" expanded="true" />
-                <element signature="e#699#724#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="23" column="90" lean-forward="false" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -153,9 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/introduceSite/views/contacts.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/myResource/content/content.json" />
-        <option value="$PROJECT_DIR$/introduceSite/views/projects.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/myResource/css/main.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/baseCSSImports.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/imports/achievements" />
@@ -174,13 +169,9 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Imports/baseCSSImports.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/footer.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Imports/baseScriptImports.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/introduceSite/config" />
-        <option value="$PROJECT_DIR$/introduceSite/routing/profile" />
         <option value="$PROJECT_DIR$/introduceSite/routing/contacts" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/teams" />
         <option value="$PROJECT_DIR$/introduceSite/views/Teams/teams.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
@@ -204,6 +195,13 @@
         <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/projects" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/routing/profile" />
+        <option value="$PROJECT_DIR$/introduceSite/public/events.json" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/event.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/introTitle.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" />
       </list>
     </option>
   </component>
@@ -259,8 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +294,20 @@
               <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Contacts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Main" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IntroduceSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="introduceSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Projects" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -321,19 +333,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Teams" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public\myResource\content" />
-      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects\card" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\content" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Contacts" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Teams" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\routing" />
+      <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\public\myResource\content" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,18 +399,19 @@
       <workItem from="1516047423121" duration="960000" />
       <workItem from="1516108840422" duration="1954000" />
       <workItem from="1516266428036" duration="2824000" />
-      <workItem from="1516482470921" duration="20814000" />
+      <workItem from="1516482470921" duration="20910000" />
+      <workItem from="1516640808358" duration="5246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171991000" />
+    <option name="totallyTimeSpent" value="177333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.4873817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.4873817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
@@ -437,7 +450,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/introduceSite/routing/projects</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
@@ -446,20 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="1007" column="6" lean-forward="false" selection-start-line="1007" selection-start-column="6" selection-end-line="1007" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/js/mdb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13010" column="4" lean-forward="false" selection-start-line="13010" selection-start-column="4" selection-end-line="13010" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/webpack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1558">
@@ -547,20 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -577,25 +561,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/js/values.js" />
     <entry file="file://$PROJECT_DIR$/introduceSite/config" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Teams/teams.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1171" column="21" lean-forward="false" selection-start-line="1171" selection-start-column="21" selection-end-line="1171" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,12 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#102#146#0#HTML" expanded="true" />
-            <element signature="e#304#328#0#HTML" expanded="true" />
-            <element signature="e#402#426#0#HTML" expanded="true" />
-            <element signature="e#699#724#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,14 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -737,43 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projectsM.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projectsM.twig" />
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/introTitle.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#148#182#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,11 +701,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="265" column="32" lean-forward="false" selection-start-line="265" selection-start-column="32" selection-end-line="265" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/event.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#41#69#0#HTML" expanded="false" />
+            <element signature="e#129#170#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="90" lean-forward="false" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/introTitle.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#496#541#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

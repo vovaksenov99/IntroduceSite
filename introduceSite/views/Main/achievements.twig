@@ -1,52 +1,11 @@
 
 <div style="display: table-row">
 
-    <ul style="">
-        <li><div>
-                <div style="display: inline-flex">
-                    <h4>2018</h4>
-                    <h4 style="color: #ffc107;padding-left: 10px">XIV Балтийский научно-инженерный конкурс</h4>
-                </div>
-                <p>Одно из самых крупных научных соревнований для школьников в России
-                <p>
-                    <strong>Статус:</strong>Жюри<a></a>
-                </p>
-            </div>
-        </li>
-        <li><div>
-            <div style="display: inline-flex">
-            <h4>2017</h4>
-            <h4 style="color: #ffc107;padding-left: 10px">Хакатон собери университет 20.35</h4>
-            </div>
-            <p>Хакатон по разработке инновационные решений в области образования с использованием нейронных сетей и VR
-                <p>
-                <strong>Статус:</strong>Победитель. Команда <a></a>
-            </p>
-        </div>
-        </li>
-        <li>
-        <div>
-            <div style="display: inline-flex">
-                <h4>2017</h4>
-                <h4 style=" color: #ffc107;padding-left: 10px">XIII Балтийский научно-инженерный конкурс</h4>
-            </div>
-            <p>Одно из самых крупных научных соревнований для школьников в России
-            <p>
-                <strong>Статус:</strong>Победитель
-            </p>
-        </div>
-        </li>
-        <li>
-            <div>
-                <div style="display: inline-flex">
-                    <h4>2017</h4>
-                    <h4 style="color: #ffc107;padding-left: 10px">Intel Avangard 2017</h4>
-                </div>
-                <p>Конкурс конференция научнопрактических работ со всей России
-                <p>
-                    <strong>Статус:</strong>Участник финального этапа
-                </p>
-            </div>
-        </li>
+    <ul>
+        {% for event in events %}
+            <li>
+                {% include './event.twig' with {event:event} %}
+            </li>
+        {% endfor %}
     </ul>
 </div>
