@@ -44,6 +44,12 @@
         "status": "Окончил с дипломом и защитил итоговый проект"
       },
       {
+        "datetime": "2015",
+        "title": "Уральская командная региональная олимпиада",
+        "description": "",
+        "status": "Призер в составе команды. Диплом 3 степени"
+      },
+      {
         "datetime": "2014-2016",
         "title": "Всероссийская олимпиада школьников по программированию",
         "description": "",
@@ -86,7 +92,7 @@
       {
         "datetime": "2017",
         "title": "Intel Avangard 2017",
-        "description": "Competition conference of scientific and practical works from all Russia",
+        "description": "Competition conference of scientific and practical works from all over Russia",
         "status": "Participant in the final stage"
       },
       {

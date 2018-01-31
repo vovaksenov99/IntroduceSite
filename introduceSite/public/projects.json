@@ -56,7 +56,7 @@
           "textColorClass": "black-text"
         },
         "badges":[],
-        "description": "Cloud service for image storage and delivery. Upload files and accept image-filters on the fly with simple API",
+        "description": "Cloud service for image storage and delivery. Upload files and apply image-filters on the fly with simple API",
         "technologyStack": [
           "PHP",
           "Imagick"
@@ -97,7 +97,7 @@
             "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
           }
         ],
-        "description": "Job for internship in Yandex. I used the Yandex API for create simple and lightweight translator with support android versions up to 2.2",
+        "description": "A job for the internship in Yandex. I used the Yandex API to create simple and lightweight translator which supports android versions up to 2.2",
         "technologyStack": [
           "Java",
           "<span style=\"color: red\">Y</span>andex Translate API"
@@ -124,7 +124,7 @@
           "textColorClass": "black-text"
         },
         "badges":[ ],
-        "description": "FastConfig - <span style=\"color: green\">C#</span> init file parser. Use as analog .config file.",
+        "description": "FastConfig - <span style=\"color: green\">C#</span> init file parser. Use as analog of .config file.",
         "technologyStack": [
           "C#"
         ],
@@ -181,7 +181,7 @@
             "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
           }
         ],
-        "description": "The system combines the functionality message boards and project management systems",
+        "description": "The system combines the functionality of message boards and project management systems",
         "technologyStack": [
           "Java",
           "ASP.NET",
@@ -285,7 +285,7 @@
         "modules": [
           {
             "name": "Google calendar module",
-            "description": "Use for add, remove and etc. event to Google Calendar",
+            "description": "Use for add, remove and etc. events to Google Calendar",
             "more": {
               "text": "Read more on github",
               "link": "https://github.com/vovaksenov99/Google_calendar_work"
@@ -293,7 +293,7 @@
           },
           {
             "name": "Custom date picker module",
-            "description": "It should be used for check certain or range dates in calendar",
+            "description": "It should be used to check certain or range dates in calendar",
             "more": {
               "text": "Read more on github",
               "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
@@ -301,7 +301,7 @@
           },
           {
             "name": "Custom step seek bar module",
-            "description": "You can add several step in your seek bar",
+            "description": "You can add several steps in your seek bar",
             "more": {
               "text": "Read more on github",
               "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
