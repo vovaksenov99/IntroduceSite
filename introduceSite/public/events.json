@@ -1,52 +1,112 @@
 {
-  "events": [
-    {
-      "datetime": "2018",
-      "title": "Hackathon 2025",
-      "description": "ЭКСПО’2025 организует HACKATHON 2025 для того, чтобы привлечь талантливых разработчиков и авторов инновационных идей к созданию Города Будущего в Екатеринбурге",
-      "status": "Участник. Команда"
-    },
-    {
-      "datetime": "2018",
-      "title": "XIV Балтийский научно-инженерный конкурс",
-      "description": "Одно из самых крупных научных соревнований для школьников в России",
-      "status": "Жюри"
-    },
-    {
-      "datetime": "2017",
-      "title": "Unity IT school",
-      "description": "IT школа спонсированная Unity для обучения основам разработки игр на игровом движке Unity",
-      "status": "Окончил с сертификатом и защитил итоговый проект"
-    },
-    {
-      "datetime": "2017",
-      "title": "Хакатон собери университет 20.35",
-      "description": "Хакатон по разработке инновационные решений в области образования с использованием нейронных сетей и VR",
-      "status": "Победитель. Команда"
-    },
-    {
-      "datetime": "2017",
-      "title": "XIII Балтийский научно-инженерный конкурс",
-      "description": "Одно из самых крупных научных соревнований для школьников в России",
-      "status": "Победитель"
-    },
-    {
-      "datetime": "2017",
-      "title": "Intel Avangard 2017",
-      "description": "Конкурс конференция научнопрактических работ со всей России",
-      "status": "Участник финального этапа"
-    },
-    {
-      "datetime": "2015",
-      "title": "IT school Samsung",
-      "description": "IT ШКОЛА SAMSUNG – программа дополнительного образования в IT. Основы Java и разработка для Android устройств",
-      "status": "Окончил с дипломом и защитил итоговый проект"
-    },
-    {
-      "datetime": "2014-2016",
-      "title": "Всероссийская олимпиада школьников по программированию",
-      "description": "",
-      "status": "Призер, победитель муниципальных этапов"
-    }
-  ]
+  "Rus": {
+    "events": [
+      {
+        "datetime": "2018",
+        "title": "Hackathon 2025",
+        "description": "ЭКСПО’2025 организует HACKATHON 2025 для того, чтобы привлечь талантливых разработчиков и авторов инновационных идей к созданию Города Будущего в Екатеринбурге",
+        "status": "Участник. Команда"
+      },
+      {
+        "datetime": "2018",
+        "title": "XIV Балтийский научно-инженерный конкурс",
+        "description": "Одно из самых крупных научных соревнований для школьников в России",
+        "status": "Жюри"
+      },
+      {
+        "datetime": "2017",
+        "title": "Unity IT school",
+        "description": "IT школа спонсированная Unity для обучения основам разработки игр на игровом движке Unity",
+        "status": "Окончил с сертификатом и защитил итоговый проект"
+      },
+      {
+        "datetime": "2017",
+        "title": "Хакатон собери университет 20.35",
+        "description": "Хакатон по разработке инновационные решений в области образования с использованием нейронных сетей и VR",
+        "status": "Победитель. Команда"
+      },
+      {
+        "datetime": "2017",
+        "title": "XIII Балтийский научно-инженерный конкурс",
+        "description": "Одно из самых крупных научных соревнований для школьников в России",
+        "status": "Победитель"
+      },
+      {
+        "datetime": "2017",
+        "title": "Intel Avangard 2017",
+        "description": "Конкурс конференция научнопрактических работ со всей России",
+        "status": "Участник финального этапа"
+      },
+      {
+        "datetime": "2015",
+        "title": "IT school Samsung",
+        "description": "IT ШКОЛА SAMSUNG – программа дополнительного образования в IT. Основы Java и разработка для Android устройств",
+        "status": "Окончил с дипломом и защитил итоговый проект"
+      },
+      {
+        "datetime": "2014-2016",
+        "title": "Всероссийская олимпиада школьников по программированию",
+        "description": "",
+        "status": "Призер, победитель муниципальных этапов"
+      }
+    ]
+  },
+  "En": {
+    "events": [
+      {
+        "datetime": "2018",
+        "title": "Hackathon 2025",
+        "description": "EXPO'2025 organizes HACKATHON 2025 to involve talented developers and authors of innovative ideas for the creation of the City of the Future in Yekaterinburg",
+        "status": "Participant in the final stage. Team captain"
+      },
+      {
+        "datetime": "2018",
+        "title": "XIV Baltic Science and Engineering Competition",
+        "description": "One of the biggest scientific competitions for schoolchildren in Russia",
+        "status": "Contest judge"
+      },
+      {
+        "datetime": "2017",
+        "title": "Unity IT school",
+        "description": "IT school sponsored by Unity for learning the basics of game development on the game engine Unity",
+        "status": "Graduated with a certificate and presented the final draft"
+      },
+      {
+        "datetime": "2017",
+        "title": "Hackaton create university 20.35",
+        "description": "Hackaton to develop innovative educational solutions using neural networks and VR",
+        "status": "Winner. Team captain"
+      },
+      {
+        "datetime": "2017",
+        "title": "XIII Baltic Science and Engineering Competition",
+        "description": "One of the biggest scientific competitions for schoolchildren in Russia",
+        "status": "Winner"
+      },
+      {
+        "datetime": "2017",
+        "title": "Intel Avangard 2017",
+        "description": "Competition conference of scientific and practical works from all Russia",
+        "status": "Participant in the final stage"
+      },
+      {
+        "datetime": "2015",
+        "title": "IT school Samsung",
+        "description": "IT ШКОЛА SAMSUNG – program of additional education in IT. Basics of Java and development for Android devices",
+        "status": "Graduated with a diploma and present the final draft"
+      },
+      {
+        "datetime": "2015",
+        "title": "Ural Regional Programming Olympiad in 2015",
+        "description": "",
+        "status": "Winner. Diploma of the third degree"
+      },
+      {
+        "datetime": "2014-2016",
+        "title": "All-Russia Olympiad of Schoolchildren in Programming",
+        "description": "",
+        "status": "The winner of municipal stages"
+      }
+    ]
+  }
 }

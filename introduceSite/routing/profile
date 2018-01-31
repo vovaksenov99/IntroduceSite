@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
   let lang = utils.getLanguage(req);
   res.render('Main/index', {
     res: content[lang],
-    events: events['events']
+    events: events[lang].events
   });
 });
 

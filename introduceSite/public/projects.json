@@ -1,312 +1,626 @@
 {
-  "projects": [
-    {
-      "name": "HAWK.SO",
-      "imageLink": "public/myResource/myImage/hawk.png",
-      "customStyle":
+  "En":{
+    "projects": [
       {
-        "background": "#2e2e3c",
-        "textColorClass": "white-text"
-      },
-      "badges":[],
-      "description": "Fast and lightweight errors tracking service. Catchers for JavaScript, Python, PHP, Node.js, Swift, Java Android, Kotlin are available.",
-      "technologyStack": [
-        "NodeJS",
-        "Twig",
-        "MongoDB"
-      ],
-      "teams": [
+        "name": "HAWK.SO",
+        "imageLink": "public/myResource/myImage/hawk.png",
+        "customStyle":
         {
-          "name": "codeX",
-          "link": "https://ifmo.su"
-        }
-      ],
-      "more":
-      {
-        "text":"Read more on github",
-        "link":"https://github.com/codex-team/hawk"
-      },
-      "modules": [
-        {
-          "name": "Hawk Java",
-          "description": "",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/codex-team/hawk.android"
-          }
+          "background": "#2e2e3c",
+          "textColorClass": "white-text"
         },
-        {
-          "name": "Hawk Kotlin",
-          "description": "",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/codex-team/hawk.kotlin"
+        "badges":[],
+        "description": "Fast and lightweight errors tracking service. Catchers for JavaScript, Python, PHP, Node.js, Swift, Java Android, Kotlin are available.",
+        "technologyStack": [
+          "NodeJS",
+          "Twig",
+          "MongoDB"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
           }
-        }
-      ]
-    },
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/hawk"
+        },
+        "modules": [
+          {
+            "name": "Hawk Java",
+            "description": "",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/hawk.android"
+            }
+          },
+          {
+            "name": "Hawk Kotlin",
+            "description": "",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/hawk.kotlin"
+            }
+          }
+        ]
+      },
 
-    {
-      "name": "Capella",
-      "imageLink": "public/myResource/myImage/capella.png",
-      "customStyle":
       {
-        "background": "",
-        "textColorClass": "black-text"
-      },
-      "badges":[],
-      "description": "Cloud service for image storage and delivery. Upload files and accept image-filters on the fly with simple API",
-      "technologyStack": [
-        "PHP",
-        "Imagick"
-      ],
-      "teams": [
+        "name": "Capella",
+        "imageLink": "public/myResource/myImage/capella.png",
+        "customStyle":
         {
-          "name": "codeX",
-          "link": "https://ifmo.su"
-        }
-      ],
-      "more":
-      {
-        "text":"Read more on github",
-        "link":"https://github.com/codex-team/capella"
-      },
-      "modules": [
-        {
-          "name": "CapellaNodeJS",
-          "description": "Capella's nodeJS SDK",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/codex-team/capella.nodejs"
-          }
-        }
-      ]
-    },
-    {
-      "name": "<span style=\"color: red\">Y</span>andex Translator",
-      "imageLink": "public/myResource/myImage/translator_yandex.jpg",
-      "customStyle":
-      {
-        "background": "url('public/myResource/myImage/background_translator.jpg')",
-        "textColorClass": "black-text"
-      },
-      "badges":[
-        {
-          "image":"public/myResource/myImage/google_play_badge.png",
-          "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
-        }
-      ],
-      "description": "Cloud service for image storage and delivery. Upload files and accept image-filters on the fly with simple API",
-      "technologyStack": [
-        "Java",
-        "<span style=\"color: red\">Y</span>andex Translate API"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"Read more on github",
-        "link":"https://github.com/vovaksenov99/Translator"
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "FastConfig",
-      "imageLink": "",
-      "customStyle":
-      {
-        "background": "public/myResource/myImage/background_FastConfig.png",
-        "textColorClass": "black-text"
-      },
-      "badges":[ ],
-      "description": "FastConfig - <span style=\"color: green\">C#</span> init file parser. Use as analog .config file.",
-      "technologyStack": [
-        "C#"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"Read more on github",
-        "link":"https://github.com/vovaksenov99/FastConfig"
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "Neural network",
-      "imageLink": "",
-      "customStyle":
-      {
-        "background": "",
-        "textColorClass": "black-text"
-      },
-      "badges":[ ],
-      "description": "Open neural network with extensible architecture and status logging",
-      "technologyStack": [
-        "C#"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"Read more on github",
-        "link":"https://github.com/vovaksenov99/NeuronNetwork"
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "BlueBoard",
-      "imageLink": "public/myResource/myImage/blueBoard.png",
-      "customStyle":
-      {
-        "background": "url('public/myResource/myImage/background_blueBoard.png')",
-        "textColorClass": "black-text"
-      },
-      "badges":[
-        {
-          "image":"public/myResource/myImage/google_play_badge.png",
-          "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
-        }
-      ],
-      "description": "Android notification system",
-      "technologyStack": [
-        "Java",
-        "ASP.NET",
-        "my libraries below"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"",
-        "link":""
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "Up, up only!",
-      "imageLink": "public/myResource/myImage/up_up_only.png",
-      "customStyle":
-      {
-        "background": "url('public/myResource/myImage/background_up_up_only.png')",
-        "textColorClass": "black-text"
-      },
-      "badges":[
-        {
-          "image":"public/myResource/myImage/google_play_badge.png",
-          "link":"https://play.google.com/store/apps/details?id=com.AksCorp.Upuponly&hl=ru"
-        }
-      ],
-      "description": "Android game",
-      "technologyStack": [
-        "Construct 2"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"",
-        "link":""
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "MedicalRNN",
-      "imageLink": "public/myResource/myImage/medicalRNN.png",
-      "customStyle":
-      {
-        "background": "",
-        "textColorClass": "black-text"
-      },
-      "badges":[ ],
-      "description": "Medical neural network",
-      "technologyStack": [
-        "python",
-        "keras"
-      ],
-      "teams": [
-        {
-          "name": "It's my project",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"",
-        "link":""
-      },
-      "modules": [ ]
-    },
-    {
-      "name": "Android modules",
-      "imageLink": "",
-      "customStyle":
-      {
-        "background": " url('public/myResource/myImage/background_material.jpg')",
-        "textColorClass": "white-text"
-      },
-      "badges":[ ],
-      "description": "",
-      "technologyStack": [
-        "Java"
-      ],
-      "teams": [
-        {
-          "name": "It's my projects",
-          "link":""
-        }
-      ],
-      "more":
-      {
-        "text":"",
-        "link":""
-      },
-      "modules": [
-        {
-          "name": "Google calendar module",
-          "description": "Use for add, remove and etc. event to Google Calendar",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/vovaksenov99/Google_calendar_work"
-          }
+          "background": "",
+          "textColorClass": "black-text"
         },
-        {
-          "name": "Custom date picker module",
-          "description": "It should be used for check certain or range dates in calendar",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+        "badges":[],
+        "description": "Cloud service for image storage and delivery. Upload files and accept image-filters on the fly with simple API",
+        "technologyStack": [
+          "PHP",
+          "Imagick"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
           }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/capella"
         },
-        {
-          "name": "Custom step seek bar module",
-          "description": "You can add several step in your seek bar",
-          "more": {
-            "text": "Read more on github",
-            "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
+        "modules": [
+          {
+            "name": "CapellaNodeJS",
+            "description": "Capella's nodeJS SDK",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/capella.nodejs"
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      },
+      {
+        "name": "<span style=\"color: red\">Y</span>andex Translator",
+        "imageLink": "public/myResource/myImage/translator_yandex.jpg",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_translator.jpg')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
+          }
+        ],
+        "description": "Job for internship in Yandex. I used the Yandex API for create simple and lightweight translator with support android versions up to 2.2",
+        "technologyStack": [
+          "Java",
+          "<span style=\"color: red\">Y</span>andex Translate API"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/Translator"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "FastConfig",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": "public/myResource/myImage/background_FastConfig.png",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "FastConfig - <span style=\"color: green\">C#</span> init file parser. Use as analog .config file.",
+        "technologyStack": [
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/FastConfig"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Neural network",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "Open neural network with extensible architecture and status logging",
+        "technologyStack": [
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/NeuronNetwork"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "BlueBoard",
+        "imageLink": "public/myResource/myImage/blueBoard.png",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_blueBoard.png')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
+          }
+        ],
+        "description": "The system combines the functionality message boards and project management systems",
+        "technologyStack": [
+          "Java",
+          "ASP.NET",
+          "my libraries below"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Up, up only!",
+        "imageLink": "public/myResource/myImage/up_up_only.png",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_up_up_only.png')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.AksCorp.Upuponly&hl=ru"
+          }
+        ],
+        "description": "Small platformer android game",
+        "technologyStack": [
+          "Construct 2"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "MedicalRNN",
+        "imageLink": "public/myResource/myImage/medicalRNN.png",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "Modular web platform for creating medical forecasts and reports with built-in recurrent neural network.",
+        "technologyStack": [
+          "python",
+          "keras"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Android modules",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": " url('public/myResource/myImage/background_material.jpg')",
+          "textColorClass": "white-text"
+        },
+        "badges":[ ],
+        "description": "",
+        "technologyStack": [
+          "Java"
+        ],
+        "teams": [
+          {
+            "name": "It's my projects",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+          {
+            "name": "Google calendar module",
+            "description": "Use for add, remove and etc. event to Google Calendar",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/Google_calendar_work"
+            }
+          },
+          {
+            "name": "Custom date picker module",
+            "description": "It should be used for check certain or range dates in calendar",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+            }
+          },
+          {
+            "name": "Custom step seek bar module",
+            "description": "You can add several step in your seek bar",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Rus": {
+    "projects": [
+      {
+        "name": "HAWK.SO",
+        "imageLink": "public/myResource/myImage/hawk.png",
+        "customStyle":
+        {
+          "background": "#2e2e3c",
+          "textColorClass": "white-text"
+        },
+        "badges":[],
+        "description": "Быстрый и легкий сервис для отслеживания ошибок. Для отлова ошибок доступны следующие модули JavaScript, Python, PHP, Node.js, Swift, Java Android, Kotlin.",
+        "technologyStack": [
+          "NodeJS",
+          "Twig",
+          "MongoDB"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/hawk"
+        },
+        "modules": [
+          {
+            "name": "Hawk Java",
+            "description": "",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/hawk.android"
+            }
+          },
+          {
+            "name": "Hawk Kotlin",
+            "description": "",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/hawk.kotlin"
+            }
+          }
+        ]
+      },
+
+      {
+        "name": "Capella",
+        "imageLink": "public/myResource/myImage/capella.png",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[],
+        "description": "Облачный сервис для доставки и хранения изображений. Доступны различные фильтры для изображений и простое API",
+        "technologyStack": [
+          "PHP",
+          "Imagick"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/capella"
+        },
+        "modules": [
+          {
+            "name": "CapellaNodeJS",
+            "description": "Capella's nodeJS SDK",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/capella.nodejs"
+            }
+          }
+        ]
+      },
+      {
+        "name": "<span style=\"color: red\">Y</span>andex Translator",
+        "imageLink": "public/myResource/myImage/translator_yandex.jpg",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_translator.jpg')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
+          }
+        ],
+        "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
+        "technologyStack": [
+          "Java",
+          "<span style=\"color: red\">Y</span>andex Translate API"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/Translator"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "FastConfig",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": "public/myResource/myImage/background_FastConfig.png",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "FastConfig - <span style=\"color: green\">C#</span> init файл парсер. Создан как более простой аналог .config файла.",
+        "technologyStack": [
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/FastConfig"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Neural network",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "Глубокая нейронная сеть собственной реализации с логированием, выводом состояний и расширяемой архитектурой",
+        "technologyStack": [
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/NeuronNetwork"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "BlueBoard",
+        "imageLink": "public/myResource/myImage/blueBoard.png",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_blueBoard.png')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
+          }
+        ],
+        "description": "Система совмещающая в себе функциональность как доски объявлений, так и системы управления проектами",
+        "technologyStack": [
+          "Java",
+          "ASP.NET",
+          "my libraries below"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Up, up only!",
+        "imageLink": "public/myResource/myImage/up_up_only.png",
+        "customStyle":
+        {
+          "background": "url('public/myResource/myImage/background_up_up_only.png')",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.AksCorp.Upuponly&hl=ru"
+          }
+        ],
+        "description": "Небольшая андроид игра платформер",
+        "technologyStack": [
+          "Construct 2"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "MedicalRNN",
+        "imageLink": "public/myResource/myImage/medicalRNN.png",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[ ],
+        "description": "Модульная веб платформа для создания медицинских прогнозов и отчетов со встроенной реккурентной нейронной сетью.",
+        "technologyStack": [
+          "python",
+          "keras"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "Небольшие андроид библиотеки",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": " url('public/myResource/myImage/background_material.jpg')",
+          "textColorClass": "white-text"
+        },
+        "badges":[ ],
+        "description": "",
+        "technologyStack": [
+          "Java"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+          {
+            "name": "Google calendar module",
+            "description": "Используется как более удобная обертка для API Google calendar",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/Google_calendar_work"
+            }
+          },
+          {
+            "name": "Custom date picker module",
+            "description": "Позволяет выбрать не просто дату, а промежуток дат",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+            }
+          },
+          {
+            "name": "Custom step seek bar module",
+            "description": "Seek bar с возможностью деления значений на стадии",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

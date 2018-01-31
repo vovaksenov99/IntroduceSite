@@ -42,7 +42,6 @@
     font-size: calc(1vw)
 }
 
-
 cardBlock:first-child {
     display: flex;
 }
@@ -56,6 +55,7 @@ cardBlock:first-child {
         margin: 0px 135px;
     }
 }
+
 .project-item-list {
     display: list-item;
 }
@@ -87,21 +87,26 @@ cardBlock:first-child {
     Skills page
  */
 
-.profile-info
-{
-    display: -webkit-box;
-    width: 50%;
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     position: relative;
 }
 
-.skills-list
-{
-    left: 100%;
-    top: 0px;
-    width: 100%;
+.skills-list {
+    position: relative;
     height: 100%;
     display: table;
 }
+
+.badge-element {
+    margin: 5px;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 3px;
+}
+
+
 
 @media screen and (min-width: 1300px) {
 
@@ -109,8 +114,8 @@ cardBlock:first-child {
         width: 100%;
         padding-left: 20px;
     }
-    .profile-card
-    {
+
+    .profile-card {
         margin-left: 3%;
         margin-top: 3%;
         margin-right: 3%;
@@ -123,8 +128,13 @@ cardBlock:first-child {
     }
 }
 
-ul.instagram-photos li img{margin:0}.media .icon-shadow {
-                                        padding-left: 10px;  }
+ul.instagram-photos li img {
+    margin: 0
+}
+
+.media .icon-shadow {
+    padding-left: 10px;
+}
 
 /**
     Nav bar fixed style
@@ -157,27 +167,26 @@ ul.instagram-photos li img{margin:0}.media .icon-shadow {
         margin: 10px 20px;
     }
 
-    .profile-card
-    {
+    .profile-card {
         width: 100%;
         margin-bottom: 10px;
     }
-    .navbar-expand .navbar-collapse .navbar-nav
-    {
+
+    .navbar-expand .navbar-collapse .navbar-nav {
         display: list-item;
         font-size: 3em;
     }
-    .navbar-expand
-    {
+
+    .navbar-expand {
         display: list-item;
     }
-    .skill
-    {
+
+    .skill {
         width: 100%;
         margin-left: 20px;
     }
-    .profile-info
-    {
+
+    .profile-info {
         display: list-item;
         width: 100%;
 

@@ -4,7 +4,7 @@
     <ul>
         {% for event in events %}
             <li>
-                {% include './event.twig' with {event:event} %}
+                {% include './event.twig' with {event:event, res:res} %}
             </li>
         {% endfor %}
     </ul>

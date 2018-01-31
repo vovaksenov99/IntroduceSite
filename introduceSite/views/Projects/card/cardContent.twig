@@ -7,10 +7,9 @@
             <div style="grid-column: 1/1">
                 <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
                 <p class="{{ style.textColorClass }}">{{ project.description }}</p>
-                <p class="{{ style.textColorClass }}"><strong>Technology
-                        stack: </strong>{{ project.technologyStack|join(', ') }}</p>
+                <p class="{{ style.textColorClass }}"><strong>{{ res.technologyStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
 
-                <p class="{{ style.textColorClass }}"><strong>Teams:</strong>
+                <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
                     {% for team in project.teams %}
                         <a href="{{ team.link }}">{{ team.name }}</a>
                     {% endfor %}
@@ -28,7 +27,7 @@
                 </a>
                 {% endfor %}
                 {% block modules %}
-                    {% include './modules.twig' with {modules: project.modules, style:style} %}
+                    {% include './modules.twig' with {res:res, modules: project.modules, style:style} %}
                 {% endblock %}
 
             </div>

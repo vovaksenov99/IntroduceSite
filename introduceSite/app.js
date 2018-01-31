@@ -8,7 +8,8 @@ let config = require('./config');
 global.app = app;
 global.express = express;
 
-const PORT = process.env.PORT || 5000;//listen heroku port or 5000 if it localhost
+const PORT = process.env.PORT || config.port;//listen heroku port
+
 app.use('/public', express.static('introduceSite/public'));
 
 app.set('views', path.join(__dirname, 'views'));

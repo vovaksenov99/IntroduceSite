@@ -7,7 +7,7 @@ router.get('/', function (req, res) {
   let lang = utils.getLanguage(req);
   res.render('Projects/projects', {
     res: content[lang],
-    projects: projects['projects'],
+    projects: projects[lang].projects,
   });
 });
 
