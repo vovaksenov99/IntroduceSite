@@ -78,6 +78,8 @@ let frontendController = (function (self) {
   self.href = function (href) {
     if (localStorage.getItem('lang') != null)
       window.location = href + '?lang=' + localStorage.getItem('lang');
+    else
+      window.location = href + '?lang=' + 'En';
   };
 
   return self;
