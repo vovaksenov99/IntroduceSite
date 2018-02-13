@@ -1,5 +1,5 @@
 {
-  "name": "experiments",
+  "name": "Personal page",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "author": "",
+  "author": "akscorp2014@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@codexteam/capella-pics": "^1.0.0",
     "body-parser": "^1.18.2",
     "content": "^4.0.3",
     "ejs-locals": "^1.0.2",
@@ -23,9 +22,9 @@
     "public": "^0.1.2",
     "request": "^2.83.0",
     "twig": "^1.10.5",
-    "webpack": "^3.10.0"
+    "webpack": "^3.11.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.11.0"
+    "webpack-dev-server": "^2.11.1"
   }
 }

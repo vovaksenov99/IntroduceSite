@@ -3,7 +3,7 @@
 
 {% block content %}
     {% block introTitle %}
-        {% include '../introTitle.twig' %}
+        {% include '../introTitle.twig' with {title: res.projects}%}
     {% endblock %}
 
         <div class="project-item-list">

@@ -2,13 +2,15 @@
   "En": {
     "skills": "Skills",
     "main": "Main",
+    "events": "Events",
     "projects": "Projects",
+    "specialization": "specialization",
     "teams": "Teams",
     "contacts": "Contacts",
     "myName": "Aksenov Vladimir",
     "myFullName": "Aksenov Vladimir Alekseevich",
     "developer": "Developer",
-    "myDescribe": "I develop various application software. I specialize in development for mobile devices (Android). Software development options since 2014",
+    "myDescribe": "I develop various application software. I specialize in development for mobile devices (Android). Software development experience since 2014",
     "technologyStack": "Technology stack",
     "csharpDescribe": "",
     "javaDescribeStack": "",
@@ -18,20 +20,22 @@
     "webDescribe": "",
     "cppDescribe": "",
     "inProgress": "In progress...",
-    "modules":"Modules",
-    "result":"Result",
-    "achievements":"Activities and achievements"
+    "modules": "Modules",
+    "result": "Result",
+    "achievements": "Achievements"
   },
   "Rus": {
     "skills": "Навыки",
     "main": "Главная страница",
+    "events": "Мероприятия",
     "projects": "Проекты",
+    "specialization": "Специализация",
     "teams": "Команды",
     "contacts": "Контакты",
     "myName": "Аксенов Владимир",
     "myFullName": "Аксенов Владимир Алексеевич",
     "developer": "Разработчик общего профиля",
-    "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств(Android). Опты разработки ПО с 2014 года",
+    "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств (Android). Опыт разработки ПО с 2014 года",
     "technologyStack": "Стек используемых технологий",
     "csharpDescribe": "",
     "javaDescribeStack": "",
@@ -42,7 +46,7 @@
     "cppDescribe": "",
     "inProgress": "В процессе заполнения...",
     "modules": "Модули",
-    "result":"Результат",
-    "achievements":"Мероприятия и достижения"
+    "result": "Результат",
+    "achievements": "Достижения"
   }
 }

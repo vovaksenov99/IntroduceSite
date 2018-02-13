@@ -2,9 +2,9 @@
 <div style="display: table-row">
 
     <ul>
-        {% for event in events %}
+        {% for achievement in achievements %}
             <li>
-                {% include './event.twig' with {event:event, res:res} %}
+                {% include './achievement.twig' with {achievement:achievement, res:res} %}
             </li>
         {% endfor %}
     </ul>

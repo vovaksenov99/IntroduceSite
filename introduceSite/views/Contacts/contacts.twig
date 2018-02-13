@@ -2,13 +2,9 @@
 
 
 {% block content %}
-<div class="view overlay">
-    <img src="public/myResource/myImage/intro{{ random(2) }}.jpg" class="wow fadeInDown" style="width: 100%; height: 400px">
-    <div class="mask waves-effect waves-light"></div>
-    <div class="center-text white-text">
-        <div class="h1-auto-text-size wow fadeInUp">{{ res.contacts }}</div>
-    </div>
-</div>
+    {% block introTitle %}
+        {% include '../introTitle.twig' with {title:res.contacts}%}
+    {% endblock %}
 
 <div class="project-item-list" style="margin-top: 10px;min-height: 100vh;overflow: auto;" >
 
