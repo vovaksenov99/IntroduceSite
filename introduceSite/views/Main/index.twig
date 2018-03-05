@@ -28,6 +28,40 @@
                 <p class="card-text">{{ res.myDescribe }}
                 </p>
             </div>
+            <div class="media mb-1 skill">
+                <div class="media-body">
+                    <h4 class="">{{ res.technologyStack }}</h4>
+                    <p>
+                        <span class="badge blue badge-element" style="font-size: 100%">NodeJs</span>
+                        <span class="badge blue badge-element" style="font-size: 100%">.Net</span>
+                        <span class="badge blue badge-element" style="font-size: 100%">Twig</span>
+                        <span class="badge blue badge-element" style="font-size: 100%">MongoDB</span>
+                        <span class="badge white-text black badge-element" style="font-size: 100%">Unity</span>
+                        <span class="badge green badge-element" style="font-size: 100%">Keras</span>
+                        <span class="badge grey badge-element" style="font-size: 100%">Git</span>
+                        <span class="badge white badge-element black-text" style="font-size: 100%">GraphQL</span>
+                        <span class="badge orange badge-element" style="font-size: 100%">SQL databases</span>
+                        <span class="badge blue badge-element" style="font-size: 100%">Django</span>
+
+                    <h4 class="">{{ res.specialization }}</h4>
+                    <span class="badge orange badge-element" style="font-size: 100%">Android development</span>
+                    <span class="badge orange badge-element" style="font-size: 100%">OOP</span>
+                    <span class="badge blue badge-element" style="font-size: 100%">Code documentation</span>
+                    <span class="badge green badge-element" style="font-size: 100%">Material design</span>
+                    <span class="badge orange badge-element" style="font-size: 100%">Multithreading</span>
+                    <span class="badge grey badge-element" style="font-size: 100%">Intermediate english level</span>
+
+                    <br>
+                    <br>
+                    <strong>Stackoverflow profile</strong>
+                    <br>
+                    <a href="https://stackexchange.com/users/9552681">
+                        <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="208" height="58" alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+                    </a>
+                    <br>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="skills-list">
             <div class="media mb-1 skill">
@@ -40,7 +74,7 @@
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.csharpDescribe }}</p>
+                    <p>{{ res.csharpDescribeStack }}</p>
                 </div>
             </div>
 
@@ -54,7 +88,7 @@
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.javaDescribe }}</p>
+                    <p>{{ res.javaDescribeStack }}</p>
                 </div>
             </div>
 
@@ -69,7 +103,7 @@
                         <li><i class="fa fa-star amber-text"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.sqlDescribe }}</p>
+                    <p>{{ res.sqlDescribeStack }}</p>
                 </div>
             </div>
 
@@ -84,7 +118,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.kotlinDescribe }}</p>
+                    <p>{{ res.kotlinDescribeStack }}</p>
                 </div>
             </div>
             <div class="media mb-1 skill">
@@ -97,7 +131,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ webDescribe }}</p>
+                    <p>{{ res.webDescribeStack }}</p>
                 </div>
             </div>
 
@@ -111,7 +145,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.javascriptDescribe }}</p>
+                    <p>{{ res.javascriptDescribeStack }}</p>
                 </div>
             </div>
 
@@ -125,7 +159,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.pythonDescribe }}</p>
+                    <p>{{ res.pythonDescribeStack }}</p>
                 </div>
             </div>
 
@@ -140,7 +174,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.phpDescribe }}</p>
+                    <p>{{ res.phpDescribeStack }}</p>
                 </div>
             </div>
 
@@ -154,44 +188,12 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <p>{{ res.cppDescribe }}</p>
+                    <p>{{ res.cppDescribeStack }}</p>
                 </div>
             </div>
 
 
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">{{ res.technologyStack }}</h4>
-                    <p>
-                            <span class="badge blue badge-element" style="font-size: 100%">NodeJs</span>
-                        <span class="badge blue badge-element" style="font-size: 100%">.Net</span>
-                        <span class="badge blue badge-element" style="font-size: 100%">Twig</span>
-                        <span class="badge blue badge-element" style="font-size: 100%">MongoDB</span>
-                        <span class="badge white-text black badge-element" style="font-size: 100%">Unity</span>
-                        <span class="badge green badge-element" style="font-size: 100%">Keras</span>
-                        <span class="badge grey badge-element" style="font-size: 100%">Git</span>
-                        <span class="badge white badge-element black-text" style="font-size: 100%">GraphQL</span>
-                        <span class="badge orange badge-element" style="font-size: 100%">SQL databases</span>
 
-                    <h4 class="">{{ res.specialization }}</h4>
-                        <span class="badge orange badge-element" style="font-size: 100%">Android development</span>
-                    <span class="badge orange badge-element" style="font-size: 100%">OOP</span>
-                    <span class="badge blue badge-element" style="font-size: 100%">Code documentation</span>
-                    <span class="badge green badge-element" style="font-size: 100%">Material design</span>
-                    <span class="badge orange badge-element" style="font-size: 100%">Multithreading</span>
-                    <span class="badge grey badge-element" style="font-size: 100%">Intermediate english level</span>
-
-                        <br>
-                        <br>
-                        <strong>Stackoverflow profile</strong>
-                        <br>
-                        <a href="https://stackexchange.com/users/9552681">
-                            <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="208" height="58" alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-                        </a>
-                        <br>
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
     <div style="display: inline-flex; margin-bottom: 15px">

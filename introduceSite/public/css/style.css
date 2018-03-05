@@ -91,6 +91,7 @@ cardBlock:first-child {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+    margin-bottom: 3%;
 }
 
 .skills-list {
@@ -189,7 +190,6 @@ ul.instagram-photos li img {
     .profile-info {
         display: list-item;
         width: 100%;
-
     }
 
 }

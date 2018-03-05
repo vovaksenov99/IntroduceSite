@@ -19,6 +19,7 @@ let profile = require('./routing/profile');
 let projects = require('./routing/projects');
 let teams = require('./routing/teams');
 let contacts = require('./routing/contacts');
+let hobbies = require('./routing/hobbies');
 
 
 app.use('/', profile);
@@ -26,6 +27,8 @@ app.use('/profile', profile);
 app.use('/projects', projects);
 app.use('/teams', teams);
 app.use('/contacts', contacts);
+app.use('/hobbies', hobbies);
+
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
