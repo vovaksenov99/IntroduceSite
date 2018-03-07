@@ -248,7 +248,7 @@
           "textColorClass": "black-text"
         },
         "badges":[ ],
-        "description": "Modular web platform for creating medical forecasts and reports with built-in recurrent neural network.",
+        "description": "Service to identify and predict the development of myopia (myopia) with the help of neural networks",
         "technologyStack": [
           "python",
           "keras"
@@ -569,7 +569,7 @@
           "textColorClass": "black-text"
         },
         "badges":[ ],
-        "description": "Модульная веб платформа для создания медицинских прогнозов и отчетов со встроенной реккурентной нейронной сетью.",
+        "description": "Сервис по выявлению и прогнозированию развития близорукости (миопии) с помощью нейронных сетей",
         "technologyStack": [
           "python",
           "keras"
