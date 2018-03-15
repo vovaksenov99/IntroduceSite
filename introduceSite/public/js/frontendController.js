@@ -1,13 +1,13 @@
 let frontendController = (function (self) {
 
   self.setLang = function (lang) {
-    localStorage.setItem('lang', lang.toString());
+    sessionStorage.setItem('lang', lang.toString());
     self.href(location.protocol + '//' + location.host + location.pathname);
   };
 
   self.href = function (href) {
-    if (localStorage.getItem('lang') != null)
-      window.location = href + '?lang=' + localStorage.getItem('lang');
+    if (sessionStorage.getItem('lang') != null)
+      window.location = href + '?lang=' + sessionStorage.getItem('lang');
     else
       window.location = href + '?lang=' + 'En';
   };

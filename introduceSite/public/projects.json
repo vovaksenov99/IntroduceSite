@@ -2,6 +2,42 @@
   "En":{
     "projects": [
       {
+        "name": "CodeX Notes",
+        "imageLink": "public/myResource/myImage/codex_notes.png",
+        "type" : "Open source",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Simple and fast editor for notes with cloud synchronization",
+        "technologyStack": [
+          "PHP",
+          "Twig",
+          "MongoDB",
+          "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/codex.notes"
+        },
+        "modules": [
+          {
+            "name": "Notes Android",
+            "description": "Notes android client",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/codex.notes.android"
+            }
+          }
+        ]
+      },
+      {
         "name": "HAWK.SO",
         "imageLink": "public/myResource/myImage/hawk.png",
         "type" : "Open source",
@@ -322,6 +358,42 @@
   },
   "Rus": {
     "projects": [
+      {
+        "name": "CodeX Notes",
+        "imageLink": "public/myResource/myImage/codex_notes.png",
+        "type" : "Open source",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Простой и быстрый редактор для заметок с простой облачной синхронизацией",
+        "technologyStack": [
+          "PHP",
+          "Twig",
+          "MongoDB",
+          "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "codeX",
+            "link": "https://ifmo.su"
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/codex-team/codex.notes"
+        },
+        "modules": [
+          {
+            "name": "Notes Android",
+            "description": "Андроид клиент",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/codex-team/codex.notes.android"
+            }
+          }
+        ]
+      },
       {
         "name": "HAWK.SO",
         "imageLink": "public/myResource/myImage/hawk.png",

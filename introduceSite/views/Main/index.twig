@@ -5,11 +5,6 @@
 {% block content %}
 
 
-
-    {% block introTitle %}
-        {% include '../introTitle.twig' with {title: res.skills}%}
-    {% endblock %}
-
 <div class="card card-cascade profile-card">
 
     <div class="profile-info">
@@ -22,10 +17,10 @@
                 </a>
             </div>
             <div class="card-body text-center">
-                <h4 class="card-title"><strong>{{ res.myFullName }}</strong></h4>
-                <h5>{{ res.developer }}</h5>
+                <h3 class="card-title"><strong>{{ res.myFullName }}</strong></h3>
+                <h4>{{ res.developer }}</h4>
 
-                <p class="card-text">{{ res.myDescribe }}
+                <p class="card-text" style="font-size: 1.2em">{{ res.myDescribe }}
                 </p>
             </div>
             <div class="media mb-1 skill">

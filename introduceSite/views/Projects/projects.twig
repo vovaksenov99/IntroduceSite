@@ -2,17 +2,16 @@
 
 
 {% block content %}
-    {% block introTitle %}
-        {% include '../introTitle.twig' with {title: res.projects}%}
-    {% endblock %}
 
-        <div class="project-item-list">
-
-        {% for project in projects %}
-            {% block project %}
+    <div class="project-item-list">
+        {% block project %}
+            {% for project in projects %}
                 {% include './card/cardContent.twig' with {project:project} %}
-            {% endblock %}
-
-        {% endfor %}
+            {% endfor %}
+        {% endblock %}
     </div>
 {% endblock %}
+
+<style>
+
+</style>
