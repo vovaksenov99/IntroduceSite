@@ -3,6 +3,12 @@
     "events": [
       {
         "datetime": "2018",
+        "title": "BREAKPOINT 2018",
+        "description": "Breakpoint — всероссийский форум для студентов и выпускников технических специальностей в Петербурге",
+        "status": "Участник"
+      },
+      {
+        "datetime": "2018",
         "title": "Food.Hack.1",
         "description": "Разработка умных решений в Фудтехе",
         "status": "Участник. Капитан команды. Спец премия"
@@ -53,6 +59,12 @@
   },
   "En": {
     "events": [
+      {
+        "datetime": "2018",
+        "title": "BREAKPOINT 2018",
+        "description": "Breakpoint - All-Russian forum for students and graduates of technical specialties in St. Petersburg",
+        "status": "Participant"
+      },
       {
         "datetime": "2018",
         "title": "Food.Hack.1",
