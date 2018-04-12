@@ -3,6 +3,12 @@
     "achievements": [
       {
         "datetime": "2018",
+        "title": "Future Technologies ITMO",
+        "description": "Акселерационная программа для “железных”, высокотехнологичных и IT-проектов",
+        "status": "Успешное окончание программы с работающим прототипом и бизнес моделью. Руководитель стартапа, разработчик"
+      },
+      {
+        "datetime": "2018",
         "title": "Дополнение рускоязычной Kotlin документации",
         "description": "Перевод и дополнение документации используется на сайте (<a href='https://kotlinlang.ru/'>kotlinlang.ru<a/>)",
         "status": ""
@@ -23,6 +29,12 @@
   },
   "En": {
     "achievements": [
+      {
+        "datetime": "2018",
+        "title": "Future Technologies ITMO",
+        "description": "Acceleration program for high-tech and IT projects",
+        "status": "Successful end of the program with a working prototype and business model. Startup manager, developer"
+      },
       {
         "datetime": "2018",
         "title": "Formation of the Russian-language Kotlin documentation",

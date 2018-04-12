@@ -2,6 +2,31 @@
   "En":{
     "projects": [
       {
+        "name": "Akscorp private gallery",
+        "imageLink": "",
+        "type" : "Private project",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "A protected android gallery with the function of finding similar images. An important feature is a simple and quick job",
+        "technologyStack": [
+          "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
+      {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
         "type" : "Open source",
@@ -358,6 +383,31 @@
   },
   "Rus": {
     "projects": [
+      {
+        "name": "Akscorp private gallery",
+        "imageLink": "",
+        "type" : "Private project",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Запароленная андроид галерея с функцией поиска похожих изображений. Упор сделан на простую и быструю работу",
+        "technologyStack": [
+          "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
       {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
