@@ -27,6 +27,32 @@
         ]
       },
       {
+        "name": "Smart contact",
+        "imageLink": "",
+        "type" : "Commercial project",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Android application allows you to track the business contacts. It's working on the basis of contacts. All data is synchronized with the cloud.",
+        "technologyStack": [
+          "Kotlin",
+          "Backendless cloud service"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
+      {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
         "type" : "Open source",
@@ -393,6 +419,32 @@
         "description": "Запароленная андроид галерея с функцией поиска похожих изображений. Упор сделан на простую и быструю работу",
         "technologyStack": [
           "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
+      {
+        "name": "Smart contacts",
+        "imageLink": "",
+        "type" : "Коммерческий проект",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Андроид приложение позволяющее отследить все связи и знакомства и работающее на основе контактов. Все данные синхронизируются с облаком",
+        "technologyStack": [
+          "Kotlin",
+          "Backendless cloud dervice"
         ],
         "teams": [
           {
