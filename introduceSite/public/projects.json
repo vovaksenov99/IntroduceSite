@@ -27,6 +27,32 @@
         ]
       },
       {
+        "name": "Smart contact",
+        "imageLink": "",
+        "type" : "Commercial project",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Android application allows you to track the business contacts. It's working on the basis of contacts. All data is synchronized with the cloud.",
+        "technologyStack": [
+          "Kotlin",
+          "Backendless cloud service"
+        ],
+        "teams": [
+          {
+            "name": "It's my project",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
+      {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
         "type" : "Open source",
@@ -180,33 +206,6 @@
         "modules": [ ]
       },
       {
-        "name": "FastConfig",
-        "type" : "Open source",
-        "imageLink": "",
-        "customStyle":
-        {
-          "background": "public/myResource/myImage/background_FastConfig.png",
-          "textColorClass": "black-text"
-        },
-        "badges":[ ],
-        "description": "FastConfig - <span style=\"color: green\">C#</span> init file parser. Use as analog of .config file.",
-        "technologyStack": [
-          "C#"
-        ],
-        "teams": [
-          {
-            "name": "It's my project",
-            "link":""
-          }
-        ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/FastConfig"
-        },
-        "modules": [ ]
-      },
-      {
         "name": "Neural network",
         "imageLink": "",
         "type" : "Open source",
@@ -244,8 +243,8 @@
         },
         "badges":[
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
+            "image":"",
+            "link":""
           }
         ],
         "description": "The system combines the functionality of message boards and project management systems",
@@ -278,8 +277,8 @@
         },
         "badges":[
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.AksCorp.Upuponly&hl=ru"
+            "image":"",
+            "link":""
           }
         ],
         "description": "Small platformer android game",
@@ -326,58 +325,6 @@
           "link":""
         },
         "modules": [ ]
-      },
-      {
-        "name": "Android modules",
-        "type" : "Open source",
-        "imageLink": "",
-        "customStyle":
-        {
-          "background": " url('public/myResource/myImage/background_material.jpg')",
-          "textColorClass": "white-text"
-        },
-        "badges":[ ],
-        "description": "",
-        "technologyStack": [
-          "Java"
-        ],
-        "teams": [
-          {
-            "name": "It's my projects",
-            "link":""
-          }
-        ],
-        "more":
-        {
-          "text":"",
-          "link":""
-        },
-        "modules": [
-          {
-            "name": "Google calendar module",
-            "description": "Use for add, remove and etc. events to Google Calendar",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Google_calendar_work"
-            }
-          },
-          {
-            "name": "Custom date picker module",
-            "description": "It should be used to check certain or range dates in calendar",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
-            }
-          },
-          {
-            "name": "Custom step seek bar module",
-            "description": "You can add several steps in your seek bar",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
-            }
-          }
-        ]
       }
     ]
   },
@@ -393,6 +340,32 @@
         "description": "Запароленная андроид галерея с функцией поиска похожих изображений. Упор сделан на простую и быструю работу",
         "technologyStack": [
           "Kotlin"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link": ""
+          }
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+        ]
+      },
+      {
+        "name": "Smart contacts",
+        "imageLink": "",
+        "type" : "Коммерческий проект",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Андроид приложение позволяющее отследить все связи и знакомства и работающее на основе контактов. Все данные синхронизируются с облаком",
+        "technologyStack": [
+          "Kotlin",
+          "Backendless cloud dervice"
         ],
         "teams": [
           {
@@ -562,33 +535,6 @@
         "modules": [ ]
       },
       {
-        "name": "FastConfig",
-        "type" : "Open source",
-        "imageLink": "",
-        "customStyle":
-        {
-          "background": "public/myResource/myImage/background_FastConfig.png",
-          "textColorClass": "black-text"
-        },
-        "badges":[ ],
-        "description": "FastConfig - <span style=\"color: green\">C#</span> init файл парсер. Создан как более простой аналог .config файла.",
-        "technologyStack": [
-          "C#"
-        ],
-        "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
-        ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/FastConfig"
-        },
-        "modules": [ ]
-      },
-      {
         "name": "Neural network",
         "imageLink": "",
         "type" : "Open source",
@@ -626,8 +572,8 @@
         },
         "badges":[
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.blueboard&hl=ru"
+            "image":"",
+            "link":""
           }
         ],
         "description": "Система совмещающая в себе функциональность как доски объявлений, так и системы управления проектами",
@@ -660,8 +606,8 @@
         },
         "badges":[
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.AksCorp.Upuponly&hl=ru"
+            "image":"",
+            "link":""
           }
         ],
         "description": "Небольшая андроид игра платформер",
@@ -708,58 +654,6 @@
           "link":""
         },
         "modules": [ ]
-      },
-      {
-        "name": "Небольшие андроид библиотеки",
-        "type" : "Open source",
-        "imageLink": "",
-        "customStyle":
-        {
-          "background": " url('public/myResource/myImage/background_material.jpg')",
-          "textColorClass": "white-text"
-        },
-        "badges":[ ],
-        "description": "",
-        "technologyStack": [
-          "Java"
-        ],
-        "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
-        ],
-        "more":
-        {
-          "text":"",
-          "link":""
-        },
-        "modules": [
-          {
-            "name": "Google calendar module",
-            "description": "Используется как более удобная обертка для API Google calendar",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Google_calendar_work"
-            }
-          },
-          {
-            "name": "Custom date picker module",
-            "description": "Позволяет выбрать не просто дату, а промежуток дат",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
-            }
-          },
-          {
-            "name": "Custom step seek bar module",
-            "description": "Seek bar с возможностью деления значений на стадии",
-            "more": {
-              "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
-            }
-          }
-        ]
       }
     ]
   }

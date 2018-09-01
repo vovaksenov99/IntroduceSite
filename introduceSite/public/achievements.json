@@ -3,6 +3,12 @@
     "achievements": [
       {
         "datetime": "2018",
+        "title": "Moscow Yandex academy",
+        "description": "Школа мобильной разработки для молодых специалистов с опытом разработки на объектно-ориентированных языках программирования. Ориентация на андроид разработку",
+        "status": ""
+      },
+      {
+        "datetime": "2018",
         "title": "Future Technologies ITMO",
         "description": "Акселерационная программа для “железных”, высокотехнологичных и IT-проектов",
         "status": "Успешное окончание программы с работающим прототипом и бизнес моделью. Руководитель стартапа, разработчик"
@@ -29,6 +35,12 @@
   },
   "En": {
     "achievements": [
+      {
+        "datetime": "2018",
+        "title": "Moscow Yandex academy",
+        "description": "School of mobile development for young professionals with experience in developing on object-oriented programming languages. Android developer",
+        "status": ""
+      },
       {
         "datetime": "2018",
         "title": "Future Technologies ITMO",

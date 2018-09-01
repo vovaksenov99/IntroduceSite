@@ -9,7 +9,7 @@ let frontendController = (function (self) {
     if (sessionStorage.getItem('lang') != null)
       window.location = href + '?lang=' + sessionStorage.getItem('lang');
     else
-      window.location = href + '?lang=' + 'En';
+      window.location = href + '?lang=' + 'Rus';
   };
 
   return self;
