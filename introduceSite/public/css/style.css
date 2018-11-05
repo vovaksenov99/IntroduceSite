@@ -89,7 +89,7 @@ cardBlock:first-child {
 
 .profile-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 40%;
     position: relative;
     margin-bottom: 3%;
 }
