@@ -382,32 +382,6 @@
         ]
       },
       {
-        "name": "Smart contacts",
-        "imageLink": "",
-        "type" : "Коммерческий проект",
-        "customStyle":
-        { },
-        "badges":[],
-        "description": "Андроид приложение позволяющее отследить все связи и знакомства и работающее на основе контактов. Все данные синхронизируются с облаком",
-        "technologyStack": [
-          "Kotlin",
-          "Backendless cloud dervice"
-        ],
-        "teams": [
-          {
-            "name": "Собственный проект",
-            "link": ""
-          }
-        ],
-        "more":
-        {
-          "text":"",
-          "link":""
-        },
-        "modules": [
-        ]
-      },
-      {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
         "type" : "Open source",
