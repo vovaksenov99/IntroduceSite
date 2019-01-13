@@ -3,15 +3,16 @@
 
 {% block content %}
 
-    <div class="project-item-list">
+    <div class="profile-card">
         {% block project %}
             {% for project in projects %}
                 {% include './card/cardContent.twig' with {project:project} %}
             {% endfor %}
         {% endblock %}
     </div>
+
+    <script>
+        frontendController.setNavBarColor('projects');
+    </script>
 {% endblock %}
 
-<style>
-
-</style>

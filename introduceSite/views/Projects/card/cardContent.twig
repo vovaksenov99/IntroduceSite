@@ -8,7 +8,7 @@
                 <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
                 <p class="{{ style.textColorClass }}" style="font-weight: 600">{{ project.type }}</p>
                 <p class="{{ style.textColorClass }}">{{ project.description }}</p>
-                <p class="{{ style.textColorClass }}"><strong>{{ res.technologyStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
+                <p class="{{ style.textColorClass }}"><strong>{{ res.projectStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
 
                 <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
                     {% for team in project.teams %}

@@ -1,37 +1,35 @@
-
-
-<nav class="navbar navbar-expand navbar-dark unique-color-dark">
-    <div>
-        <a class="navbar-brand" href="#"></a>
-    </div>
-    <div class="navbar-collapse">
-
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" onclick="frontendController.href('/profile')">{{ res.main }}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="frontendController.href('/projects')">{{ res.projects }}</a>
-            </li>
-            <!--
+<nav class="navbar navbar-expand-lg elegant-gradient navbar-dark fixed-top scrolling-navbar">
+    <div style="width: 100%">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent-7" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" onclick="frontendController.href('/profile');">{{ res.main }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="frontendController.href('/projects');">{{ res.projects }}</a>
+                </li>
+                <!--
             <li class="nav-item">
                 <a class="nav-link" onclick="frontendController.href('/teams')">{{ res.teams }}</a>
             </li>
-            -->
-            <li class="nav-item">
-                <a class="nav-link" onclick="frontendController.href('/contacts')">{{ res.contacts }}</a>
-            </li>
+-->
+                <li class="nav-item">
+                    <a class="nav-link" onclick="frontendController.href('/contacts');">{{ res.contacts }}</a>
+                </li>
+
+            </ul>
             <!--
-            <li class="nav-item">
-                <a class="nav-link" onclick="frontendController.href('/hobby')">{{ res.hobby }}</a>
-            </li>-->
-        </ul>
-        <div style="display: flex">
-            <div  class="waves-effect waves-light unique-color-dark lang-button white-text" role="button" onclick="frontendController.setLang('Rus');">Rus</div>
-            <div class="waves-effect waves-light unique-color-dark lang-button white-text" role="button" onclick="frontendController.setLang('En');">En</div>
+           <div style="display: flex;font-size: 0.9rem;">
+               <div  class="waves-effect waves-light lang-button white-text" role="button" onclick="frontendController.setLang('Rus');">Rus</div>
+               <div class="waves-effect waves-light lang-button white-text" role="button" onclick="frontendController.setLang('En');">En</div>
+           </div>
+             -->
         </div>
 
-
     </div>
-
 </nav>

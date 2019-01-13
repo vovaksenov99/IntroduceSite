@@ -8,7 +8,7 @@ let config = require('./config');
 global.app = app;
 global.express = express;
 
-const PORT = process.env.PORT || config.port;//listen heroku port
+const PORT = process.env.PORT || config.port; //listen heroku port
 
 app.use('/public', express.static('introduceSite/public'));
 

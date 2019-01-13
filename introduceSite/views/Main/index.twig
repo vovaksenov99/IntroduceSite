@@ -5,182 +5,191 @@
 {% block content %}
 
 
-<div class="card card-cascade profile-card">
+    <div class="profile-card">
 
-    <div class="profile-info">
+        <div class="profile-info">
 
-        <div>
-            <div class="view overlay hm-white-slight">
-                <img src="public/myResource/myImage/my_photo.jpg" class="img-flex" style="margin-left: 50%; transform: translate(-50%,0);">
-                <a>
-                    <div class="mask"></div>
-                </a>
-            </div>
-            <div class="card-body text-center">
-                <h3 class="card-title"><strong>{{ res.myFullName }}</strong></h3>
-                <h4>{{ res.developer }}</h4>
-
-                <p class="card-text" style="font-size: 1.2em">{{ res.myDescribe }}
-                </p>
-            </div>
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">{{ res.technologyStack }}</h4>
-                    <p>
-                        <span class="badge blue badge-element" style="font-size: 100%">Dagger</span>
-                        <span class="badge blue badge-element" style="font-size: 100%">RxJava</span>
-                        <span class="badge blue badge-element" style="font-size: 100%">Room</span>
-                        <span class="badge grey badge-element" style="font-size: 100%">Git</span>
-                        <span class="badge orange badge-element" style="font-size: 100%">..etc</span>
-
-
-                    <h4 class="">{{ res.specialization }}</h4>
-                    <span class="badge orange badge-element" style="font-size: 100%">Architectural patterns</span>
-                    <span class="badge blue badge-element" style="font-size: 100%">Code documentation</span>
-                    <span class="badge green badge-element" style="font-size: 100%">Material design</span>
-
-                    <br>
-                    <br>
-                    <strong>Stackoverflow profile</strong>
-                    <br>
-                    <a href="https://stackexchange.com/users/9552681">
-                        <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="208" height="58" alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+            <div>
+                <div class="view overlay hm-white-slight profile-photo">
+                    <img src="public/myResource/myImage/my_photo.jpg" class="img-flex"
+                         style="width: 100%;margin-left: 50%; transform: translate(-50%,0);">
+                    <a>
+                        <div class="mask"></div>
                     </a>
-                    <br>
+                </div>
+                <div class="card-body text-center">
+                    <h3 class="card-title"><strong>{{ res.myFullName }}</strong></h3>
+                    <h4>{{ res.developer }}</h4>
+
+                    <p class="card-text" style="font-size: 1.2em">{{ res.myDescribe }}
                     </p>
                 </div>
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">{{ res.technologyStack }}</h4>
+                        <p>
+                            <span class="badge grey badge-element" style="font-size: 100%">Git/Bitbacket</span>
+                            <span class="badge blue badge-element" style="font-size: 100%">SQLite</span>
+                            <span class="badge red badge-element" style="font-size: 100%">Firebase</span>
+                            <span class="badge red badge-element" style="font-size: 100%">и т.д</span>
+
+                            <!--
+                        <h4 class="">{{ res.specialization }}</h4>
+                        <span class="badge orange badge-element" style="font-size: 100%">Architectural patterns</span>
+                        <span class="badge blue badge-element" style="font-size: 100%">Code documentation</span>
+                        <span class="badge green badge-element" style="font-size: 100%">Material design</span>
+                           -->
+                            <br>
+                            <br>
+                            <strong>Stackoverflow profile</strong>
+                            <br>
+                            <a href="https://stackexchange.com/users/9552681">
+                                <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="208"
+                                     height="58"
+                                     alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                                     title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+                            </a>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-list">
+
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">Java</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.javaDescribeStack }}</p>
+                    </div>
+                </div>
+
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">Kotlin</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.kotlinDescribeStack }}</p>
+                    </div>
+                </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">C#</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.csharpDescribeStack }}</p>
+                    </div>
+                </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">HTML,CSS</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.webDescribeStack }}</p>
+                    </div>
+                </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">Javascript</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.javascriptDescribeStack }}</p>
+                    </div>
+                </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">Python</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.pythonDescribeStack }}</p>
+                    </div>
+                </div>
+
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">PHP</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.phpDescribeStack }}</p>
+                    </div>
+                </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">C++</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <p>{{ res.cppDescribeStack }}</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-        <div class="skills-list">
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">C#</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.csharpDescribeStack }}</p>
-                </div>
-            </div>
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">Java</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.javaDescribeStack }}</p>
-                </div>
-            </div>
-
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">Kotlin</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.kotlinDescribeStack }}</p>
-                </div>
-            </div>
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">HTML,CSS</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.webDescribeStack }}</p>
-                </div>
-            </div>
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">Javascript</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.javascriptDescribeStack }}</p>
-                </div>
-            </div>
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">Python</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.pythonDescribeStack }}</p>
-                </div>
-            </div>
-
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">PHP</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.phpDescribeStack }}</p>
-                </div>
-            </div>
-
-            <div class="media mb-1 skill">
-                <div class="media-body">
-                    <h4 class="">C++</h4>
-                    <ul class="rating inline-ul" style="padding: 0px">
-                        <li><i class="fa fa-star amber-text"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <p>{{ res.cppDescribeStack }}</p>
-                </div>
-            </div>
-
-
-
+        <div style="display: inline-flex; margin-bottom: 15px">
+            <img src="public/myResource/myImage/cup.svg">
+            <h3 style="padding-left: 10px; margin: 0px">{{ res.achievements }}</h3>
         </div>
-    </div>
-    <div style="display: inline-flex; margin-bottom: 15px">
-        <img src="public/myResource/myImage/cup.svg">
-        <h3 style="padding-left: 10px; margin: 0px">{{ res.achievements }}</h3>
-    </div>
-    {% include 'Main/achievements.twig' with {res:res} %}
+        {% include 'Main/achievements.twig' with {res:res} %}
 
-    <div style="display: inline-flex; margin-bottom: 15px">
-        <img src="public/myResource/myImage/cup.svg">
-        <h3 style="padding-left: 10px; margin: 0px">{{ res.events }}</h3>
-    </div>
-    {% include 'Main/events.twig' with {res:res} %}
+        <div style="display: inline-flex; margin-bottom: 15px">
+            <img src="public/myResource/myImage/cup.svg">
+            <h3 style="padding-left: 10px; margin: 0px">{{ res.events }}</h3>
+        </div>
+        {% include 'Main/events.twig' with {res:res} %}
 
-</div>
+    </div>
+
+    <script>
+        frontendController.setNavBarColor('main');
+    </script>
 
 {% endblock %}

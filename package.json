@@ -1,5 +1,5 @@
 {
-  "name": "Personal page",
+  "name": "introduceSite",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -16,6 +16,7 @@
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
     "module": "^1.2.5",
     "mongodb": "^2.2.34",
     "node-twig": "^1.1.0",

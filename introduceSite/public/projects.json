@@ -332,11 +332,16 @@
     "projects": [
       {
         "name": "Akscorp private gallery",
-        "imageLink": "",
+        "imageLink": "https://lh3.googleusercontent.com/C-l3HwYcBG3j5hRiWM27uCUM7kUXU26CCHDkFxRYgDno3VQC2EfMZyHSCVJEu6ismQ=w3840-h1780-rw",
         "type" : "Private project",
         "customStyle":
         { },
-        "badges":[],
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.privategallery.akscorp.privategalleryandroid"
+          }
+        ],
         "description": "Запароленная андроид галерея с функцией поиска похожих изображений. Упор сделан на простую и быструю работу",
         "technologyStack": [
           "Kotlin"
@@ -356,16 +361,18 @@
         ]
       },
       {
-        "name": "Smart contacts",
+        "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
         "imageLink": "",
         "type" : "Коммерческий проект",
         "customStyle":
         { },
-        "badges":[],
-        "description": "Андроид приложение позволяющее отследить все связи и знакомства и работающее на основе контактов. Все данные синхронизируются с облаком",
+        "badges":[
+
+        ],
+        "description": "Caйт с новостями госзакупок. <a href=\"delta.news\">Delta.News</a>",
         "technologyStack": [
-          "Kotlin",
-          "Backendless cloud dervice"
+          "PHP",
+          "Javascript"
         ],
         "teams": [
           {
@@ -605,8 +612,7 @@
         "description": "Система совмещающая в себе функциональность как доски объявлений, так и системы управления проектами",
         "technologyStack": [
           "Java",
-          "ASP.NET",
-          "my libraries below"
+          "ASP.NET"
         ],
         "teams": [
           {
