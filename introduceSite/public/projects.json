@@ -514,7 +514,7 @@
         "type" : "Open source",
         "customStyle":
         {
-          "background": "url('public/myResource/myImage/background_translator.jpg')",
+          "background": "",
           "textColorClass": "black-text"
         },
         "badges":[
@@ -574,7 +574,7 @@
         "imageLink": "public/myResource/myImage/blueBoard.png",
         "customStyle":
         {
-          "background": "url('public/myResource/myImage/background_blueBoard.png')",
+          "background": "",
           "textColorClass": "black-text"
         },
         "badges":[
@@ -607,7 +607,7 @@
         "imageLink": "public/myResource/myImage/up_up_only.png",
         "customStyle":
         {
-          "background": "url('public/myResource/myImage/background_up_up_only.png')",
+          "background": "",
           "textColorClass": "black-text"
         },
         "badges":[

@@ -10,7 +10,8 @@
 .elegant-gradient {
     background: -webkit-linear-gradient(50deg, #212121, #444444) !important;
     background: -o-linear-gradient(50deg, #212121, #444444) !important;
-    background: linear-gradient(40deg, #212121, #444444) !important; }
+    background: linear-gradient(40deg, #212121, #444444) !important;
+}
 
 .center-text {
     position: absolute;
@@ -62,6 +63,7 @@ cardBlock:first-child {
 }
 
 .project-item-list {
+    margin-top: 6%;
     display: list-item;
 }
 
@@ -115,12 +117,14 @@ cardBlock:first-child {
     list-style-type: none;
 }
 
-.fa-star
-{
+.fa-star {
     margin-right: 3px;
 }
 
-
+.icon-contact {
+    width: 35px;
+    height: 35px;
+}
 
 @media screen and (min-width: 1300px) {
 
@@ -131,7 +135,7 @@ cardBlock:first-child {
 
     .profile-card {
         margin-left: 3%;
-        margin-top: 6%;
+        margin-top: 120px;
         margin-right: 3%;
         position: relative;
     }
@@ -159,6 +163,7 @@ ul.instagram-photos li img {
 
 @media screen and (max-width: 1300px) {
     .navbar {
+        min-height: 160px;
     }
 
     .lang-button {
@@ -167,8 +172,7 @@ ul.instagram-photos li img {
         font-size: 1em;
     }
 
-    .profile-photo
-    {
+    .profile-photo {
         padding: 10%;
     }
 }
@@ -189,6 +193,7 @@ ul.instagram-photos li img {
     .profile-card {
         width: 100%;
         margin-bottom: 10px;
+        margin-top: 200px;
     }
 
     .navbar-expand .navbar-collapse .navbar-nav {
@@ -208,6 +213,10 @@ ul.instagram-photos li img {
     .profile-info {
         display: list-item;
         width: 100%;
+    }
+
+    .contact-intro {
+        margin-top: 160px
     }
 
 }
