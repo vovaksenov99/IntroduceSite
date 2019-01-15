@@ -159,6 +159,12 @@ ul.instagram-photos li img {
         left: 0;
         z-index: 1030;
     }
+
+    .profile-photo {
+        height: 75vh;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -174,6 +180,9 @@ ul.instagram-photos li img {
 
     .profile-photo {
         padding: 10%;
+        width: 100%;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
     }
 }
 
