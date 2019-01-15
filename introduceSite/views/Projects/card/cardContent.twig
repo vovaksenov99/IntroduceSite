@@ -10,11 +10,13 @@
                 <p class="{{ style.textColorClass }}">{{ project.description }}</p>
                 <p class="{{ style.textColorClass }}"><strong>{{ res.projectStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
 
+                {% if project.teams is not empty %}
                 <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
                     {% for team in project.teams %}
                         <a href="{{ team.link }}">{{ team.name }}</a>
                     {% endfor %}
                 </p>
+                {% endif %}
                 {% if  project.more.text is not empty%}
                 <a href="{{ project.more.link}}" class="d-flex flex-row-reverse">
                     <h5 class="waves-effect waves-light p-2 {{ style.textColorClass }}">{{ project.more.text}}<i

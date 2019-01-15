@@ -347,10 +347,6 @@
           "Kotlin"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link": ""
-          }
         ],
         "more":
         {
@@ -361,8 +357,95 @@
         ]
       },
       {
+        "name": "<span style=\"color: red\">Y</span>andex Translator",
+        "imageLink": "public/myResource/myImage/translator_yandex.jpg",
+        "type" : "Open source",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
+          }
+        ],
+        "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
+        "technologyStack": [
+          "Java",
+          "<span style=\"color: red\">Y</span>andex Translate API"
+        ],
+        "teams": [
+          {
+            "name": "Собственный проект",
+            "link":""
+          }
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/Translator"
+        },
+        "modules": [ ]
+      },
+      {
+        "name": "CoinSpace",
+        "imageLink": "https://lh3.googleusercontent.com/1dS68ItV8MNkqgOEzhVcXqQ7ua5scbdKPm7YcbHg1pyk4C2ns47fn6QrZV4cL5LqFIw=w3840-h1780-rw",
+        "type" : "Парный проект",
+        "customStyle":
+        { },
+        "badges":[
+          {
+            "image":"public/myResource/myImage/google_play_badge.png",
+            "link":"https://play.google.com/store/apps/details?id=com.akscorp.coinspace"
+          }
+        ],
+        "description": "Простое приложение для отслеживание расходов/доходов. Поддерживает несколько счетов и шаблоны для быстрых операций. Также приложение позволяет настроить переодические операции.",
+        "technologyStack": [
+          "Kotlin",
+          "RxJava",
+          "Dagger",
+          "Room"
+        ],
+        "teams": [
+
+        ],
+        "more":
+        {
+          "text":"Read more on github",
+          "link":"https://github.com/vovaksenov99/CoinSpace"
+        },
+        "modules": [
+        ]
+      },
+      {
+        "name": "YandexSchoolApp",
+        "imageLink": "public/myResource/myImage/yandex_school.png",
+        "type" : "Командный проект",
+        "customStyle":
+        { },
+        "badges":[
+        ],
+        "description": "Приложение академии яндекса для внутреннего использования. Позволяет управлять оповещениями, мероприятиями, заданиями и материалами в рамках школы. Для удобства добавлен функционал проведения опросов и поиск важных мест на карте. Вход в приложение производится через YandexPassport.API",
+        "technologyStack": [
+          "Kotlin",
+          "RxJava",
+          "Dagger",
+          "Cicerone"
+        ],
+        "teams": [
+
+        ],
+        "more":
+        {
+        },
+        "modules": [
+        ]
+      },
+      {
         "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
-        "imageLink": "",
+        "imageLink": "public/myResource/myImage/delta_news.png",
         "type" : "Коммерческий проект",
         "customStyle":
         { },
@@ -375,10 +458,7 @@
           "Javascript"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link": ""
-          }
+
         ],
         "more":
         {
@@ -508,39 +588,7 @@
           }
         ]
       },
-      {
-        "name": "<span style=\"color: red\">Y</span>andex Translator",
-        "imageLink": "public/myResource/myImage/translator_yandex.jpg",
-        "type" : "Open source",
-        "customStyle":
-        {
-          "background": "",
-          "textColorClass": "black-text"
-        },
-        "badges":[
-          {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
-          }
-        ],
-        "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
-        "technologyStack": [
-          "Java",
-          "<span style=\"color: red\">Y</span>andex Translate API"
-        ],
-        "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
-        ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/Translator"
-        },
-        "modules": [ ]
-      },
+
       {
         "name": "Neural network",
         "imageLink": "",
