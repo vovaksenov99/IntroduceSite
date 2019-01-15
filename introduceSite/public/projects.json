@@ -452,7 +452,7 @@
         "badges":[
 
         ],
-        "description": "Caйт с новостями госзакупок. <a href=\"delta.news\">Delta.News</a>",
+        "description": "Caйт с новостями госзакупок. <a href=\"https://delta.news\">Delta.News</a>",
         "technologyStack": [
           "PHP",
           "Javascript"

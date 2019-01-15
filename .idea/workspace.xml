@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/public/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="346" column="19" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
+            <state relative-caret-position="327">
+              <caret line="454" column="81" selection-start-line="454" selection-start-column="81" selection-end-line="454" selection-end-column="81" />
               <folding>
                 <element signature="n#!!block;n#En#0;n#!!top" />
               </folding>
@@ -457,12 +455,12 @@
       <workItem from="1547405818702" duration="24000" />
       <workItem from="1547405856294" duration="14344000" />
       <workItem from="1547549517126" duration="1321000" />
-      <workItem from="1547550867707" duration="500000" />
+      <workItem from="1547550867707" duration="866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242644000" />
+    <option name="totallyTimeSpent" value="243010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -797,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="346" column="19" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
+        <state relative-caret-position="327">
+          <caret line="454" column="81" selection-start-line="454" selection-start-column="81" selection-end-line="454" selection-end-column="81" />
           <folding>
             <element signature="n#!!block;n#En#0;n#!!top" />
           </folding>
