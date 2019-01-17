@@ -1,6 +1,7 @@
 let build = function () {
     var Twig = require('twig'); // Twig module
     const path = require('path');
+    let config = require('../config');
 
     let content = require('../public/content');
     let events = require('../public/events');
@@ -27,7 +28,7 @@ let build = function () {
             },
         };
 
-        pdf.create(html, options).toFile('./businesscard.pdf', function (err, res) {
+        pdf.create(html, options).toFile(path.join(config.projectDir,'public/businesscard.pdf'), function (err, res) {
             if (err) return console.log(err);
             console.log(res); // { filename: '/app/businesscard.pdf' }
         });
