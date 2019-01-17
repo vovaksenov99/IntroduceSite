@@ -1,0 +1,12 @@
+{% block event %}
+    <div>
+        <div style="display: inline-flex">
+            <h4>{{ event.datetime }}</h4>
+            <h4 style="color: #ffc107;padding-left: 10px">{{ event.title }}</h4>
+        </div>
+        <p>{{ event.description }}
+        <p>
+            <strong>{{ res.result }}:</strong>{{ event.status }}<a></a>
+        </p>
+    </div>
+{% endblock %}

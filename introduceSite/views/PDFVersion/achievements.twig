@@ -1,0 +1,11 @@
+
+<div style="display: table-row">
+
+    <ul>
+        {% for achievement in achievements %}
+            <li>
+                {% include './achievement.twig' with {achievement:achievement, res:res} %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>

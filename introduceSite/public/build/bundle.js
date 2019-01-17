@@ -66,10 +66,17 @@ var frontendController =
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(1);
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-let frontendController = (function (self) {
 
+let frontendController = (function (self) {
     self.setLang = function (lang) {
         sessionStorage.setItem('lang', lang.toString());
         self.href(location.protocol + '//' + location.host + location.pathname);
@@ -100,8 +107,15 @@ let frontendController = (function (self) {
         }
     };
 
+    self.getPdf = function () {
+
+
+    };
+
     return self;
 })({});
+
+//module.exports = require('file-saver');
 module.exports = frontendController;
 
 

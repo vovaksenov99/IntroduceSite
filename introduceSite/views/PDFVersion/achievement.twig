@@ -1,0 +1,14 @@
+{% block achievement %}
+    <div>
+        <div style="display: inline-flex">
+            <h4>{{ achievement.datetime }}</h4>
+            <h4 style="color: #ffc107;padding-left: 10px">{{ achievement.title }}</h4>
+        </div>
+        <p>{{ achievement.description }}
+        {% if achievement.status != '' %}
+            <p>
+                <strong>{{ res.result }}:</strong>{{ achievement.status }}<a></a>
+            </p>
+        {% endif %}
+    </div>
+{% endblock %}

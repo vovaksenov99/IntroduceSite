@@ -1,5 +1,5 @@
-let frontendController = (function (self) {
 
+let frontendController = (function (self) {
     self.setLang = function (lang) {
         sessionStorage.setItem('lang', lang.toString());
         self.href(location.protocol + '//' + location.host + location.pathname);
@@ -30,6 +30,13 @@ let frontendController = (function (self) {
         }
     };
 
+    self.getPdf = function () {
+
+
+    };
+
     return self;
 })({});
+
+//module.exports = require('file-saver');
 module.exports = frontendController;

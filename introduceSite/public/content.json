@@ -1,5 +1,6 @@
 {
   "En": {
+    "cv": "Personal information",
     "skills": "Skills",
     "main": "Main",
     "events": "Events",
@@ -30,6 +31,7 @@
     "hobby":"Hobbies"
   },
   "Rus": {
+    "cv": "Резюме",
     "skills": "Навыки",
     "main": "Главная страница",
     "events": "Мероприятия",

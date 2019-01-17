@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <head>
-    <meta property="og:title" content="Сайт фортфолио Аксенова Владимира">
+    <meta charset="utf-8"/>
     <title>Сайт фортфолио Аксенова Владимира</title>
-    <meta name="description" content="Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для Android устройств и Web приложениях">
-    <meta property="og:description" content="Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для Android устройств и Web приложениях">
+    <meta property="og:title" content="Сайт фортфолио Аксенова Владимира">
+    <meta name="description" content="Android и web разработчик">
+    <meta property="og:description" content="Android и web разработчик">
     <meta itemprop="image" content="public/myResource/myImage/my_photo_preview.jpg">
     <meta property="og:image" content="public/myResource/myImage/my_photo_preview.jpg">
     <meta name="twitter:image" content="public/myResource/myImage/my_photo_preview.jpg">
-</head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap core CSS -->
-<link href="../public/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="../public/css/mdb.min.css" rel="stylesheet">
-<!-- Your custom styles (optional) -->
-<link href="../public/css/style.css" rel="stylesheet">
 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../public/css/bootstrap.min.css" rel="stylesheet">
+<link href="../public/css/mdb.min.css" rel="stylesheet">
+<link href="../public/css/style.css" rel="stylesheet">
 <script type="text/javascript" src="../public/build/bundle.js"></script>
 
-<html>
+<html lang="ru">
 <body>
-    {% block navBar %}
-            {% include 'navBar.twig' %}
-    {% endblock %}
+{% block navBar %}
+    {% include 'navBar.twig' %}
+{% endblock %}
 
-        {% block content %}
-        {% endblock %}
-    {% block footer %}
-        {% include  'footer.twig' %}
-    {% endblock %}
+{% block content %}
+{% endblock %}
+{% block footer %}
+    {% include  'footer.twig' %}
+{% endblock %}
 
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="../public/js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="../public/js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="../public/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../public/js/mdb.min.js"></script>
-    <script>
-      new WOW().init()
-    </script>
+<script type="text/javascript" src="../public/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../public/js/popper.min.js"></script>
+<script type="text/javascript" src="../public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../public/js/mdb.min.js"></script>
+<script type="text/javascript" src="../public/js/html2canvas.js"></script>
+
+<script>
+    new WOW().init()
+</script>
 
 </body>
 </html>
