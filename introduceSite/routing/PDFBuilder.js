@@ -1,7 +1,13 @@
 let build = function () {
-    var Twig = require('twig'); // Twig module
+
+
+
+
+
+    return
+
+    let Twig = require('twig'); // Twig module
     const path = require('path');
-    let config = require('../config');
 
     let content = require('../public/content');
     let events = require('../public/events');
@@ -17,15 +23,12 @@ let build = function () {
         let pdf = require('html-pdf');
 
         //let html = fs.readFileSync('./introduceSite/public/test.html', 'utf8');
+
+
         let options = {
-            format: 'A4',
-            "base": "http://aksenov-vladimir.herokuapp.com", // Base path that's used to load files (images, css, js) when they aren't referenced using a host
-            "border": {
-                "top": "2in",            // default is 0, units: mm, cm, in, px
-                "right": "1in",
-                "bottom": "2in",
-                "left": "1.5in"
-            },
+            "width": '794px',
+            "height": '1123px',
+            "base": config.hostname, // Base path that's used to load files (images, css, js) when they aren't referenced using a host
         };
 
         pdf.create(html, options).toFile(path.join(config.projectDir,'public/businesscard.pdf'), function (err, res) {

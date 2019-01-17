@@ -28,15 +28,14 @@ let frontendController = (function (self) {
         if (page === "contacts") {
             bar.classList.add("blue-gradient");
         }
-    };
 
-    self.getPdf = function () {
 
 
     };
+
 
     return self;
 })({});
 
-//module.exports = require('file-saver');
+
 module.exports = frontendController;

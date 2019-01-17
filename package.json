@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "chrome-headless-render-pdf": "^1.8.0",
     "content": "^4.0.3",
     "ejs-locals": "^1.0.2",
     "express": "^4.16.2",

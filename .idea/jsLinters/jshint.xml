@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JSHintConfiguration" version="2.9.5" use-config-file="true">
+  <component name="JSHintConfiguration" version="2.9.5" use-config-file="false">
     <option asi="false" />
     <option bitwise="false" />
     <option boss="false" />
