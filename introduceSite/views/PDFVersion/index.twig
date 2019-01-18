@@ -4,14 +4,14 @@
 
 
     <div class="myContainer-page">
-        <div style="font-size: 1.9em;text-align: center;margin-bottom: 10px">{{ res.cv }}</div>
+        <div style="font-size: 1.9em;text-align: center;margin-bottom: 20px">{{ res.cv }}</div>
         <div style="display: grid;grid-template-columns: 50% 50%;height: fit-content">
             <div style="display: flex;justify-content: center">
                 <img src="public/myResource/myImage/my_photo.jpg" style="width: 450px;height: 450px">
             </div>
 
             <div>
-                <p style="text-align: left;font-size: 1.2rem">
+                <p style="text-align: left;font-size: 1.1rem">
                     <strong>Email: </strong>akscorp2014@gmail.com<br>
                     <strong>Telegram:</strong> @AksenovVladimir<br>
                 <hr>
@@ -69,8 +69,8 @@
                     <br>
                 <h5>Stackoverflow Profile</h5>
                 <a href="https://stackexchange.com/users/9552681">
-                    <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="408"
-                         height="120"
+                    <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="204"
+
                          alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites"
                          title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
                 </a>
@@ -90,11 +90,11 @@
             <div class="media-body">
                 <h5 class="">Java</h5>
 
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.javaDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
@@ -102,11 +102,11 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Kotlin</h5>
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.kotlinDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
@@ -115,7 +115,7 @@
                 <h5 class="">C#</h5>
                 <p>Проекты:
                     {% for project in res.csharpDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
                 </p>
             </div>
@@ -124,33 +124,33 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">HTML,CSS</h5>
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.webDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.webDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Javascript</h5>
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.javascriptDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Python</h5>
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.pythonDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
@@ -158,11 +158,11 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">PHP</h5>
-                <p>Проекты:
+                <div>Проекты:
                     {% for project in res.phpDescribeStack %}
-                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.phpDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
 
