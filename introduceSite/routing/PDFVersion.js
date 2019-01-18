@@ -5,15 +5,16 @@ let events = require('../public/events');
 let achievements = require('../public/achievements');
 
 router.get('/', function (req, res, next) {
-  let lang = utils.getLanguage(req);
+    let lang = utils.getLanguage(req);
 
-  global.hostname  = req.hostname;
+    let hostname = req.protocol + '://' + req.headers.host;
 
-  res.render('PDFVersion/index', {
-    res: content[lang],
-    events: events[lang].events,
-    achievements: achievements[lang].achievements
+    res.render('PDFVersion/index', {
+        res: content[lang],
+        events: events[lang].events,
+        hostname: hostname,
+        achievements: achievements[lang].achievements
 
-  });
+    });
 });
 module.exports = router;

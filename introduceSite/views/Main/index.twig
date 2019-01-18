@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="skills-list">
+            <div class="skills-list skill-description">
 
 
                 <div class="media mb-1 skill">
@@ -66,7 +66,11 @@
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.javaDescribeStack }}</p>
+                        <p>Проекты:
+                            {% for project in res.javaDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -78,10 +82,15 @@
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.kotlinDescribeStack }}</p>
+
+                        <p>Проекты:
+                            {% for project in res.kotlinDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -95,7 +104,12 @@
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.csharpDescribeStack }}</p>
+
+                        <p>Проекты:
+                            {% for project in res.csharpDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -109,7 +123,11 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.webDescribeStack }}</p>
+                        <p>Проекты:
+                            {% for project in res.webDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -123,7 +141,11 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.javascriptDescribeStack }}</p>
+                        <p>Проекты:
+                            {% for project in res.javascriptDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -133,11 +155,15 @@
                         <ul class="star-rating" style="padding: 0px">
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.pythonDescribeStack }}</p>
+                        <p>Проекты:
+                            {% for project in res.pythonDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 
@@ -152,7 +178,11 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>{{ res.phpDescribeStack }}</p>
+                        <p>Проекты:
+                            {% for project in res.phpDescribeStack %}
+                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
 

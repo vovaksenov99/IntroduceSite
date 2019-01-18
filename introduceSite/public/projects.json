@@ -331,6 +331,7 @@
   "Rus": {
     "projects": [
       {
+        "idName": "AkscorpPrivateGallery",
         "name": "Akscorp private gallery",
         "imageLink": "https://lh3.googleusercontent.com/C-l3HwYcBG3j5hRiWM27uCUM7kUXU26CCHDkFxRYgDno3VQC2EfMZyHSCVJEu6ismQ=w3840-h1780-rw",
         "type" : "Private project",
@@ -357,6 +358,7 @@
         ]
       },
       {
+        "idName": "YandexTranslator",
         "name": "<span style=\"color: red\">Y</span>andex Translator",
         "imageLink": "public/myResource/myImage/translator_yandex.jpg",
         "type" : "Open source",
@@ -390,6 +392,7 @@
         "modules": [ ]
       },
       {
+        "idName": "CoinSpace",
         "name": "CoinSpace",
         "imageLink": "https://lh3.googleusercontent.com/1dS68ItV8MNkqgOEzhVcXqQ7ua5scbdKPm7YcbHg1pyk4C2ns47fn6QrZV4cL5LqFIw=w3840-h1780-rw",
         "type" : "Парный проект",
@@ -420,6 +423,7 @@
         ]
       },
       {
+        "idName": "YandexSchoolApp",
         "name": "YandexSchoolApp",
         "imageLink": "public/myResource/myImage/yandex_school.png",
         "type" : "Командный проект",
@@ -444,6 +448,7 @@
         ]
       },
       {
+        "idName": "DeltaNews",
         "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
         "imageLink": "public/myResource/myImage/delta_news.png",
         "type" : "Коммерческий проект",
@@ -469,6 +474,7 @@
         ]
       },
       {
+        "idName": "CodeXNotes",
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
         "type" : "Open source",
@@ -505,6 +511,7 @@
         ]
       },
       {
+        "idName": "HawkSo",
         "name": "HAWK.SO",
         "imageLink": "public/myResource/myImage/hawk.png",
         "type" : "Open source",
@@ -552,6 +559,7 @@
       },
 
       {
+        "idName": "Capella",
         "name": "Capella",
         "imageLink": "public/myResource/myImage/capella.png",
         "type" : "Open source",
@@ -590,6 +598,7 @@
       },
 
       {
+        "idName": "NeuralNetwork",
         "name": "Neural network",
         "imageLink": "",
         "type" : "Open source",
@@ -617,6 +626,7 @@
         "modules": [ ]
       },
       {
+        "idName": "BlueBoard",
         "name": "BlueBoard",
         "type" : "Private project",
         "imageLink": "public/myResource/myImage/blueBoard.png",
@@ -650,6 +660,7 @@
         "modules": [ ]
       },
       {
+        "idName": "UpUpOnly",
         "name": "Up, up only!",
         "type" : "Private project",
         "imageLink": "public/myResource/myImage/up_up_only.png",
@@ -682,6 +693,7 @@
         "modules": [ ]
       },
       {
+        "idName": "MedicalRNN",
         "name": "MedicalRNN",
         "type" : "Private project",
         "imageLink": "public/myResource/myImage/medicalRNN.png",

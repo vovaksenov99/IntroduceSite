@@ -1,7 +1,7 @@
 
 <div style="display: table-row">
 
-    <ul>
+    <ul style=" list-style-type: none;padding: 20px;">
         {% for achievement in achievements %}
             <li>
                 {% include './achievement.twig' with {achievement:achievement, res:res} %}

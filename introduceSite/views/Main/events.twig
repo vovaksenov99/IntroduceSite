@@ -1,7 +1,7 @@
 
 <div style="display: table-row">
 
-    <ul>
+    <ul style="list-style-type: none;">
         {% for event in events %}
             <li>
                 {% include './event.twig' with {event:event, res:res} %}

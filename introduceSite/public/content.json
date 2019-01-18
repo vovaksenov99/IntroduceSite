@@ -27,8 +27,8 @@
     "result": "Result",
     "projectStack": "Project Stack",
     "achievements": "Achievements",
-    "design":"Design",
-    "hobby":"Hobbies"
+    "design": "Design",
+    "hobby": "Hobbies"
   },
   "Rus": {
     "cv": "Резюме",
@@ -42,23 +42,114 @@
     "myName": "Аксенов Владимир",
     "myFullName": "Аксенов Владимир Алексеевич",
     "developer": "Андроид разработчик",
-    "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств (Android) и Web приложениях. Опыт разработки ПО с 2014 года. Есть опыт работы с клиент-северными приложениями и понимание работы с HTTP/S, REST API, XML, JSON и т.д. Использую паттерны проектирования, ООП. Средний уровень английского. На данный момент студент в <a href='http://ifmo.ru'>(ITMO university)</a>",
+    "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств (Android) и Web приложениях. Опыт разработки ПО с 2014 года. Есть опыт работы с клиент-северными приложениями и понимание работы с HTTP/S, REST API, XML, JSON и т.д. Использую паттерны проектирования, ООП. На данный момент студент в <a href='http://ifmo.ru'>(ITMO university)</a>",
     "technologyStack": "Работаю с ...",
     "projectStack": "Стек",
-    "csharpDescribeStack": "Опыт работы 3 года. Обычно ипользую с технологией ASP.NET или Unity. Уверенное владение языком",
-    "javaDescribeStack": "Опыт работы 3 года. Использовал для написания андроид приложений, пока не вышел Kotlin. Уверенное владение языком",
-    "kotlinDescribeStack": "Опыт работы 1 год. С некоторого времени  использую как основной язык андроид разработки. Уверенное владение языком",
-    "javascriptDescribeStack": "Опыт работы 1 года. Использовал для написания frontend части веб приложений и для backend части в NodeJS. Среднее владение языком",
-    "pythonDescribeStack": "Опыт работы 1 года. Использовал для написания нейронных сетей и работы с Django. Среднее владение языком",
-    "phpDescribeStack": "Опыт работы 1 год. Использую для веб приложений. Начальное владение языком",
+    "csharpDescribeStack": [
+      {
+        "name": "NeuralNetwork",
+        "link": "/projects#NeuralNetwork"
+      },
+      {
+        "name": "BlueBoard",
+        "link": "/projects#BlueBoard"
+      }
+    ],
+    "javaDescribeStack": [
+      {
+        "name": "Yandex Translator",
+        "link": "/projects#YandexTranslator"
+      },
+      {
+        "name": "Hawk Java",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "BlueBoard",
+        "link": "/projects#BlueBoard"
+      }
+    ],
+    "kotlinDescribeStack": [
+      {
+        "name": "AkscorpPrivateGallery",
+        "link": "/projects#AkscorpPrivateGallery"
+      },
+      {
+        "name": "CoinSpace",
+        "link": "/projects#CoinSpace"
+      },
+      {
+        "name": "YandexSchoolApp",
+        "link": "/projects#YandexSchoolApp"
+      },
+      {
+        "name": "Hawk Kotlin",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "Notes Android",
+        "link": "/projects#CodeXNotes"
+      }
+    ],
+    "javascriptDescribeStack": [
+      {
+        "name": "Capella",
+        "link": "/projects#Capella"
+      },
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      },
+      {
+        "name": "Этот сайт портфолио",
+        "link": ""
+      }
+    ],
+    "pythonDescribeStack": [
+      {
+        "name": "MedicalRNN",
+        "link": "/projects#MedicalRNN"
+      }
+    ],
+    "phpDescribeStack": [
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      }
+    ],
     "sqlDescribeStack": "",
-    "webDescribeStack": "Опыт работы 1 год. Разрабатывал собственный сайт и правил существующие для пары проектов",
-    "cppDescribeStack": "Опыт работы 3 года. Использовал только для олимпиадных задач по программирванию. Начальное владение языком",
+    "webDescribeStack": [
+      {
+        "name": "Capella",
+        "link": "/projects#Capella"
+      },
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      },
+      {
+        "name": "Этот сайт портфолио",
+        "link": ""
+      }
+    ],
+    "cppDescribeStack": "Использовал только для олимпиадных задач по программирванию и прикладных расчетов. Начальное владение языком",
     "inProgress": "В процессе заполнения...",
     "modules": "Модули",
     "result": "Результат",
-    "achievements": "Достижения",
-    "design":"Дизайн",
-    "hobby":"Хобби"
+    "achievements": "Достижения и профессиональное развитие",
+    "design": "Дизайн",
+    "hobby": "Хобби"
   }
 }

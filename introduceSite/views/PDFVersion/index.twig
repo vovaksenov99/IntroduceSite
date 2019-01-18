@@ -3,13 +3,188 @@
 {% block content %}
 
 
-    <div class="myContainer">
-        <div style="font-size: 1.2em;text-align: center">{{ res.cv }}</div>
-        <div style="display: flex;justify-content: center">
-            <img src="public/myResource/myImage/my_photo.jpg" style="width: 500px;height: 100%">
+    <div class="myContainer-page">
+        <div style="font-size: 1.9em;text-align: center;margin-bottom: 10px">{{ res.cv }}</div>
+        <div style="display: grid;grid-template-columns: 50% 50%;height: fit-content">
+            <div style="display: flex;justify-content: center">
+                <img src="public/myResource/myImage/my_photo.jpg" style="width: 450px;height: 450px">
+            </div>
+
+            <div>
+                <p style="text-align: left;font-size: 1.2rem">
+                    <strong>Email: </strong>akscorp2014@gmail.com<br>
+                    <strong>Telegram:</strong> @AksenovVladimir<br>
+                <hr>
+                <div style="display: grid; font-size: 1.2rem;width: 100%;">
+                    <div style="display: inline-flex;align-items: center;margin-left: 20px;">
+                        <img src="public/myResource/myImage/web.svg" class="img-flex icon-contact">
+                        <a style="margin-left: 10px;"
+                           href="http://aksenov-vladimir.herokuapp.com">Сайт</a>
+                    </div>
+                    <div style="display: inline-flex;align-items: center;margin-left: 20px;">
+                        <img src="public/myResource/myImage/git.svg" class="img-flex icon-contact">
+                        <a style="margin-left: 10px;"
+                           href="https://github.com/vovaksenov99">GitHub</a>
+                    </div>
+                    <div style="display: inline-flex;margin-left: 20px;align-items: center">
+                        <img src="public/myResource/myImage/stack-overflow.svg" class="img-flex icon-contact">
+                        <a style="margin-left: 10px;"
+                           href="https://ru.stackoverflow.com/users/236547/%D0%90%D0%BA%D1%81%D0%B5%D0%BD%D0%BE%D0%B2-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80">StackOverflow</a>
+                    </div>
+                    <div style="display: inline-flex;margin-left: 20px;align-items: center">
+                        <img src="public/myResource/myImage/in.svg" class="img-flex icon-contact">
+                        <a style="margin-left: 10px;"
+                           href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%B0%D0%BA%D1%81%D0%B5%D0%BD%D0%BE%D0%B2-35732b157">LinkedIN</a>
+                    </div>
+                    <div style="display: inline-flex;margin-left: 20px;align-items: center">
+                        <img src="public/myResource/myImage/googlePlay.svg" class="img-flex icon-contact">
+                        <a style="margin-left: 10px;"
+                           href="https://play.google.com/store/search?q=akscorp&c=apps&hl=ru">Google Play</a>
+                    </div>
+                </div>
+            </div>
+            </p>
+
+
+        </div>
+
+
+        <div class="text-center" style="margin: 50px">
+            <div style="font-size: 1.5em;margin-bottom: 10px"><strong>{{ res.myFullName }}</strong></div>
+            <div style="font-size: 1.2em;margin-bottom: 10px">{{ res.developer }}</div>
+
+            <p class="card-text" style="">{{ res.myDescribe }}</p>
+        </div>
+
+
+        <div style="margin: 50px">
+            <div class="">
+                <h5 class="">{{ res.technologyStack }}</h5>
+                <p>
+                    <span class="badge grey badge-element" style="font-size: 100%">Git/Bitbacket</span>
+                    <span class="badge blue badge-element" style="font-size: 100%">SQLite</span>
+                    <span class="badge red badge-element" style="font-size: 100%">Firebase</span>
+                    <span class="badge red badge-element" style="font-size: 100%">и т.д</span>
+
+                    <br>
+                <h5>Stackoverflow Profile</h5>
+                <a href="https://stackexchange.com/users/9552681">
+                    <img src="https://stackexchange.com/users/flair/9552681.png?theme=clean" width="408"
+                         height="120"
+                         alt="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                         title="profile for Аксенов Владимир on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+                </a>
+                <br>
+                </p>
+            </div>
         </div>
     </div>
 
 
+    <div class="myContainer-page skills-name" style="font-size: 1em">
 
+        <h4 style="padding-left: 20px;margin-bottom: 30px">{{ res.skills }}</h4>
+
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">Java</h5>
+
+                <p>Проекты:
+                    {% for project in res.javaDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">Kotlin</h5>
+                <p>Проекты:
+                    {% for project in res.kotlinDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">C#</h5>
+                <p>Проекты:
+                    {% for project in res.csharpDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">HTML,CSS</h5>
+                <p>Проекты:
+                    {% for project in res.webDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">Javascript</h5>
+                <p>Проекты:
+                    {% for project in res.javascriptDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">Python</h5>
+                <p>Проекты:
+                    {% for project in res.pythonDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">PHP</h5>
+                <p>Проекты:
+                    {% for project in res.phpDescribeStack %}
+                        <a href="{{ hostname }}{{ project.link }}">{{ project.name }}, </a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h5 class="">C++</h5>
+
+                <p>{{ res.cppDescribeStack }}</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="myContainer-page" style="font-size: 1em">
+        <div style="display: inline-flex; margin-bottom: 15px">
+            <h4 style="padding-left: 20px; margin: 0px;margin-bottom: 30px">{{ res.achievements }}</h4>
+        </div>
+        {% include './achievements.twig' with {res:res} %}
+
+        <div style="display: inline-flex; margin-bottom: 15px">
+            <h4 style="padding-left: 20px; margin: 0px;margin-bottom: 30px">{{ res.events }}</h4>
+        </div>
+        {% include './events.twig' with {res:res} %}
+    </div>
 {% endblock %}

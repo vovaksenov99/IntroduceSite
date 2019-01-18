@@ -1,11 +1,12 @@
 const express = require('express');
-const path = require('path');
 const fs = require('fs');
 const app = express();
 let config = require('./config');
 
+global.config = config;
 global.app = app;
 global.express = express;
+global.path = require('path');
 
 const PORT = process.env.PORT || config.port; //listen heroku port
 
@@ -36,14 +37,7 @@ app.use('/pdf', pdf);
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 let pdfBuilder = require('../introduceSite/routing/PDFBuilder');
+pdfBuilder.build();
 
-//pdfBuilder.build();
 
-//const browser = await puppeteer.launch();
-const RenderPDF = require('chrome-headless-render-pdf');
-RenderPDF.generateSinglePdf('https://www.google.com', path.join(config.projectDir,'public/businesscard.pdf'))
-    .then(() => {
-        console.log("Done");
-    });
 
-global.config = config;

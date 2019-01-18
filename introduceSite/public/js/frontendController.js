@@ -1,11 +1,13 @@
 
 let frontendController = (function (self) {
     self.setLang = function (lang) {
+        return
         sessionStorage.setItem('lang', lang.toString());
         self.href(location.protocol + '//' + location.host + location.pathname);
     };
 
     self.href = function (href) {
+        return
         if (sessionStorage.getItem('lang') != null)
             window.location = href + '?lang=' + sessionStorage.getItem('lang');
         else
@@ -28,8 +30,6 @@ let frontendController = (function (self) {
         if (page === "contacts") {
             bar.classList.add("blue-gradient");
         }
-
-
 
     };
 
