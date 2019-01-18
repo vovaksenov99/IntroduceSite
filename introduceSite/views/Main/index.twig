@@ -69,7 +69,7 @@
                         </ul>
                         <p>Проекты:
                             {% for project in res.javaDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -89,7 +89,7 @@
 
                         <p>Проекты:
                             {% for project in res.kotlinDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -108,7 +108,7 @@
 
                         <p>Проекты:
                             {% for project in res.csharpDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -126,7 +126,7 @@
                         </ul>
                         <p>Проекты:
                             {% for project in res.webDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.webDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -144,7 +144,7 @@
                         </ul>
                         <p>Проекты:
                             {% for project in res.javascriptDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -162,7 +162,7 @@
                         </ul>
                         <p>Проекты:
                             {% for project in res.pythonDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -181,7 +181,7 @@
                         </ul>
                         <p>Проекты:
                             {% for project in res.phpDescribeStack %}
-                                <a href="{{ project.link }}">{{ project.name }}, </a>
+                                <a href="{{ project.link }}">{{ project.name }}</a>{% if project != res.phpDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
@@ -208,13 +208,13 @@
             <img src="public/myResource/myImage/cup.svg">
             <h3 style="padding-left: 10px; margin: 0px">{{ res.achievements }}</h3>
         </div>
-        {% include 'Main/achievements.twig' with {res:res} %}
+        {% include './achievements.twig' with {res:res} %}
 
         <div style="display: inline-flex; margin-bottom: 15px">
             <img src="public/myResource/myImage/cup.svg">
             <h3 style="padding-left: 10px; margin: 0px">{{ res.events }}</h3>
         </div>
-        {% include 'Main/events.twig' with {res:res} %}
+        {% include './events.twig' with {res:res} %}
 
     </div>
 

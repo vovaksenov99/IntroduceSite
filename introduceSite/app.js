@@ -37,7 +37,7 @@ app.use('/pdf', pdf);
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 let pdfBuilder = require('../introduceSite/routing/PDFBuilder');
-pdfBuilder.build();
+//pdfBuilder.build();
 
 
 
