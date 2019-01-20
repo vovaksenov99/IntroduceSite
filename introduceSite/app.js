@@ -15,7 +15,7 @@ app.use('/public', express.static('introduceSite/public'));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'twig');
-
+app.enable('trust proxy'); //for heroku
 
 let profile = require('./routing/profile');
 let projects = require('./routing/projects');
