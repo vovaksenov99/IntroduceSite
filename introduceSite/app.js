@@ -22,6 +22,7 @@ let projects = require('./routing/projects');
 let teams = require('./routing/teams');
 let contacts = require('./routing/contacts');
 let pdf = require('./routing/PDFVersion');
+let webBogdan = require('./routing/WisdomPage');
 
 //let hobbies = require('./routing/hobbies');
 
@@ -31,13 +32,14 @@ app.use('/projects', projects);
 app.use('/teams', teams);
 app.use('/contacts', contacts);
 app.use('/pdf', pdf);
+app.use('/WisdomPage', webBogdan);
 
 //app.use('/hobbies', hobbies);
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 let pdfBuilder = require('../introduceSite/routing/PDFBuilder');
-//pdfBuilder.build();
+pdfBuilder.build();
 
 
 

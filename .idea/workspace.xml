@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/events.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/events.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/AksenovVladimirCV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/layout.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,113 +28,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="578">
+              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="106" column="155" lean-forward="true" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="155" />
+            <state relative-caret-position="393">
+              <caret line="66" column="91" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="91" />
               <folding>
-                <element signature="e#101#164#0#HTML" expanded="true" />
-                <element signature="e#401#435#0#HTML" expanded="true" />
-                <element signature="e#494#536#0#HTML" expanded="true" />
-                <element signature="e#2904#2924#0#HTML" expanded="true" />
-                <element signature="e#2943#2987#0#HTML" expanded="true" />
-                <element signature="e#3049#3093#0#HTML" expanded="true" />
-                <element signature="e#4916#4922#0#HTML" expanded="true" />
-                <element signature="e#5399#5405#0#HTML" expanded="true" />
-                <element signature="e#5875#5881#0#HTML" expanded="true" />
-                <element signature="e#6351#6357#0#HTML" expanded="true" />
-                <element signature="e#6845#6851#0#HTML" expanded="true" />
-                <element signature="e#7612#7618#0#HTML" expanded="true" />
-                <element signature="e#8101#8107#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="214" column="38" selection-start-line="214" selection-start-column="38" selection-end-line="214" selection-end-column="38" />
-              <folding>
-                <element signature="e#3600#3606#0#HTML" expanded="true" />
-                <element signature="e#4520#4526#0#HTML" expanded="true" />
-                <element signature="e#5441#5447#0#HTML" expanded="true" />
-                <element signature="e#6416#6422#0#HTML" expanded="true" />
-                <element signature="e#7394#7400#0#HTML" expanded="true" />
-                <element signature="e#8370#8376#0#HTML" expanded="true" />
-                <element signature="e#9326#9332#0#HTML" expanded="true" />
-                <element signature="e#9859#9908#0#HTML" expanded="true" />
-                <element signature="e#9984#10023#0#HTML" expanded="true" />
-                <element signature="e#10143#10192#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1522#2297#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/events.twig">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="793">
+              <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/routing/WisdomPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/footer.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="80" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/event.twig">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="39">
+              <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -193,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/introduceSite/views/Projects/projectsB.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/intro.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Projects/projectsM.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/routing/projects" />
-        <option value="$PROJECT_DIR$/introduceSite/public/myResource/myImage/googlePlay.svg" />
-        <option value="$PROJECT_DIR$/introduceSite/public/achievents.json" />
-        <option value="$PROJECT_DIR$/introduceSite/routing/profile" />
         <option value="$PROJECT_DIR$/introduceSite/routing/design" />
         <option value="$PROJECT_DIR$/introduceSite/routing/hobbies" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig" />
@@ -216,7 +189,6 @@
         <option value="$PROJECT_DIR$/node_modules/jspdf/dist/jspdf.debug.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/getPDF.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/profile.js" />
-        <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/config.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" />
@@ -235,15 +207,23 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Main/achievement.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/event.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/event.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/config.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/events.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/app.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/routing/bogdan.js" />
+        <option value="$PROJECT_DIR$/introduceSite/views/WebBogdan/footer.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
+        <option value="$PROJECT_DIR$/introduceSite/views/WebBogdan/navBar.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/webBogdanContent.json" />
+        <option value="$PROJECT_DIR$/introduceSite/views/WebBogdan/layout.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/routing/WisdomPage.js" />
+        <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/app.js" />
       </list>
     </option>
   </component>
@@ -291,33 +271,7 @@
               <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
               <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="PDFVersion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +283,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.1" />
-    <property name="last_opened_file_path" value="D:/OpenServer/OSPanel/domains/localhost/MyTravelNotes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../miband-js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -349,19 +303,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\myResource" />
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\css" />
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\routing" />
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\views\PDFVersion" />
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\myResource\myImage" />
       <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public" />
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\myResource\myImage" />
       <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\myResource" />
       <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\js" />
       <recent name="C:\Users\AksCorp\Desktop\Enterprise\Проекты\Сайт Портфолио\IntroduceSite\introduceSite\views\Projects\card" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\views\WebBogdan" />
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\routing" />
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\myResource" />
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\public\css" />
+      <recent name="D:\Desktop\Enterprise\Projects\Portfolio-site\introduceSite\views\PDFVersion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,12 +451,14 @@
       <workItem from="1547638881198" duration="701000" />
       <workItem from="1547639656355" duration="1746000" />
       <workItem from="1547641960106" duration="45414000" />
-      <workItem from="1547760929773" duration="24074000" />
+      <workItem from="1547760929773" duration="24312000" />
+      <workItem from="1547917073940" duration="287000" />
+      <workItem from="1547985854982" duration="9148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320879000" />
+    <option name="totallyTimeSpent" value="330552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,14 +473,14 @@
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.17448603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.17448603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5156695" side_tool="true" weight="0.17448603" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23943663" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23943663" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -584,53 +540,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/ChangeLog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/phantomjs-prebuilt/bin/phantomjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.11.1/core-modules/internal/process/next_tick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/chrome-headless-render-pdf/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/chrome-headless-render-pdf/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-667" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/chrome-headless-render-pdf/cli/chrome-headless-render-pdf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/puppeteer-core/lib/Launcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/puppeteer-core/lib/Launcher.js" />
+    <entry file="file://$PROJECT_DIR$/example.png" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.11.1/core-modules/child_process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -764,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFVersion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievement.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -816,17 +723,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/twig/twig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="843" selection-start-line="843" selection-end-line="843" />
         </state>
       </provider>
     </entry>
@@ -854,64 +782,28 @@
     <entry file="file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="106" column="155" lean-forward="true" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="155" />
-          <folding>
-            <element signature="e#101#164#0#HTML" expanded="true" />
-            <element signature="e#401#435#0#HTML" expanded="true" />
-            <element signature="e#494#536#0#HTML" expanded="true" />
-            <element signature="e#2904#2924#0#HTML" expanded="true" />
-            <element signature="e#2943#2987#0#HTML" expanded="true" />
-            <element signature="e#3049#3093#0#HTML" expanded="true" />
-            <element signature="e#4916#4922#0#HTML" expanded="true" />
-            <element signature="e#5399#5405#0#HTML" expanded="true" />
-            <element signature="e#5875#5881#0#HTML" expanded="true" />
-            <element signature="e#6351#6357#0#HTML" expanded="true" />
-            <element signature="e#6845#6851#0#HTML" expanded="true" />
-            <element signature="e#7612#7618#0#HTML" expanded="true" />
-            <element signature="e#8101#8107#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="1802">
+          <caret line="106" column="155" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="155" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/event.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFVersion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -919,42 +811,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/twig/twig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="18" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="214" column="38" selection-start-line="214" selection-start-column="38" selection-end-line="214" selection-end-column="38" />
+        <state relative-caret-position="17">
+          <caret line="164" column="79" selection-start-line="164" selection-start-column="79" selection-end-line="164" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="80" />
           <folding>
-            <element signature="e#3600#3606#0#HTML" expanded="true" />
-            <element signature="e#4520#4526#0#HTML" expanded="true" />
-            <element signature="e#5441#5447#0#HTML" expanded="true" />
-            <element signature="e#6416#6422#0#HTML" expanded="true" />
-            <element signature="e#7394#7400#0#HTML" expanded="true" />
-            <element signature="e#8370#8376#0#HTML" expanded="true" />
-            <element signature="e#9326#9332#0#HTML" expanded="true" />
-            <element signature="e#9859#9908#0#HTML" expanded="true" />
-            <element signature="e#9984#10023#0#HTML" expanded="true" />
-            <element signature="e#10143#10192#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/WisdomPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="66" column="91" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1522#2297#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
