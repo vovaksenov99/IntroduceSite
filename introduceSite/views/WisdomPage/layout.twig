@@ -41,22 +41,31 @@
     let quoteContainer = document.getElementById("quoteContainer")
 
     let res = {};
-    var current = -1;
+    var current = 0;
+
+
+    function shuffle(a) {
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
 
     async function StartInit() {
         res = (await getJSON('{{ hostname }}' + '/public/wisdomPageContent.json'))['phrases'];
+        res = shuffle(shuffle);
         setPhrase()
     }
 
     let setPhrase = function () {
-        if (current == -1) {
-            current = randNum(res, current);
+        if (current == 0) {
             phraseContainer.innerHTML = res[current]['phrase'];
             authorContainer.innerHTML = res[current]['author'];
             return
         }
-        current = randNum(res, current);
-
+        current++;
+        current = current % res.length
         quoteContainer.classList.add('fadeOut');
         quoteContainer.classList.remove('fadeIn');
 
