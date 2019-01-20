@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 let config = require('./config');
+let bodyParser = require('body-parser')
 
 global.config = config;
 global.app = app;
@@ -16,6 +17,10 @@ app.use('/public', express.static('introduceSite/public'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'twig');
 app.enable('trust proxy'); //for heroku
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(bodyParser.json());
 
 let profile = require('./routing/profile');
 let projects = require('./routing/projects');
