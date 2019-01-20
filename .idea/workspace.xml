@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -125,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>accept</find>
       <find>badges</find>
       <find>grid</find>
       <find>skill</find>
@@ -155,6 +153,7 @@
       <find>{{ project.name }}</find>
       <find>profile-photo</find>
       <find>length</find>
+      <find>getJSON</find>
     </findStrings>
     <replaceStrings>
       <replace>projects</replace>
@@ -206,7 +205,6 @@
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/config.js" />
-        <option value="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/events.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/bogdan.js" />
@@ -219,6 +217,7 @@
         <option value="$PROJECT_DIR$/introduceSite/routing/WisdomPage.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/app.js" />
+        <option value="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" />
       </list>
     </option>
   </component>
@@ -472,12 +471,12 @@
       <workItem from="1547641960106" duration="45414000" />
       <workItem from="1547760929773" duration="24312000" />
       <workItem from="1547917073940" duration="287000" />
-      <workItem from="1547985854982" duration="11546000" />
+      <workItem from="1547985854982" duration="12054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332950000" />
+    <option name="totallyTimeSpent" value="333458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,31 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/WisdomPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -913,10 +887,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
         </state>
       </provider>
     </entry>
