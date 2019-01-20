@@ -22,7 +22,7 @@ let projects = require('./routing/projects');
 let teams = require('./routing/teams');
 let contacts = require('./routing/contacts');
 let pdf = require('./routing/PDFVersion');
-let webBogdan = require('./routing/WisdomPage');
+let WisdomPage = require('./routing/WisdomPage');
 
 //let hobbies = require('./routing/hobbies');
 
@@ -32,7 +32,7 @@ app.use('/projects', projects);
 app.use('/teams', teams);
 app.use('/contacts', contacts);
 app.use('/pdf', pdf);
-app.use('/WisdomPage', webBogdan);
+app.use('/WisdomPage', WisdomPage);
 
 //app.use('/hobbies', hobbies);
 

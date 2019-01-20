@@ -7,8 +7,11 @@ let build = function () {
         paperHeight: "11.69",
         noMargins: true
     })
-        .then(() => {
+        .then((onFulfilled, onRejected) => {
             console.log("Done");
+        })
+        .catch(function () {
+            console.log("Pdf build error");
         });
 };
 
