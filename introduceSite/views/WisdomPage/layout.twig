@@ -3,6 +3,8 @@
     <meta charset="utf-8"/>
     <title>⚜ More than words, less than wisdom ⚜</title>
     <meta property="og:title" content="⚜ More than words, less than wisdom ⚜">
+
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
 </head>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -39,9 +41,14 @@
     let phraseContainer = document.getElementById("phraseContainer")
     let authorContainer = document.getElementById("authorContainer")
     let quoteContainer = document.getElementById("quoteContainer")
+    let likeBtn = document.getElementById("likeBtn");
+    let likesCount = document.getElementById("likesCount");
+    let vkButton = document.getElementById("vkButton");
 
-    let res = {};
-    var current = 0;
+    let likesCounter = 0;
+
+    let res = [];
+    var current = -1;
 
 
     function shuffle(a) {
@@ -53,23 +60,122 @@
     }
 
     async function StartInit() {
-        res = (await getJSON('{{ hostname }}' + '/public/wisdomPageContent.json'))['phrases'];
-        res = shuffle(shuffle);
-        setPhrase()
+        res = (await getJSON("https://api.mlab.com/api/1/databases/heroku_wlzlp8gz/collections/quotes?apiKey=ZpiR6lx2sN0U7Dva96IC89CTuRn8VZWH"));
+        console.log(res);
+        res = shuffle(res);
+        setPhrase();
+        likesCount.style.visibility = "visible"
     }
 
-    let setPhrase = function () {
-        if (current == 0) {
-            phraseContainer.innerHTML = res[current]['phrase'];
-            authorContainer.innerHTML = res[current]['author'];
-            return
+
+    let like = function () {
+
+        if (likeBtn.classList.contains('animated'))
+            return;
+
+        likeBtn.classList.add('animated', 'pulse');
+
+        if (likeBtn.classList.contains('fas')) {
+            likesCounter--;
+            setDisliked();
+            res[current]['likes'] = remove(res[current]['likes'], getUserId())
+        } else {
+            likesCounter++;
+            setLiked();
+            res[current]['likes'].push(getUserId());
         }
+
+
+        likeBtn.addEventListener('animationend', function () {
+            likeBtn.classList.remove('animated');
+            likeBtn.classList.remove('pulse');
+
+
+            $.ajax({
+                url: `https://api.mlab.com/api/1/databases/heroku_wlzlp8gz/collections/quotes?apiKey=ZpiR6lx2sN0U7Dva96IC89CTuRn8VZWH&q=${JSON.stringify({"_id": res[current]['_id']})}`,
+                data: JSON.stringify(res[current]),
+                type: "PUT",
+                contentType: "application/json"
+            });
+
+
+        })
+
+    };
+
+    let setLiked = function () {
+        likeBtn.classList.remove('far');
+        likeBtn.classList.add('fas');
+        likeBtn.style.color = 'red';
+        likesCount.innerText = ` ${likesCounter}`;
+    };
+    let setDisliked = function () {
+        likeBtn.classList.remove('fas');
+        likeBtn.classList.add('far');
+        likeBtn.style.color = 'black';
+        likesCount.innerText = ` ${likesCounter}`;
+    };
+
+    function makeid(len) {
+        let text = "";
+        let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for (var i = 0; i < len; i++)
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
+    }
+
+    let shareVk = function () {
+        window.open('https://vk.com/share.php?url={{ hostname }}&title=' + res[current]['phrase'], '_blank');
+    };
+
+    let getUserId = function () {
+        if (localStorage.getItem("UID") === null) {
+            let id = makeid(25);
+            localStorage.setItem("UID", id);
+            return id;
+        }
+        return localStorage.getItem("UID");
+    };
+
+    let contains = function (jsonArray, el) {
+        for (i = 0; i < jsonArray.length; i++) {
+
+            if (jsonArray[i] === el)
+                return true;
+        }
+        return false;
+    };
+
+    let remove = function (jsonArray, el) {
+        let rez = [];
+        for (i = 0; i < jsonArray.length; i++) {
+
+            if (jsonArray[i] !== el)
+                rez.push(jsonArray[i]);
+        }
+        return rez;
+    };
+
+
+    let setPhrase = function () {
+        let id = getUserId();
+
         current++;
-        current = current % res.length
+        current = current % res.length;
+
+        likesCounter = res[current]['likes'].length;
+
         quoteContainer.classList.add('fadeOut');
         quoteContainer.classList.remove('fadeIn');
 
         window.setTimeout(function () {
+            if (contains(res[current]['likes'], id))
+                setLiked();
+            else
+                setDisliked();
+
             phraseContainer.innerHTML = res[current]['phrase'];
             authorContainer.innerHTML = res[current]['author'];
             quoteContainer.classList.remove('fadeOut');

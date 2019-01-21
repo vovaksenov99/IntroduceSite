@@ -2,7 +2,8 @@
 
 
 {% block content %}
-    <div  id="container" style="display: flex;justify-content: center;position: relative;height: 80vh;font-size: 1.5em" class="quoteContainer">
+    <div id="container" style="display: flex;justify-content: center;position: relative;height: 80vh;font-size: 1.5em"
+         class="quoteContainer">
         <div class="align-content-center quoteContainer"
              style="width: 45%;position: relative;top: 50%;transform: translate(0,-50%);height: fit-content;">
             <div style="color: #555555; font-size: 1.5em;font-weight: 200;text-align: center;margin-bottom: 50px">Время
@@ -22,7 +23,7 @@
                           placeholder="Невероятная цитата..."></textarea>
             </div>
             <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0 black-text"
-                    onclick="updateQuotes()" style="margin-top: 20px;border: 2px solid #404040!important;">Готово
+                    onclick="insertQuotes()" style="margin-top: 20px;border: 2px solid #404040!important;">Готово
             </button>
         </div>
     </div>
@@ -30,20 +31,22 @@
     <script>
         let container = document.getElementById("container");
 
-        let updateQuotes = function () {
+        let insertQuotes = function () {
             let quote = document.getElementById("quote").value;
             let author = document.getElementById("author").value;
             let data = {
                 "phrase": quote,
-                "author": author
+                "author": author,
+                "likes": []
             };
 
+
             let xhr = new XMLHttpRequest();
-            xhr.open('POST', 'addNewQuote', true);
+            xhr.open('POST', 'https://api.mlab.com/api/1/databases/heroku_wlzlp8gz/collections/quotes?apiKey=ZpiR6lx2sN0U7Dva96IC89CTuRn8VZWH', true);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(JSON.stringify(data));
 
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange = function () {
                 if (xhr.status !== 200) {
                     alert("Что-то пошло не так :(");
                 } else {
@@ -59,9 +62,9 @@
                             document.getElementsByTagName("body")[0].classList.add('fadeOut');
                             window.setTimeout(function () {
                                 window.location = '{{ hostname }}/WisdomPage';
-                            },600);
+                            }, 600);
 
-                        },1700);
+                        }, 1700);
                     }, 400)
                 }
             }

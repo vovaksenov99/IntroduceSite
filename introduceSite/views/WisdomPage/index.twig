@@ -14,10 +14,25 @@
 
         </div>
 
-        <div style="display: flex;justify-content: center;max-height: 30%;">
+        <div style="display: flex;justify-content: center;max-height: 30%;align-items: center">
+            <div id="vkButton">
+                <i class="fab fa-vk" style="font-size: 3em;color: black; cursor:pointer;" onclick="shareVk()"></i>
+            </div>
             <button type="button" class="btn" style="" onclick="setPhrase()">
                 <i class="fas fa-sync-alt" style="font-size: 6.5em;"></i></button>
+
+            <div id="likeContainer" style="display: flex; align-items: center;height: fit-content;">
+                <i id="likeBtn" class="far fa-heart like" style="font-size: 3em;" onclick="like()"></i>
+                <div id="likesCount" style="font-size: 1.5em;margin-left: 10px;visibility: hidden">&nbsp;&nbsp;</div>
+            </div>
+
         </div>
     </div>
+
+    <style>
+        .like {
+            cursor: pointer;
+        }
+    </style>
 
 {% endblock %}
