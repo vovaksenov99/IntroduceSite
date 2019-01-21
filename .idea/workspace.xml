@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/WisdomPage/admin.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/WisdomPage/admin.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-922">
-              <caret line="75" column="37" selection-start-line="69" selection-end-line="75" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -58,16 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#26#61#0#HTML" expanded="true" />
                 <element signature="e#102#185#0#HTML" expanded="true" />
                 <element signature="e#232#354#0#HTML" expanded="true" />
                 <element signature="e#474#498#0#HTML" expanded="true" />
+                <element signature="e#613#694#0#HTML" expanded="true" />
                 <element signature="e#765#817#0#HTML" expanded="true" />
                 <element signature="e#1025#1050#0#HTML" expanded="true" />
                 <element signature="e#1102#1165#0#HTML" expanded="true" />
@@ -76,6 +73,15 @@
                 <element signature="e#1312#1318#0#HTML" expanded="true" />
                 <element signature="e#1318#1324#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="45" selection-start-line="7" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -239,11 +245,11 @@
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/footer.twig" />
         <option value="$PROJECT_DIR$/.slugignore" />
         <option value="$PROJECT_DIR$/introduceSite/public/js/Animate.css" />
-        <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/admin.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
       </list>
     </option>
   </component>
@@ -493,12 +499,12 @@
       <workItem from="1547641960106" duration="45414000" />
       <workItem from="1547760929773" duration="24312000" />
       <workItem from="1547917073940" duration="287000" />
-      <workItem from="1547985854982" duration="34153000" />
+      <workItem from="1547985854982" duration="35382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355557000" />
+    <option name="totallyTimeSpent" value="356786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
@@ -964,25 +963,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/layout.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="75" column="37" selection-start-line="69" selection-end-line="75" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#26#61#0#HTML" expanded="true" />
             <element signature="e#102#185#0#HTML" expanded="true" />
             <element signature="e#232#354#0#HTML" expanded="true" />
             <element signature="e#474#498#0#HTML" expanded="true" />
+            <element signature="e#613#694#0#HTML" expanded="true" />
             <element signature="e#765#817#0#HTML" expanded="true" />
             <element signature="e#1025#1050#0#HTML" expanded="true" />
             <element signature="e#1102#1165#0#HTML" expanded="true" />
@@ -990,6 +987,16 @@
             <element signature="e#1310#1371#0#HTML" expanded="true" />
             <element signature="e#1312#1318#0#HTML" expanded="true" />
             <element signature="e#1318#1324#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
