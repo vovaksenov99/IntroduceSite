@@ -6,7 +6,6 @@ module.exports = {
   entry: {
     app: ['./introduceSite/public/js/frontendController.js'],
   },
-  watch: true,
   output: {
     filename: 'bundle.js',
     path: __dirname + '/introduceSite/public/build',
