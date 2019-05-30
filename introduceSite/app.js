@@ -11,7 +11,7 @@ global.path = require('path');
 
 const PORT = process.env.PORT || config.port; //listen heroku port
 
-app.use('/public', express.static('introduceSite/public'));
+app.use("/public", express.static(path.join(__dirname, 'public')));
 
 
 app.set('views', path.join(__dirname, 'views'));
