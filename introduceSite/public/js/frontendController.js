@@ -7,7 +7,6 @@ let frontendController = (function (self) {
     };
 
     self.href = function (href) {
-        return
         if (sessionStorage.getItem('lang') != null)
             window.location = href + '?lang=' + sessionStorage.getItem('lang');
         else
