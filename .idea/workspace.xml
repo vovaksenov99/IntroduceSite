@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="" />
+    <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +42,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -71,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>skill</find>
       <find>font</find>
       <find>lan</find>
       <find>20.35</find>
@@ -101,6 +126,7 @@
       <find>getJSON</find>
       <find>count</find>
       <find>frontendController</find>
+      <find>herokuapp</find>
     </findStrings>
     <replaceStrings>
       <replace>projects</replace>
@@ -139,7 +165,6 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Main/achievement.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/event.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/event.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/events.twig" />
@@ -163,8 +188,9 @@
         <option value="$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/introduceSite/app.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/introduceSite/config.js" />
+        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -211,12 +237,6 @@
               <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
               <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
               <item name="routing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,14 +262,17 @@
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -409,12 +432,12 @@
       <workItem from="1547917073940" duration="287000" />
       <workItem from="1547985854982" duration="41676000" />
       <workItem from="1549292023003" duration="1653000" />
-      <workItem from="1559248632808" duration="1631000" />
+      <workItem from="1559248632808" duration="1894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366364000" />
+    <option name="totallyTimeSpent" value="366627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,21 +452,21 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.1743941" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.1743941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5156695" side_tool="true" weight="0.17448603" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.23857301" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23857301" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50208336" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49791667" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49791667" weight="0.3846154" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -511,13 +534,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/achievements.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="218" selection-start-line="6" selection-start-column="217" selection-end-line="6" selection-end-column="218" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/events.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -619,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="155" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="155" />
         </state>
       </provider>
     </entry>
@@ -764,9 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFVersion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -781,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -802,10 +794,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
