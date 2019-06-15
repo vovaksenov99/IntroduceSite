@@ -343,7 +343,7 @@
             "link":"https://play.google.com/store/apps/details?id=com.privategallery.akscorp.privategalleryandroid"
           }
         ],
-        "description": "Запароленная андроид галерея с функцией поиска похожих изображений. Упор сделан на простую и быструю работу",
+        "description": "Простая андроид галерея с функцией поиска похожих изображений. Акцент сделан на простую и быструю работу. При входе в приложение можно поставить пинкод. Так же предусмотрено резервное копирвование в архив.",
         "technologyStack": [
           "Kotlin"
         ],
@@ -367,22 +367,13 @@
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[
-          {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
-          }
-        ],
+        "badges":[],
         "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
         "technologyStack": [
           "Java",
           "<span style=\"color: red\">Y</span>andex Translate API"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
         ],
         "more":
         {
@@ -612,12 +603,7 @@
         "technologyStack": [
           "C#"
         ],
-        "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
-        ],
+        "teams": [],
         "more":
         {
           "text":"Read more on github",
@@ -647,10 +633,6 @@
           "ASP.NET"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
         ],
         "more":
         {
@@ -680,10 +662,6 @@
           "Construct 2"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
         ],
         "more":
         {
@@ -709,10 +687,6 @@
           "keras"
         ],
         "teams": [
-          {
-            "name": "Собственный проект",
-            "link":""
-          }
         ],
         "more":
         {
@@ -720,6 +694,53 @@
           "link":""
         },
         "modules": [ ]
+      },
+      {
+        "idName": "smallModules",
+        "name": "",
+        "type" : "",
+        "imageLink": "",
+        "customStyle":
+        {
+          "background": "",
+          "textColorClass": ""
+        },
+        "badges":[ ],
+        "description": "",
+        "technologyStack":  [],
+        "teams": [
+        ],
+        "more":
+        {
+          "text":"",
+          "link":""
+        },
+        "modules": [
+          {
+            "name": "OverscrollableScrollView",
+            "description": "Позволяет добавить в андроид проект плавный оверскрол с эффектами",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/OverscrollableScrollView"
+            }
+          },
+          {
+            "name": "Custom DatePicker",
+            "description": "Кастомный DatePicker с возможностью выбрать интервал дат",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+            }
+          },
+          {
+            "name": "Custom seekBar with steps",
+            "description": "Позволяет добавить в андроид проект seekBar с шагами и заголовком над каждым шагом",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
+            }
+          }
+        ]
       }
     ]
   }

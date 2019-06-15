@@ -5,11 +5,14 @@
         <div class="card-body card-grid"
              style="padding-top: 25px;background: {{ style.background }} no-repeat;background-size: 100% 100%;">
             <div style="grid-column: 1/1">
+                {% if project.name is not empty %}
                 <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
+                {% endif %}
                 <p class="{{ style.textColorClass }}" style="font-weight: 600">{{ project.type }}</p>
-                <p class="{{ style.textColorClass }}">{{ project.description }}</p>
+                <p class="{{ style.textColorClass }}" style="font-size: 1.2rem">{{ project.description }}</p>
+                {% if project.technologyStack is not empty %}
                 <p class="{{ style.textColorClass }}"><strong>{{ res.projectStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
-
+                {% endif %}
                 {% if project.teams is not empty %}
                 <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
                     {% for team in project.teams %}

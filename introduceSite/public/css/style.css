@@ -195,6 +195,12 @@ ul.instagram-photos li img {
     Mobile version
  */
 @media screen and (max-width: 1300px) {
+    .current-job {
+        padding: 40px;
+        display: block;
+        width: fit-content;
+        margin: 40px auto;
+    }
 
     cardBlock:first-child {
         display: block;
@@ -241,6 +247,13 @@ ul.instagram-photos li img {
         display: grid;
         grid-auto-columns: 40% 60%;
         height: fit-content;
+    }
+
+    .current-job {
+        padding: 20px;
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
     }
 }
 
