@@ -2,6 +2,12 @@
   "Rus": {
     "achievements": [
       {
+        "datetime": "2019",
+        "title": "Преподаватель Android разработки",
+        "description": "Летний компьютерный лагерь для подготовки школьников старших классов к олимпиадам по информатике. Есть параллель промысленной разработки",
+        "status": "Старший преподаватель параллели P (Android разработка)"
+      },
+      {
         "datetime": "2018",
         "title": "Moscow Yandex academy",
         "description": "Школа мобильной разработки для молодых специалистов с опытом разработки на объектно-ориентированных языках программирования. Ориентация на андроид разработку совместно со специалистами Яндекса с реальными задачами",
@@ -35,6 +41,12 @@
   },
   "En": {
     "achievements": [
+       {
+        "datetime": "2019",
+        "title": "Lecturer of android development",
+        "description": "Summer computer camp for high school students with courses for preparation to informatic olympiads and software development",
+        "status": "Senior lecturer parallel P (Android development)"
+      },
       {
         "datetime": "2018",
         "title": "Moscow Yandex academy",
