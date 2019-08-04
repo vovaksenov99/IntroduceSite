@@ -439,6 +439,19 @@
         ]
       },
       {
+        "name": "Smart contact",
+        "imageLink": "",
+        "type" : "Коммерческий проект",
+        "customStyle":
+        { },
+        "badges":[],
+        "description": "Android приложение позволяющее ослеживать бизнес контакты, находить связи. Все данные синхронизируются с облаком",
+        "technologyStack": [
+          "Kotlin",
+          "Backendless cloud service"
+        ],
+      },
+      {
         "idName": "DeltaNews",
         "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
         "imageLink": "public/myResource/myImage/delta_news.png",
