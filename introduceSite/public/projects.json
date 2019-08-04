@@ -439,6 +439,7 @@
         ]
       },
       {
+        "idName": "smartContact",
         "name": "Smart contact",
         "imageLink": "",
         "type" : "Коммерческий проект",
@@ -450,6 +451,11 @@
           "Kotlin",
           "Backendless cloud service"
         ],
+        "modules": [
+        ],
+        "teams": [
+
+        ]
       },
       {
         "idName": "DeltaNews",
