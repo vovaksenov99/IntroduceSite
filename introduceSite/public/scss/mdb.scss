@@ -30,7 +30,6 @@
 // Bootstrap
 @import "core/bootstrap/functions";
 @import "core/bootstrap/variables";
-
 // CORE
 @import "core/mixins";
 // Your custom variables
@@ -42,7 +41,6 @@
 @import "core/typography";
 @import "core/masks";
 @import "core/waves";
-
 // FREE
 @import "free/animations-basic";
 @import "free/modules/animations-extended/module";
@@ -66,6 +64,5 @@
 @import "free/loader";
 // Free addons
 // @import "addons/datatables";
-
 // Your custom styles
 @import "custom-styles";

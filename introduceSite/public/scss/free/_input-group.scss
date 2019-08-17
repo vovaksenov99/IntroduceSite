@@ -5,14 +5,17 @@
       top: 0;
       margin-bottom: 0;
     }
+
     .input-group-text {
       background-color: $input-group-text-bgc;
+
       &.md-addon {
         border: none;
         background-color: transparent;
         font-weight: 500;
       }
     }
+
     .form-control {
       margin: 0;
       padding: $input-group-form-control-py $input-group-form-control-px;
@@ -31,13 +34,13 @@
     position: absolute;
     z-index: -1;
 
-    &:focus+label {
+    &:focus + label {
       border-color: #80bdff;
       outline: 0;
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
     }
 
-    +label {
+    + label {
       text-overflow: ellipsis;
       white-space: nowrap;
       cursor: pointer;
@@ -76,7 +79,7 @@
 }
 
 @media screen and (max-width: 50em) {
-  .input-default-js+label .span-browse {
+  .input-default-js + label .span-browse {
     display: block;
   }
 }

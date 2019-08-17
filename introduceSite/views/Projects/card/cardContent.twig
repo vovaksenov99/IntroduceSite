@@ -1,36 +1,37 @@
 {% block project %}
     {% set style =  project.customStyle %}
     <div id="{{ project.idName }}" style="transform: translate(0,-90px)"></div>
-    <div  class="card project-card project-item">
+    <div class="card project-card project-item">
         <div class="card-body card-grid"
              style="padding-top: 25px;background: {{ style.background }} no-repeat;background-size: 100% 100%;">
             <div style="grid-column: 1/1">
                 {% if project.name is not empty %}
-                <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
+                    <h1 class="{{ style.textColorClass }} font-weight-bold">{{ project.name }}</h1>
                 {% endif %}
                 <p class="{{ style.textColorClass }}" style="font-weight: 600">{{ project.type }}</p>
                 <p class="{{ style.textColorClass }}" style="font-size: 1.2rem">{{ project.description }}</p>
                 {% if project.technologyStack is not empty %}
-                <p class="{{ style.textColorClass }}"><strong>{{ res.projectStack }}: </strong>{{ project.technologyStack|join(', ') }}</p>
+                    <p class="{{ style.textColorClass }}"><strong>{{ res.projectStack }}
+                            : </strong>{{ project.technologyStack|join(', ') }}</p>
                 {% endif %}
                 {% if project.teams is not empty %}
-                <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
-                    {% for team in project.teams %}
-                        <a href="{{ team.link }}">{{ team.name }}</a>
-                    {% endfor %}
-                </p>
+                    <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
+                        {% for team in project.teams %}
+                            <a href="{{ team.link }}">{{ team.name }}</a>
+                        {% endfor %}
+                    </p>
                 {% endif %}
-                {% if  project.more.text is not empty%}
-                <a href="{{ project.more.link}}" class="d-flex flex-row-reverse">
-                    <h5 class="waves-effect waves-light p-2 {{ style.textColorClass }}">{{ project.more.text}}<i
-                                class="fa fa-chevron-right" style="margin-left: 10px"></i></h5>
-                </a>
+                {% if  project.more.text is not empty %}
+                    <a href="{{ project.more.link }}" class="d-flex flex-row-reverse">
+                        <h5 class="waves-effect waves-light p-2 {{ style.textColorClass }}">{{ project.more.text }}<i
+                                    class="fa fa-chevron-right" style="margin-left: 10px"></i></h5>
+                    </a>
                 {% endif %}
                 {% for badge in project.badges %}
-                <a href="{{ badge.link }}">
-                    <img src="{{ badge.image }}" class="img-fluid"
-                         style="max-width: 150px"/>
-                </a>
+                    <a href="{{ badge.link }}">
+                        <img src="{{ badge.image }}" class="img-fluid"
+                             style="max-width: 150px"/>
+                    </a>
                 {% endfor %}
                 {% block modules %}
                     {% include './modules.twig' with {res:res, modules: project.modules, style:style} %}

@@ -1,4 +1,3 @@
-
 let frontendController = (function (self) {
     self.setLang = function (lang) {
         return

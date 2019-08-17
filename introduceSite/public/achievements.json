@@ -4,7 +4,7 @@
       {
         "datetime": "2019",
         "title": "Преподаватель Android разработки",
-        "description": "Летний компьютерный лагерь для подготовки школьников старших классов к олимпиадам по информатике. Есть параллель промышленной разработки",
+        "description": "<a href='https://sicamp.ru/'>Летний компьютерный лагерь</a> для подготовки школьников старших классов к олимпиадам по информатике. Есть параллель промышленной разработки",
         "status": "Старший преподаватель параллели P (Android разработка)"
       },
       {
@@ -41,7 +41,7 @@
   },
   "En": {
     "achievements": [
-       {
+      {
         "datetime": "2019",
         "title": "Lecturer of android development",
         "description": "Summer computer camp for high school students with courses for preparation to informatic olympiads and software development",

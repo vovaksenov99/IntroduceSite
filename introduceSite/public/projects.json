@@ -1,13 +1,12 @@
 {
-  "En":{
+  "En": {
     "projects": [
       {
         "name": "Akscorp private gallery",
         "imageLink": "",
-        "type" : "Private project",
-        "customStyle":
-        { },
-        "badges":[],
+        "type": "Private project",
+        "customStyle": {},
+        "badges": [],
         "description": "A protected android gallery with the function of finding similar images. An important feature is a simple and quick job",
         "technologyStack": [
           "Kotlin"
@@ -18,10 +17,9 @@
             "link": ""
           }
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
         "modules": [
         ]
@@ -29,10 +27,9 @@
       {
         "name": "Smart contact",
         "imageLink": "",
-        "type" : "Commercial project",
-        "customStyle":
-        { },
-        "badges":[],
+        "type": "Commercial project",
+        "customStyle": {},
+        "badges": [],
         "description": "Android application allows you to track the business contacts. It's working on the basis of contacts. All data is synchronized with the cloud.",
         "technologyStack": [
           "Kotlin",
@@ -44,10 +41,9 @@
             "link": ""
           }
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
         "modules": [
         ]
@@ -55,10 +51,9 @@
       {
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
-        "type" : "Open source",
-        "customStyle":
-        { },
-        "badges":[],
+        "type": "Open source",
+        "customStyle": {},
+        "badges": [],
         "description": "Simple and fast editor for notes with cloud synchronization",
         "technologyStack": [
           "PHP",
@@ -72,10 +67,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/codex.notes"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/codex.notes"
         },
         "modules": [
           {
@@ -91,13 +85,12 @@
       {
         "name": "HAWK.SO",
         "imageLink": "public/myResource/myImage/hawk.png",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "#2e2e3c",
           "textColorClass": "white-text"
         },
-        "badges":[],
+        "badges": [],
         "description": "Fast and lightweight errors tracking service. Catchers for JavaScript, Python, PHP, Node.js, Swift, Java Android, Kotlin are available.",
         "technologyStack": [
           "NodeJS",
@@ -110,10 +103,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/hawk"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/hawk"
         },
         "modules": [
           {
@@ -134,17 +126,15 @@
           }
         ]
       },
-
       {
         "name": "Capella",
         "imageLink": "public/myResource/myImage/capella.png",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[],
+        "badges": [],
         "description": "Cloud service for image storage and delivery. Upload files and apply image-filters on the fly with simple API",
         "technologyStack": [
           "PHP",
@@ -156,10 +146,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/capella"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/capella"
         },
         "modules": [
           {
@@ -174,17 +163,16 @@
       },
       {
         "name": "<span style=\"color: red\">Y</span>andex Translator",
-        "type" : "Open source",
+        "type": "Open source",
         "imageLink": "public/myResource/myImage/translator_yandex.jpg",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "url('public/myResource/myImage/background_translator.jpg')",
           "textColorClass": "black-text"
         },
-        "badges":[
+        "badges": [
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
+            "image": "public/myResource/myImage/google_play_badge.png",
+            "link": "https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
           }
         ],
         "description": "A job for the internship in Yandex. I used the Yandex API to create simple and lightweight translator which supports android versions up to 2.2",
@@ -195,26 +183,24 @@
         "teams": [
           {
             "name": "It's my project",
-            "link":""
+            "link": ""
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/Translator"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/Translator"
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "name": "Neural network",
         "imageLink": "",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[ ],
+        "badges": [],
         "description": "Open neural network with extensible architecture and status logging",
         "technologyStack": [
           "C#"
@@ -222,29 +208,27 @@
         "teams": [
           {
             "name": "It's my project",
-            "link":""
+            "link": ""
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/NeuronNetwork"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/NeuronNetwork"
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "name": "BlueBoard",
         "imageLink": "public/myResource/myImage/blueBoard.png",
-        "type" : "Private project",
-        "customStyle":
-        {
+        "type": "Private project",
+        "customStyle": {
           "background": "url('public/myResource/myImage/background_blueBoard.png')",
           "textColorClass": "black-text"
         },
-        "badges":[
+        "badges": [
           {
-            "image":"",
-            "link":""
+            "image": "",
+            "link": ""
           }
         ],
         "description": "The system combines the functionality of message boards and project management systems",
@@ -256,29 +240,27 @@
         "teams": [
           {
             "name": "It's my project",
-            "link":""
+            "link": ""
           }
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "name": "Up, up only!",
-        "type" : "Private project",
+        "type": "Private project",
         "imageLink": "public/myResource/myImage/up_up_only.png",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "url('public/myResource/myImage/background_up_up_only.png')",
           "textColorClass": "black-text"
         },
-        "badges":[
+        "badges": [
           {
-            "image":"",
-            "link":""
+            "image": "",
+            "link": ""
           }
         ],
         "description": "Small platformer android game",
@@ -288,26 +270,24 @@
         "teams": [
           {
             "name": "It's my project",
-            "link":""
+            "link": ""
           }
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "name": "MedicalRNN",
         "imageLink": "public/myResource/myImage/medicalRNN.png",
-        "type" : "Private project",
-        "customStyle":
-        {
+        "type": "Private project",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[ ],
+        "badges": [],
         "description": "Service to identify and predict the development of myopia (myopia) with the help of neural networks",
         "technologyStack": [
           "python",
@@ -316,15 +296,14 @@
         "teams": [
           {
             "name": "It's my project",
-            "link":""
+            "link": ""
           }
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       }
     ]
   },
@@ -334,13 +313,12 @@
         "idName": "AkscorpPrivateGallery",
         "name": "Akscorp private gallery",
         "imageLink": "https://lh3.googleusercontent.com/C-l3HwYcBG3j5hRiWM27uCUM7kUXU26CCHDkFxRYgDno3VQC2EfMZyHSCVJEu6ismQ=w3840-h1780-rw",
-        "type" : "Private project",
-        "customStyle":
-        { },
-        "badges":[
+        "type": "Private project",
+        "customStyle": {},
+        "badges": [
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.privategallery.akscorp.privategalleryandroid"
+            "image": "public/myResource/myImage/google_play_badge.png",
+            "link": "https://play.google.com/store/apps/details?id=com.privategallery.akscorp.privategalleryandroid"
           }
         ],
         "description": "Простая андроид галерея с функцией поиска похожих изображений. Акцент сделан на простую и быструю работу. При входе в приложение можно поставить пинкод. Так же предусмотрено резервное копирвование в архив.",
@@ -349,10 +327,9 @@
         ],
         "teams": [
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
         "modules": [
         ]
@@ -361,13 +338,12 @@
         "idName": "YandexTranslator",
         "name": "<span style=\"color: red\">Y</span>andex Translator",
         "imageLink": "public/myResource/myImage/translator_yandex.jpg",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[],
+        "badges": [],
         "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
         "technologyStack": [
           "Java",
@@ -375,24 +351,22 @@
         ],
         "teams": [
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/Translator"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/Translator"
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "idName": "CoinSpace",
         "name": "CoinSpace",
         "imageLink": "https://lh3.googleusercontent.com/1dS68ItV8MNkqgOEzhVcXqQ7ua5scbdKPm7YcbHg1pyk4C2ns47fn6QrZV4cL5LqFIw=w3840-h1780-rw",
-        "type" : "Парный проект",
-        "customStyle":
-        { },
-        "badges":[
+        "type": "Парный проект",
+        "customStyle": {},
+        "badges": [
           {
-            "image":"public/myResource/myImage/google_play_badge.png",
-            "link":"https://play.google.com/store/apps/details?id=com.akscorp.coinspace"
+            "image": "public/myResource/myImage/google_play_badge.png",
+            "link": "https://play.google.com/store/apps/details?id=com.akscorp.coinspace"
           }
         ],
         "description": "Простое приложение для отслеживание расходов/доходов. Поддерживает несколько счетов и шаблоны для быстрых операций. Также приложение позволяет настроить переодические операции.",
@@ -403,12 +377,10 @@
           "Room"
         ],
         "teams": [
-
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/CoinSpace"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/CoinSpace"
         },
         "modules": [
         ]
@@ -417,10 +389,9 @@
         "idName": "YandexSchoolApp",
         "name": "YandexSchoolApp",
         "imageLink": "public/myResource/myImage/yandex_school.png",
-        "type" : "Командный проект",
-        "customStyle":
-        { },
-        "badges":[
+        "type": "Командный проект",
+        "customStyle": {},
+        "badges": [
         ],
         "description": "Приложение академии яндекса для внутреннего использования. Позволяет управлять оповещениями, мероприятиями, заданиями и материалами в рамках школы. Для удобства добавлен функционал проведения опросов и поиск важных мест на карте. Вход в приложение производится через YandexPassport.API",
         "technologyStack": [
@@ -430,10 +401,8 @@
           "Cicerone"
         ],
         "teams": [
-
         ],
-        "more":
-        {
+        "more": {
         },
         "modules": [
         ]
@@ -442,10 +411,9 @@
         "idName": "smartContact",
         "name": "Smart contact",
         "imageLink": "",
-        "type" : "Коммерческий проект",
-        "customStyle":
-        { },
-        "badges":[],
+        "type": "Коммерческий проект",
+        "customStyle": {},
+        "badges": [],
         "description": "Android приложение позволяющее ослеживать бизнес контакты, находить связи. Все данные синхронизируются с облаком",
         "technologyStack": [
           "Kotlin",
@@ -454,18 +422,15 @@
         "modules": [
         ],
         "teams": [
-
         ]
       },
       {
         "idName": "DeltaNews",
         "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
         "imageLink": "public/myResource/myImage/delta_news.png",
-        "type" : "Коммерческий проект",
-        "customStyle":
-        { },
-        "badges":[
-
+        "type": "Коммерческий проект",
+        "customStyle": {},
+        "badges": [
         ],
         "description": "Caйт с новостями госзакупок. <a href=\"https://delta.news\">Delta.News</a>",
         "technologyStack": [
@@ -473,12 +438,10 @@
           "Javascript"
         ],
         "teams": [
-
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
         "modules": [
         ]
@@ -487,10 +450,9 @@
         "idName": "CodeXNotes",
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
-        "type" : "Open source",
-        "customStyle":
-        { },
-        "badges":[],
+        "type": "Open source",
+        "customStyle": {},
+        "badges": [],
         "description": "Простой и быстрый редактор для заметок с простой облачной синхронизацией",
         "technologyStack": [
           "PHP",
@@ -504,10 +466,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/codex.notes"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/codex.notes"
         },
         "modules": [
           {
@@ -524,13 +485,12 @@
         "idName": "HawkSo",
         "name": "HAWK.SO",
         "imageLink": "public/myResource/myImage/hawk.png",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "#2e2e3c",
           "textColorClass": "white-text"
         },
-        "badges":[],
+        "badges": [],
         "description": "Быстрый и легкий сервис для отслеживания ошибок. Для отлова ошибок доступны следующие модули JavaScript, Python, PHP, Node.js, Swift, Java Android, Kotlin.",
         "technologyStack": [
           "NodeJS",
@@ -543,10 +503,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/hawk"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/hawk"
         },
         "modules": [
           {
@@ -567,18 +526,16 @@
           }
         ]
       },
-
       {
         "idName": "Capella",
         "name": "Capella",
         "imageLink": "public/myResource/myImage/capella.png",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[],
+        "badges": [],
         "description": "Облачный сервис для доставки и хранения изображений. Доступны различные фильтры для изображений и простое API",
         "technologyStack": [
           "PHP",
@@ -590,10 +547,9 @@
             "link": "https://ifmo.su"
           }
         ],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/codex-team/capella"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/codex-team/capella"
         },
         "modules": [
           {
@@ -606,44 +562,40 @@
           }
         ]
       },
-
       {
         "idName": "NeuralNetwork",
         "name": "Neural network",
         "imageLink": "",
-        "type" : "Open source",
-        "customStyle":
-        {
+        "type": "Open source",
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[ ],
+        "badges": [],
         "description": "Глубокая нейронная сеть собственной реализации с логированием, выводом состояний и расширяемой архитектурой",
         "technologyStack": [
           "C#"
         ],
         "teams": [],
-        "more":
-        {
-          "text":"Read more on github",
-          "link":"https://github.com/vovaksenov99/NeuronNetwork"
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/NeuronNetwork"
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "idName": "BlueBoard",
         "name": "BlueBoard",
-        "type" : "Private project",
+        "type": "Private project",
         "imageLink": "public/myResource/myImage/blueBoard.png",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[
+        "badges": [
           {
-            "image":"",
-            "link":""
+            "image": "",
+            "link": ""
           }
         ],
         "description": "Система совмещающая в себе функциональность как доски объявлений, так и системы управления проектами",
@@ -653,27 +605,25 @@
         ],
         "teams": [
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "idName": "UpUpOnly",
         "name": "Up, up only!",
-        "type" : "Private project",
+        "type": "Private project",
         "imageLink": "public/myResource/myImage/up_up_only.png",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[
+        "badges": [
           {
-            "image":"",
-            "link":""
+            "image": "",
+            "link": ""
           }
         ],
         "description": "Небольшая андроид игра платформер",
@@ -682,57 +632,52 @@
         ],
         "teams": [
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "idName": "MedicalRNN",
         "name": "MedicalRNN",
-        "type" : "Private project",
+        "type": "Private project",
         "imageLink": "public/myResource/myImage/medicalRNN.png",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges":[ ],
-        "description": "Сервис по выявлению и прогнозированию развития близорукости (миопии) с помощью нейронных сетей",
+        "badges": [],
+        "description": "Сервис по выявлению и прогнозированию развития близорукости (миопии) с помощью нейронных сетей. <br><br>СМИ: <a href='http://inno.gov.spb.ru/news28/postid/announce/3034'>Публикация 1</a>, <a href='http://inno.gov.spb.ru/news28/postid/announce/3034'>Публикация 2</a> ",
         "technologyStack": [
           "python",
           "keras"
         ],
         "teams": [
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
-        "modules": [ ]
+        "modules": []
       },
       {
         "idName": "smallModules",
         "name": "",
-        "type" : "",
+        "type": "",
         "imageLink": "",
-        "customStyle":
-        {
+        "customStyle": {
           "background": "",
           "textColorClass": ""
         },
-        "badges":[ ],
+        "badges": [],
         "description": "",
-        "technologyStack":  [],
+        "technologyStack": [],
         "teams": [
         ],
-        "more":
-        {
-          "text":"",
-          "link":""
+        "more": {
+          "text": "",
+          "link": ""
         },
         "modules": [
           {

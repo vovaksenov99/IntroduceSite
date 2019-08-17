@@ -4,22 +4,27 @@
   display: inline-block;
   width: 60px;
   height: 34px;
+
   input {
     display: none;
+
     &:checked {
       + .slider {
         background-color: #2196F3;
+
         &:before {
           transform: translateX(26px);
         }
       }
     }
+
     &:focus {
       + .slider {
         box-shadow: 0 0 1px #2196F3;
       }
     }
   }
+
   .slider {
     position: absolute;
     cursor: pointer;
@@ -30,6 +35,7 @@
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+
     &:before {
       position: absolute;
       content: "";
@@ -41,8 +47,10 @@
       -webkit-transition: .4s;
       transition: .4s;
     }
+
     &.round {
       border-radius: 34px;
+
       &:before {
         border-radius: 50%;
       }

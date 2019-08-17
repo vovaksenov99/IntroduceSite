@@ -13,25 +13,16 @@
                 <li class="nav-item">
                     <a class="nav-link" onclick="frontendController.href('/projects');">{{ res.projects }}</a>
                 </li>
-                <!--
-            <li class="nav-item">
-                <a class="nav-link" onclick="frontendController.href('/teams')">{{ res.teams }}</a>
-            </li>
--->
                 <li class="nav-item">
                     <a class="nav-link" onclick="frontendController.href('/contacts');">{{ res.contacts }}</a>
                 </li>
-
             </ul>
             <div>
-                <button class="btn btn-primary" style="" onclick="window.location = location.protocol + '//' + location.host+'/public/AksenovVladimirCV.pdf'"><i class="fas fa-cloud-download-alt"></i> Сгенерировать в PDF</button>
+                <button class="btn btn-primary" style=""
+                        onclick="window.location = location.protocol + '//' + location.host+'/public/AksenovVladimirCV.pdf'">
+                    <i class="fas fa-cloud-download-alt"></i>Скачать в PDF
+                </button>
             </div>
-            <!--
-           <div style="display: flex;font-size: 0.9rem;">
-               <div  class="waves-effect waves-light lang-button white-text" role="button" onclick="frontendController.setLang('Rus');">Rus</div>
-               <div class="waves-effect waves-light lang-button white-text" role="button" onclick="frontendController.setLang('En');">En</div>
-
-             -->
         </div>
 
     </div>

@@ -2,6 +2,7 @@
 .navbar {
   box-shadow: $z-depth-1;
   font-weight: $navbar-font-weight;
+
   form {
     .md-form {
       input {
@@ -9,29 +10,36 @@
       }
     }
   }
+
   .breadcrumb {
     margin: 0;
     padding: $navbar-breadcrumb-padding-top 0 0 $navbar-breadcrumb-padding-left;
     background-color: inherit;
     font-size: $navbar-double-font-size;
     font-weight: $navbar-font-weight;
+
     .breadcrumb-item {
       color: $white-base;
+
       &.active {
         color: $navbar-breadcrumb-color;
       }
+
       &:before {
         color: $navbar-breadcrumb-color;
       }
     }
   }
+
   .navbar-toggler {
     outline: 0;
     border-width: 0;
   }
+
   .nav-flex-icons {
     flex-direction: row;
   }
+
   .container {
     @media (max-width: $medium-screen) {
       width: 100%;
@@ -40,33 +48,40 @@
       }
     }
   }
+
   .nav-item {
     .nav-link {
       display: block;
+
       &.disabled {
         &:active {
           pointer-events: none;
         }
       }
+
       .fas, .fab, .far {
         padding-right: $navbar-flex-icons-padding-lg;
         padding-left: $navbar-flex-icons-padding-lg;
       }
+
       @media (max-width: $medium-screen) {
         padding-right: $navbar-flex-icons-padding-md;
         padding-left: $navbar-flex-icons-padding-md;
       }
     }
   }
+
   .dropdown-menu {
     position: absolute !important;
     margin-top: 0;
+
     a {
       padding: $navbar-dropdown-menu-padding;
       font-size: $navbar-dropdown-font-size;
       font-weight: $navbar-font-weight;
       color: $black;
     }
+
     form {
       @media (max-width: $small-screen) {
         width: 17rem;
@@ -76,12 +91,15 @@
       }
     }
   }
+
   &.navbar-light {
     @include make-navbar($navbar-light-disabled-color, $navbar-light-toggler-icon, $black, $navbar-light-hover-color, $navbar-light-bg-active-color);
   }
+
   &.navbar-dark {
     @include make-navbar($navbar-dark-disabled-color, $navbar-dark-toggler-icon, $white, $navbar-dark-hover-color, $navbar-dark-bg-active-color);
   }
+
   &.scrolling-navbar {
     @media (min-width: $small-screen) {
       transition: $navbar-scrolling-transition;

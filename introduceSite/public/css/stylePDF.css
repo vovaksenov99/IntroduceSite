@@ -151,9 +151,8 @@ ul.instagram-photos li img {
 }
 
 .profile-photo {
-    height: 75vh;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
+    height: 75%;
+    width: 100%;
 }
 
 /**
@@ -188,7 +187,7 @@ cardBlock:first-child {
     padding-left: 20px;
 }
 
-.skills-name h5{
+.skills-name h5 {
     font-weight: 400;
 }
 
@@ -216,7 +215,7 @@ html {
     font-size: 1.8em;
 }
 
-.skill-description p{
+.skill-description p {
     font-weight: 400;
     font-size: 1.2em;
 }

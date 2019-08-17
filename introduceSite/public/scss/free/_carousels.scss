@@ -5,12 +5,15 @@
     width: $carousel-control-icon-width;
     height: $carousel-control-icon-height;
   }
+
   .carousel-control-prev-icon {
     background-image: $carousel-control-prev-icon;
   }
+
   .carousel-control-next-icon {
     background-image: $carousel-control-next-icon;
   }
+
   .carousel-indicators {
     li {
       width: $carousel-indicators-width;
@@ -20,23 +23,27 @@
     }
   }
 }
+
 .carousel-fade {
   .carousel-item {
     opacity: 0;
     transition-duration: $carousel-transition-duration;
     transition-property: opacity;
   }
+
   .carousel-item.active,
   .carousel-item-next.carousel-item-left,
   .carousel-item-prev.carousel-item-right {
     opacity: 1;
   }
+
   .carousel-item-left,
   .carousel-item-right {
     &.active {
       opacity: 0;
     }
   }
+
   .carousel-item-next,
   .carousel-item-prev,
   .carousel-item.active,

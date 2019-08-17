@@ -21,8 +21,7 @@
       .rgba-#{$color_name}-strong:after {
         background-color: rgba($color_value, .7);
       }
-    }
-    @else {
+    } @else {
       @if $enable_full_palette {
         .#{$color_name}.#{$color_type} {
           background-color: $color_value !important;
@@ -50,12 +49,14 @@
 @each $name, $val in $gradients {
   @include make-gradient($name, $val);
 }
+
 @each $name, $val in $gradients-rgba {
   @include make-gradient-rgba($name, $val);
 }
 
 .dark-grey-text {
   color: #4f4f4f !important;
+
   &:hover,
   &:focus {
     color: #4f4f4f !important;
@@ -66,6 +67,7 @@
 .hoverable {
   box-shadow: none;
   transition: $transition-hoverable;
+
   &:hover {
     box-shadow: $z-depth-2;
     transition: $transition-hoverable;
@@ -76,21 +78,27 @@
 .z-depth-0 {
   box-shadow: none !important;
 }
+
 .z-depth-1 {
   box-shadow: $z-depth-1 !important;
 }
+
 .z-depth-1-half {
   box-shadow: $z-depth-1-half !important;
 }
+
 .z-depth-2 {
   box-shadow: $z-depth-2 !important;
 }
+
 .z-depth-3 {
   box-shadow: $z-depth-3 !important;
 }
+
 .z-depth-4 {
   box-shadow: $z-depth-4 !important;
 }
+
 .z-depth-5 {
   box-shadow: $z-depth-5 !important;
 }
@@ -107,11 +115,13 @@ a {
   text-decoration: none;
   color: $link-color;
   transition: $transition-basic;
+
   &:hover {
     text-decoration: none;
     color: $link-hover-color;
     transition: $transition-basic;
   }
+
   &.disabled,
   &:disabled {
     &:hover {

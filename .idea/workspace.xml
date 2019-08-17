@@ -3,11 +3,86 @@
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/achievements.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/achievements.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/addons/datatables.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/addons/datatables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/mdb.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/mdb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/mdb.lite.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/mdb.lite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/modules/animations-extended.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/modules/animations-extended.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/stylePDF.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/stylePDF.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/img/lightbox/default-skin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/img/lightbox/default-skin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/addons/datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/addons/datatables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/html2canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/html2canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/mdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/mdb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/default-file-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/default-file-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/enhanced-modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/enhanced-modals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/forms-free.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/forms-free.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/jquery.easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/scrolling-navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/waves.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/waves.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/modules/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/modules/wow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/cup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/cup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/git.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/googlePlay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/googlePlay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/php.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/php.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/stack-overflow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/stack-overflow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/web.svg" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/myResource/myImage/web.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/public/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/_custom-skin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/_custom-skin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/addons/_datatables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/addons/_datatables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_masks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_masks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/_waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/_waves.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/core/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_animations-basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_animations-basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_carousels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_carousels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_footers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_loader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_msc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_msc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_navbars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_steppers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_steppers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_switch.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/modules/animations-extended/_module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/mdb.lite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/mdb.lite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/scss/mdb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/scss/mdb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/routing/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/routing/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Contacts/contacts.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/events.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/events.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/achievement.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/achievement.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/achievements.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/achievements.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/events.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/events.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Teams/teams.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Teams/teams.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/layout.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/navBar.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/navBar.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,78 +104,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="112" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
-              <folding>
-                <element signature="e#1226#1249#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/projects.twig">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="e#102#146#0#HTML" expanded="true" />
-                <element signature="e#412#434#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="201" column="14" selection-start-line="201" selection-start-column="14" selection-end-line="201" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="736" column="94" selection-start-line="736" selection-start-column="94" selection-end-line="736" selection-end-column="94" />
-              <folding>
-                <element signature="n#!!block;n#En#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="292">
+              <caret line="44" column="528" selection-start-line="44" selection-start-column="528" selection-end-line="44" selection-end-column="528" />
             </state>
           </provider>
         </entry>
@@ -118,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vendor</find>
-      <find>html2pdf</find>
       <find>setNavBarColor</find>
       <find>align</find>
       <find>ResolveFont</find>
@@ -148,6 +163,8 @@
       <find>Работаю с ...</find>
       <find>teams</find>
       <find>modules</find>
+      <find>Сгене</find>
+      <find>profile-phot</find>
     </findStrings>
     <replaceStrings>
       <replace>projects</replace>
@@ -170,8 +187,6 @@
         <option value="$PROJECT_DIR$/introduceSite/routing/getPDF.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/profile.js" />
         <option value="$PROJECT_DIR$/introduceSite/config.json" />
-        <option value="$PROJECT_DIR$/introduceSite/public/css/stylePDF.css" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/events.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/achievements.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFVersion.js" />
@@ -179,8 +194,6 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Main/achievement.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/event.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/event.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/events.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/bogdan.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/WebBogdan/footer.twig" />
@@ -202,16 +215,20 @@
         <option value="$PROJECT_DIR$/introduceSite/config.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/layout.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/projects.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/projects.json" />
+        <option value="$PROJECT_DIR$/introduceSite/public/css/stylePDF.css" />
+        <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/achievements.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
       </list>
     </option>
   </component>
@@ -231,10 +248,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="40" />
-    <option name="width" value="2800" />
-    <option name="height" value="1920" />
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,44 +277,11 @@
               <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,12 +466,15 @@
       <workItem from="1549292023003" duration="1653000" />
       <workItem from="1559248632808" duration="2810000" />
       <workItem from="1560284946123" duration="1861000" />
-      <workItem from="1560607652726" duration="3174000" />
+      <workItem from="1560607652726" duration="3774000" />
+      <workItem from="1560868209976" duration="598000" />
+      <workItem from="1566025380640" duration="3404000" />
+      <workItem from="1566029173213" duration="1079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372578000" />
+    <option name="totallyTimeSpent" value="378259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,10 +486,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.12486828" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.124406956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5156695" side_tool="true" weight="0.17448603" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -539,7 +525,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js</url>
-          <line>4</line>
+          <line>3</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -554,7 +540,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
@@ -585,27 +571,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/achievement.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="50" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/achievements.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/event.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -696,13 +661,6 @@
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig" />
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/admin.twig" />
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/layout.twig" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/build/bundle.js" />
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFVersion.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -732,22 +690,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -771,27 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/achievements.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/events.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -803,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -827,34 +743,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="528">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/achievements.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="201" column="14" selection-start-line="201" selection-start-column="14" selection-end-line="201" selection-end-column="14" />
+        <state relative-caret-position="432">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="112" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
-          <folding>
-            <element signature="e#1226#1249#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -862,20 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Projects/card/modules.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#102#146#0#HTML" expanded="true" />
-            <element signature="e#412#434#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,13 +778,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="190" column="18" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="736" column="94" selection-start-line="736" selection-start-column="94" selection-end-line="736" selection-end-column="94" />
+        <state relative-caret-position="438">
+          <caret line="650" column="128" selection-start-line="650" selection-start-column="128" selection-end-line="650" selection-end-column="128" />
           <folding>
             <element signature="n#!!block;n#En#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/teams">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/hobbies">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/contacts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/projects">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/achievements.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="44" column="528" selection-start-line="44" selection-start-column="528" selection-end-line="44" selection-end-column="528" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
         </state>
       </provider>
     </entry>

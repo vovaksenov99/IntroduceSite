@@ -23,8 +23,7 @@
     @media (min-width: $min) {
       @content;
     }
-  }
-  @else {
+  } @else {
     @content;
   }
 }
@@ -37,8 +36,7 @@
     @media (max-width: $max) {
       @content;
     }
-  }
-  @else {
+  } @else {
     @content;
   }
 }
@@ -52,13 +50,11 @@
     @media (min-width: $min) and (max-width: $max) {
       @content;
     }
-  }
-  @else if $max==null {
+  } @else if $max==null {
     @include media-breakpoint-up($lower, $breakpoints) {
       @content;
     }
-  }
-  @else if $min==null {
+  } @else if $min==null {
     @include media-breakpoint-down($upper, $breakpoints) {
       @content;
     }
@@ -75,13 +71,11 @@
     @media (min-width: $min) and (max-width: $max) {
       @content;
     }
-  }
-  @else if $max==null {
+  } @else if $max==null {
     @include media-breakpoint-up($name, $breakpoints) {
       @content;
     }
-  }
-  @else if $min==null {
+  } @else if $min==null {
     @include media-breakpoint-down($name, $breakpoints) {
       @content;
     }
@@ -195,9 +189,11 @@
 @mixin float-left {
   float: left !important;
 }
+
 @mixin float-right {
   float: right !important;
 }
+
 @mixin float-none {
   float: none !important;
 }
@@ -259,50 +255,57 @@
 @function set-notification-text-color($color) {
   @if (lightness($color) > 80) {
     @return $black-base; // Lighter backgorund, return dark color
-  }
-  @else {
+  } @else {
     @return $white-base; // Darker background, return light color
   }
 }
 
 // Make button
-@mixin make-button ($name, $color) {
+@mixin make-button($name, $color) {
   .btn-#{$name} {
     background-color: $color !important;
     color: set-notification-text-color($color) !important;
+
     &:hover {
       background-color: lighten($color, 5%);
     }
+
     &:focus,
     &.focus {
       box-shadow: $z-depth-1-half;
     }
+
     &:focus,
     &:active,
     &.active {
       background-color: darken($color, 20%);
     }
+
     &.dropdown-toggle {
       background-color: $color !important;
+
       &:hover,
       &:focus {
         background-color: lighten($color, 5%) !important;
       }
     }
+
     &:not([disabled]):not(.disabled):active,
     &:not([disabled]):not(.disabled).active,
-    .show>&.dropdown-toggle {
+    .show > &.dropdown-toggle {
       box-shadow: $z-depth-1-half;
       background-color: darken($color, 20%) !important;
     }
+
     &:not([disabled]):not(.disabled):active:focus,
     &:not([disabled]):not(.disabled).active:focus,
-    .show>&.dropdown-toggle:focus {
+    .show > &.dropdown-toggle:focus {
       box-shadow: $z-depth-1-half;
     }
   }
   .#{$name}-ic {
     color: $color !important;
+
     &:hover,
     &:focus {
       color: $color;
@@ -311,11 +314,12 @@
 }
 
 // Make outline button
-@mixin make-outline-button ($name, $color) {
+@mixin make-outline-button($name, $color) {
   .btn-outline-#{$name} {
     border: 2px solid $color !important;
     background-color: transparent !important;
     color: $color !important;
+
     &:hover,
     &:focus,
     &:active,
@@ -325,20 +329,23 @@
       background-color: transparent !important;
       color: $color !important;
     }
+
     &:not([disabled]):not(.disabled):active,
     &:not([disabled]):not(.disabled).active,
-    .show>&.dropdown-toggle {
+    .show > &.dropdown-toggle {
       box-shadow: $z-depth-1-half;
       background-color: transparent !important;
       border-color: $color !important;
     }
+
     &:not([disabled]):not(.disabled):active:focus,
     &:not([disabled]):not(.disabled).active:focus,
-    .show>&.dropdown-toggle:focus {
+    .show > &.dropdown-toggle:focus {
       box-shadow: $z-depth-1-half;
     }
   }
 }
+
 // Make gradient
 @mixin make-gradient($name, $value) {
   .#{$name}-gradient {
@@ -360,6 +367,7 @@ $opacity: .9;
     &.#{$name}-gradient {
       transition: .5s ease;
       color: $white-base;
+
       &:hover,
       &:focus,
       &:active,
@@ -390,6 +398,7 @@ $opacity: .9;
   }
   label {
     font-size: $label-font-size;
+
     &.active {
       font-size: $label-active-font-size;
     }
@@ -397,15 +406,18 @@ $opacity: .9;
   .prefix {
     top: $top;
     font-size: $prefix-font-size;
-    ~input,
-    ~textarea {
+
+    ~ input,
+    ~ textarea {
       margin-left: $margin-left;
       width: $width;
     }
-    ~label {
+
+    ~ label {
       margin-left: $margin-left;
     }
-    ~.form-text {
+
+    ~ .form-text {
       margin-left: $margin-left-2;
     }
   }
@@ -418,6 +430,7 @@ $opacity: .9;
       .nav-link {
         &.disbled {
           color: $color-0;
+
           &:hover {
             color: $color-0;
           }
@@ -435,12 +448,15 @@ $opacity: .9;
       .nav-link {
         color: $color;
         transition: $navbar-nav-transition;
+
         &:hover {
           color: $color-2;
         }
       }
-      &.active>.nav-link {
+
+      &.active > .nav-link {
         background-color: $color-3;
+
         &:hover {
           color: $color;
         }
@@ -454,10 +470,12 @@ $opacity: .9;
     .md-form {
       input {
         border-bottom: 1px solid $color;
+
         &:focus:not([readonly]) {
           border-color: $input-md-focus-color;
         }
       }
+
       .form-control {
         color: $color;
         @include placeholder {
@@ -527,10 +545,11 @@ $opacity: .9;
 }
 
 //Make animation for progresss
-@mixin progress-animation-default($animation...){
+@mixin progress-animation-default($animation...) {
   animation: $animation;
 }
+
 //Make transform
-@mixin transform($transform...){
+@mixin transform($transform...) {
   transform: $transform;
 }

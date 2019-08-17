@@ -52,7 +52,7 @@ cardBlock:first-child {
     display: flex;
 }
 
-.skill-description p{
+.skill-description p {
     font-weight: 400;
     font-size: 1.2em;
 }
@@ -166,9 +166,8 @@ ul.instagram-photos li img {
     }
 
     .profile-photo {
-        height: 75vh;
-        margin-left: 50%;
-        transform: translate(-50%, 0);
+        height: 75%;
+        width: 100%;
     }
 }
 
@@ -184,10 +183,12 @@ ul.instagram-photos li img {
     }
 
     .profile-photo {
-        padding: 10%;
+        height: 75%;
         width: 100%;
-        margin-left: 50%;
-        transform: translate(-50%, 0);
+    }
+
+    .profile-image-container{
+        margin: 5%;
     }
 }
 

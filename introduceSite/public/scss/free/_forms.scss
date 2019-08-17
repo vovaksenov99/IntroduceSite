@@ -55,11 +55,13 @@
       color: $input-success-color;
       opacity: 1;
     }
+
     // Invalid input style
     &.invalid, &:focus.invalid {
       border-bottom: 1px solid $input-error-color;
       box-shadow: 0 1px 0 0 $input-error-color;
     }
+
     &.invalid + label:after, &:focus.invalid + label:after {
       content: attr(data-error);
       color: $input-error-color;
@@ -67,27 +69,32 @@
     }
 
     &.form-control.valid + label:after,
-    &.form-control:focus.valid + label:after  {
+    &.form-control:focus.valid + label:after {
       top: $input-label-valid-top;
     }
+
     &.form-control.invalid + label:after,
-    &.form-control:focus.invalid + label:after  {
+    &.form-control:focus.invalid + label:after {
       top: $input-label-invalid-top;
     }
+
     &.form-control-lg.valid + label:after,
-    &.form-control-lg:focus.valid + label:after  {
+    &.form-control-lg:focus.valid + label:after {
       top: $input-label-valid-top-lg;
     }
+
     &.form-control-lg.invalid + label:after,
-    &.form-control-lg:focus.invalid + label:after  {
+    &.form-control-lg:focus.invalid + label:after {
       top: $input-label-invalid-top-lg;
     }
+
     &.form-control-sm.valid + label:after,
-    &.form-control-sm:focus.valid + label:after  {
+    &.form-control-sm:focus.valid + label:after {
       top: $input-label-valid-top-sm;
     }
+
     &.form-control-sm.invalid + label:after,
-    &.form-control-sm:focus.invalid + label:after  {
+    &.form-control-sm:focus.invalid + label:after {
       top: $input-label-invalid-top-sm;
     }
   }
@@ -99,22 +106,27 @@
           color: $input-success-color !important;
         }
       }
+
       &:invalid {
         + label {
           color: $input-error-color !important;
         }
       }
     }
+
     .form-control {
       &:valid:focus {
         box-shadow: 0 1px 0 0 $input-success-color !important;
       }
+
       &:valid {
         border-color: $input-success-color !important;
       }
+
       &:invalid:focus {
         box-shadow: 0 1px 0 0 $input-error-color !important;
       }
+
       &:invalid {
         border-color: $input-error-color !important;
       }
@@ -129,10 +141,12 @@
     background-image: none;
     background-color: transparent;
     height: auto;
+
     &:focus {
       box-shadow: none;
       background: transparent;
     }
+
     &:disabled,
     &[readonly] {
       border-bottom: 1px solid $grey-lighten-1;
@@ -144,6 +158,7 @@
   position: relative;
   margin-top: $input-md-form-margin-top;
   margin-bottom: $input-md-form-margin-bottom;
+
   label {
     position: absolute;
     top: $input-label-top;
@@ -151,20 +166,25 @@
     transition: $input-label-transition;
     cursor: text;
     color: $input-label-color;
+
     &.active {
       transform: $input-label-active-transform;
     }
   }
+
   .prefix {
     position: absolute;
     transition: $input-prefix-transition;
+
     &.active {
       color: $input-md-focus-color;
     }
   }
+
   &.form-lg {
     @include make-input($input-validate-mb-lg, $input-label-font-size-lg, $input-label-active-font-size-lg, $input-prefix-top-lg, $input-prefix-font-size-lg, $input-prefix-margin-left-lg, $input-prefix-width-lg, $input-form-text-ml-lg);
   }
+
   &.form-sm {
     @include make-input($input-validate-mb-sm, $input-label-font-size-sm, $input-label-active-font-size-sm, $input-prefix-top-sm, $input-prefix-font-size-sm, $input-prefix-margin-left-sm, $input-prefix-width-sm, $input-form-text-ml-sm);
   }
@@ -176,10 +196,12 @@
       padding: $textarea-padding 0;
       resize: none;
     }
+
     &.md-textarea-auto {
       padding: 0;
       padding-top: $textarea-padding;
     }
+
     // Label color for textarea
     ~ label {
       &.active {
