@@ -410,12 +410,12 @@
       <workItem from="1560607652726" duration="3774000" />
       <workItem from="1560868209976" duration="598000" />
       <workItem from="1566025380640" duration="3404000" />
-      <workItem from="1566029173213" duration="2819000" />
+      <workItem from="1566029173213" duration="3418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379999000" />
+    <option name="totallyTimeSpent" value="380598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,8 +427,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.124406956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -437,7 +436,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23857301" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23857301" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
