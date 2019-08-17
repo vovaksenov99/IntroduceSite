@@ -648,7 +648,7 @@
           "textColorClass": "black-text"
         },
         "badges": [],
-        "description": "Сервис по выявлению и прогнозированию развития близорукости (миопии) с помощью нейронных сетей. <br><br>СМИ: <a href='http://inno.gov.spb.ru/news28/postid/announce/3034'>Публикация 1</a>, <a href='http://inno.gov.spb.ru/news28/postid/announce/3034'>Публикация 2</a> ",
+        "description": "Сервис по выявлению и прогнозированию развития близорукости (миопии) с помощью нейронных сетей. <br><br>СМИ: <a href='http://inno.gov.spb.ru/news28/postid/announce/3034'>Публикация 1</a>, <a href='https://moika78.ru/news/2018-04-06/22183-kakiey-vysokotekhnologichnyey-startapy-est-v-peterburge/'>Публикация 2</a> ",
         "technologyStack": [
           "python",
           "keras"
