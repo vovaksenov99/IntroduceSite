@@ -343,7 +343,12 @@
           "background": "",
           "textColorClass": "black-text"
         },
-        "badges": [],
+        "badges": [
+          {
+            "image": "public/myResource/myImage/google_play_badge.png",
+            "link": "https://play.google.com/store/apps/details?id=com.akscorp.yandextranslator2017&hl=ru"
+          }
+        ],
         "description": "Задание на стажировку в Яндекс. С использованием Yandex API был создан простой и легковестный переводчик с поддержкой версий андроид до 2.2",
         "technologyStack": [
           "Java",
