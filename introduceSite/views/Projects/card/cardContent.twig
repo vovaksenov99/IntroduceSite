@@ -17,7 +17,11 @@
                 {% if project.teams is not empty %}
                     <p class="{{ style.textColorClass }}"><strong>{{ res.teams }}: </strong>
                         {% for team in project.teams %}
-                            <a href="{{ team.link }}">{{ team.name }}</a>
+                            {% if team.link is not empty %}
+                                <a href="{{ team.link }}">{{ team.name }}</a>
+                            {% else %}
+                                <a>{{ team.name }}</a>
+                                {% endif %}
                         {% endfor %}
                     </p>
                 {% endif %}

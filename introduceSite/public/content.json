@@ -75,6 +75,10 @@
         "link": "/projects#AkscorpPrivateGallery"
       },
       {
+        "name": "Tomodachi",
+        "link": "/projects#tomodachi"
+      },
+      {
         "name": "CoinSpace",
         "link": "/projects#CoinSpace"
       },
@@ -103,6 +107,10 @@
       {
         "name": "DeltaNews",
         "link": "/projects#DeltaNews"
+      },
+      {
+        "name": "Wisdom page",
+        "link": "/projects#somewisdom"
       },
       {
         "name": "Cайт портфолио",

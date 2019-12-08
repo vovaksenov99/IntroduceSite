@@ -335,6 +335,31 @@
         ]
       },
       {
+        "idName": "tomodachi",
+        "name": "Tomodachi",
+        "imageLink": "public/myResource/myImage/tomodachi.png",
+        "type": "Коммерческий проект",
+        "customStyle": {
+          "background": "",
+          "textColorClass": ""
+        },
+        "badges": [
+        ],
+        "description": "Хочешь получать сообщения от своего кумира или просто улетного чувака, который живет в твоей голове? О_о \nПросто выбери имя и картинку и он или она будет время от времени напоминать о себе!",
+        "technologyStack": [
+          "Kotlin",
+          "Firebase"
+        ],
+        "teams": [
+          {
+            "name": "Code.this",
+            "link": ""
+          }
+        ],
+        "more": { },
+        "modules": []
+      },
+      {
         "idName": "YandexTranslator",
         "name": "<span style=\"color: red\">Y</span>andex Translator",
         "imageLink": "public/myResource/myImage/translator_yandex.jpg",
@@ -374,7 +399,7 @@
             "link": "https://play.google.com/store/apps/details?id=com.akscorp.coinspace"
           }
         ],
-        "description": "Простое приложение для отслеживание расходов/доходов. Поддерживает несколько счетов и шаблоны для быстрых операций. Также приложение позволяет настроить переодические операции.",
+        "description": "Простое приложение для отслеживания расходов/доходов. Поддерживает несколько счетов и шаблоны для быстрых операций. Также приложение позволяет настроить переодические операции.",
         "technologyStack": [
           "Kotlin",
           "RxJava",
@@ -412,6 +437,28 @@
         "modules": [
         ]
       },
+
+      {
+        "idName": "somewisdom",
+        "name": "⚜ Wisdom Page ⚜",
+        "imageLink": "public/myResource/myImage/wisdom-page.png",
+        "type": "Open source",
+        "customStyle": {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges": [],
+        "description": "Маленький проект для души, позволяющий поделиться своими мыслями в красивом и лаконичном оформлении на общей стене",
+        "technologyStack": [
+          "NodeJs"
+        ],
+        "teams": [],
+        "more": {
+          "text": "See page",
+          "link": "https://some-wisdom.herokuapp.com/"
+        },
+        "modules": []
+      },
       {
         "idName": "smartContact",
         "name": "Smart contact",
@@ -419,7 +466,7 @@
         "type": "Коммерческий проект",
         "customStyle": {},
         "badges": [],
-        "description": "Android приложение позволяющее ослеживать бизнес контакты, находить связи. Все данные синхронизируются с облаком",
+        "description": "Android приложение, позволяющее ослеживать бизнес контакты, находить связи. Все данные синхронизируются с облаком",
         "technologyStack": [
           "Kotlin",
           "Backendless cloud service"
@@ -458,7 +505,7 @@
         "type": "Open source",
         "customStyle": {},
         "badges": [],
-        "description": "Простой и быстрый редактор для заметок с простой облачной синхронизацией",
+        "description": "Простой и быстрый редактор для заметок с облачной синхронизацией",
         "technologyStack": [
           "PHP",
           "Twig",
