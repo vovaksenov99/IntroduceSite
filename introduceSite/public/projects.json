@@ -344,6 +344,10 @@
           "textColorClass": ""
         },
         "badges": [
+          {
+            "image": "public/myResource/myImage/google_play_badge.png",
+            "link": "https://play.google.com/store/apps/details?id=com.tomodachi.akscorp"
+          }
         ],
         "description": "Хочешь получать сообщения от своего кумира или просто улетного чувака, который живет в твоей голове? О_о \nПросто выбери имя и картинку и он или она будет время от времени напоминать о себе!",
         "technologyStack": [

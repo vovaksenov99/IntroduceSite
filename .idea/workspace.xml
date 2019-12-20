@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/achievements.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/achievements.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" afterDir="false" />
-    </list>
+    <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="39">
               <caret line="202" column="83" selection-start-line="202" selection-start-column="83" selection-end-line="202" selection-end-column="83" />
               <folding>
                 <element signature="e#10178#10227#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/footer.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -170,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/introduceSite/routing/utils.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/jsPdf.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/build/bundle.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/js/html2canvas.js" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/footer.twig" />
       </list>
     </option>
   </component>
@@ -487,12 +488,12 @@
       <workItem from="1568832696083" duration="1622000" />
       <workItem from="1571171586306" duration="822000" />
       <workItem from="1571847275743" duration="599000" />
-      <workItem from="1575827595652" duration="3426000" />
+      <workItem from="1575827595652" duration="3977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391837000" />
+    <option name="totallyTimeSpent" value="392388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +515,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3277592" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23857301" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23857301" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -651,9 +652,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/navBar.twig" />
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/footer.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/wisdomPageContent.json" />
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/index.twig" />
     <entry file="file://$PROJECT_DIR$/introduceSite/views/WisdomPage/admin.twig" />
@@ -874,11 +872,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="39">
           <caret line="202" column="83" selection-start-line="202" selection-start-column="83" selection-end-line="202" selection-end-column="83" />
           <folding>
             <element signature="e#10178#10227#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
