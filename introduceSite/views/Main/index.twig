@@ -1,13 +1,8 @@
 {% extends '../layout.twig' %}
 
-
-
 {% block content %}
-
-
-
     <div class="profile-card">
-    <div class="profile-info">
+        <div class="profile-info">
 
             <div>
                 <div class="view overlay hm-white-slight profile-image-container">
@@ -199,6 +194,9 @@
 
             </div>
         </div>
+
+        {% include './timeline.twig' with {res:res,timeline: timeline} %}
+
         <div style="display: inline-flex; margin-bottom: 15px">
             <img src="public/myResource/myImage/cup.svg" class="achievements-icon">
             <h3 style="padding-left: 10px; margin: 0px">{{ res.achievements }}</h3>
@@ -210,7 +208,6 @@
             <h3 style="padding-left: 10px; margin: 0px">{{ res.events }}</h3>
         </div>
         {% include './events.twig' with {res:res} %}
-
     </div>
 
     <script>

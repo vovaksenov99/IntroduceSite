@@ -42,18 +42,13 @@
                 </div>
             </div>
             </p>
-
-
         </div>
-
-
         <div class="text-center" style="margin: 50px">
             <div style="font-size: 1.5em;margin-bottom: 10px"><strong>{{ res.myFullName }}</strong></div>
             <div style="font-size: 1.2em;margin-bottom: 10px">{{ res.developer }}</div>
 
             <p class="card-text" style="">{{ res.myDescribe }}</p>
         </div>
-
 
         <div style="margin: 50px">
             <div class="">
@@ -77,12 +72,11 @@
         </div>
     </div>
 
+    {% include './timeline.twig' with {res:res,timeline: timeline} %}
 
     <div class="myContainer-page skills-name" style="font-size: 1em;">
 
         <h4 style="padding-left: 20px;margin-bottom: 30px">{{ res.skills }}</h4>
-
-
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Java</h5>

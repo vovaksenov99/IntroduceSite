@@ -1,0 +1,11 @@
+<li class="event" data-date="{{ event.from }} - {{ event.to }}">
+    <h3>{{ event.title }}</h3>
+    {% for line in event.lines %}
+        <p style="
+    {% if  loop.index == 1 %}
+            font-weight: 500;
+    {% endif %}
+            ">{{ line }}</p>
+
+    {% endfor %}
+</li>

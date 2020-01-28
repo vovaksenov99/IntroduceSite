@@ -1,0 +1,10 @@
+<div id="timeline-content">
+    <h1>{{ res.workExperience }}</h1>
+    <ul class="timeline">
+        {% for event in timeline.workExperience %}
+            <li>
+                {% include './timelineEvent.twig' with {event:event} %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>

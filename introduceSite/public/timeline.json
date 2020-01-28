@@ -1,0 +1,35 @@
+{
+  "Rus": {
+    "workExperience": [
+      {
+        "title": "Middle-Android developer",
+        "from": "Май, 2019",
+        "to": "Настоящее время",
+        "lines": [
+          " Разрабатываю приложения для крупных компаний (Мегафон, Лукойл и т.д) в составе IT отдела компании Touch Instinct",
+          "Занимаюсь внутренними задачами по общему улучшению кодовой базы, проектированию архитектуры",
+          "<a href=\"https://www.touchin.ru\">Touch Instinct</a>"
+        ]
+      },
+      {
+        "title": "Junior-Android developer, Web developer",
+        "from": "2017",
+        "to": "2018",
+        "lines": [
+          "Занимался Open Source проектами в составе команды Codex",
+          "Реализовывалась front/back часть хостинг платформы изображений <a href=\"https://capella.pics\">Capella</a>. Был ответственен за реализацию android модуля для системы трекинга ошибок <a href=\"https://hawk.so\">Hawk</a>",
+          "<a href=\"https://codex.so\">Codex Team</a>"
+        ]
+      },
+      {
+        "title": "Android developer, Backend developer",
+        "from": "2017",
+        "to": "2019",
+        "lines": [
+          "Занимался заказами от компаний и частных лиц. Был ответственным за всю разработку, взаимодействие с заказчиком.",
+          "Были разработаны приложения для таких компаний как <a href=\"https://meander-group.ru\">Meander</a>,  <a href=\"https://delta.news\">DeltaNews</a>"
+        ]
+      }
+    ]
+  }
+}

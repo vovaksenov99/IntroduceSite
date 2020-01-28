@@ -236,7 +236,7 @@ ul.instagram-photos li img {
     }
 
     .profile-info {
-        display: list-item;
+        display: inline;
         width: 100%;
     }
 
