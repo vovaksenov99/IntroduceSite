@@ -321,7 +321,7 @@
             "link": "https://play.google.com/store/apps/details?id=com.privategallery.akscorp.privategalleryandroid"
           }
         ],
-        "description": "Простая андроид галерея с функцией поиска похожих изображений. Акцент сделан на простую и быструю работу. При входе в приложение можно поставить пинкод. Так же предусмотрено резервное копирвование в архив.",
+        "description": "Простая андроид галерея с функцией поиска похожих изображений. Акцент сделан на простую и быструю работу. При входе в приложение можно поставить пинкод. Так же предусмотрено резервное копирование в архив.",
         "technologyStack": [
           "Kotlin"
         ],
@@ -488,7 +488,7 @@
         "customStyle": {},
         "badges": [
         ],
-        "description": "Caйт с новостями госзакупок. <a href=\"https://delta.news\">Delta.News</a>",
+        "description": "Caйт с новостями госзакупок. Была реализована кастомная панель администратора, front и back часть проекта. <a href=\"https://delta.news\">Delta.News</a>",
         "technologyStack": [
           "PHP",
           "Javascript"
@@ -670,7 +670,7 @@
       {
         "idName": "UpUpOnly",
         "name": "Up, up only!",
-        "type": "Private project",
+        "type": "Коммерческий проект",
         "imageLink": "public/myResource/myImage/up_up_only.png",
         "customStyle": {
           "background": "",
@@ -682,7 +682,7 @@
             "link": ""
           }
         ],
-        "description": "Небольшая андроид игра платформер",
+        "description": "Небольшая андроид игра платформер сделанная на заказ. Можно назвать аналогом flappy bird",
         "technologyStack": [
           "Construct 2"
         ],
@@ -758,6 +758,14 @@
             "more": {
               "text": "Read more on github",
               "link": "https://github.com/vovaksenov99/CustomSeekBar-Widget"
+            }
+          },
+          {
+            "name": "KeyboardBehaviourDetector",
+            "description": "Позволяет отслеживать появление любой клавиатуры с помощью инсетов, узнавать ее размеры, менять положение контента на экране в зависимости от поведения клавиатуры",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/TouchInstinct/RoboSwag"
             }
           }
         ]

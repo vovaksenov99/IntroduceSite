@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/public/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +29,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="278">
+              <caret line="29" column="101" lean-forward="true" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="110" />
+              <folding>
+                <element signature="e#1745#1768#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/timeline.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="768" column="13" lean-forward="true" selection-start-line="768" selection-start-column="13" selection-end-line="768" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-506">
+              <caret line="59" column="88" lean-forward="true" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#span#3;n#p#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -54,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/public/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="1848">
               <caret line="5" column="72801" selection-start-line="5" selection-start-column="72801" selection-end-line="5" selection-end-column="72801" />
               <folding>
                 <element signature="e#57526#57726#2" expanded="true" />
@@ -102,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\\</find>
       <find>hostname</find>
       <find>{{ project.name }}</find>
       <find>profile-photo</find>
@@ -132,6 +178,7 @@
       <find>border</find>
       <find>date</find>
       <find>@color-divider</find>
+      <find>Dagger 2</find>
     </findStrings>
     <replaceStrings>
       <replace>projects</replace>
@@ -173,7 +220,6 @@
         <option value="$PROJECT_DIR$/introduceSite/public/css/stylePDF.css" />
         <option value="$PROJECT_DIR$/introduceSite/views/Projects/card/cardContent.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
-        <option value="$PROJECT_DIR$/introduceSite/public/projects.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/footer.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/Timeline.css" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/timeline.css" />
@@ -185,17 +231,18 @@
         <option value="$PROJECT_DIR$/introduceSite/views/Main/timeline.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
-        <option value="$PROJECT_DIR$/introduceSite/public/events.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/timeline.less" />
-        <option value="$PROJECT_DIR$/introduceSite/public/timeline.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/timelineEvent.twig" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFVersion.js" />
         <option value="$PROJECT_DIR$/introduceSite/config.js" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" />
+        <option value="$PROJECT_DIR$/introduceSite/public/timeline.json" />
+        <option value="$PROJECT_DIR$/introduceSite/public/events.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
+        <option value="$PROJECT_DIR$/introduceSite/public/projects.json" />
       </list>
     </option>
   </component>
@@ -215,10 +262,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+    <option name="x" value="480" />
+    <option name="y" value="260" />
+    <option name="width" value="2880" />
+    <option name="height" value="1560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -465,12 +512,13 @@
       <workItem from="1571847275743" duration="599000" />
       <workItem from="1575827595652" duration="3977000" />
       <workItem from="1576860356658" duration="198000" />
-      <workItem from="1580160347240" duration="14059000" />
+      <workItem from="1580160347240" duration="14681000" />
+      <workItem from="1580326769232" duration="905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406645000" />
+    <option name="totallyTimeSpent" value="408172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="445" column="29" selection-start-line="445" selection-start-column="19" selection-end-line="445" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/footer.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -739,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -774,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/timeline.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/timelineEvent.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -798,18 +825,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/public/build/bundle.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/build/bundle.js" />
     <entry file="file://$PROJECT_DIR$/introduceSite/routing/utils.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -835,9 +853,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/timeline.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="1848">
           <caret line="5" column="72801" selection-start-line="5" selection-start-column="72801" selection-end-line="5" selection-end-column="72801" />
           <folding>
             <element signature="e#57526#57726#2" expanded="true" />
@@ -852,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/timeline.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -866,30 +891,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
+    <entry file="file://$PROJECT_DIR$/introduceSite/routing/profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="312">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/timeline.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/events.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="278">
+          <caret line="29" column="101" lean-forward="true" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="110" />
+          <folding>
+            <element signature="e#1745#1768#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="59" column="88" lean-forward="true" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#span#3;n#p#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/public/projects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="768" column="13" lean-forward="true" selection-start-line="768" selection-start-column="13" selection-end-line="768" selection-end-column="13" />
         </state>
       </provider>
     </entry>
