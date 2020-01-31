@@ -78,12 +78,12 @@
 
     <div class="myContainer-page skills-name" style="font-size: 1em;">
 
-        <h4 style="padding-left: 20px;margin-bottom: 30px">{{ res.skills }}</h4>
+        <h4 style="padding-left: 20px;margin-bottom: 30px">{{ res.projects }}</h4>
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Java</h5>
 
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.javaDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
@@ -96,7 +96,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Kotlin</h5>
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.kotlinDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
@@ -108,7 +108,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">C#</h5>
-                <p>Проекты:
+                <p>{{ res.projects }}:
                     {% for project in res.csharpDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
@@ -120,7 +120,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">HTML,CSS</h5>
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.webDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.webDescribeStack|last %},&nbsp;{% endif %}
@@ -132,7 +132,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Javascript</h5>
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.javascriptDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
@@ -144,7 +144,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">Python</h5>
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.pythonDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
@@ -157,7 +157,7 @@
         <div class="media mb-1 skill">
             <div class="media-body">
                 <h5 class="">PHP</h5>
-                <div>Проекты:
+                <div>{{ res.projects }}:
                     {% for project in res.phpDescribeStack %}
                         <a
                         href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.phpDescribeStack|last %},&nbsp;{% endif %}

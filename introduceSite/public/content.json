@@ -9,24 +9,125 @@
     "teams": "Teams",
     "contacts": "Contacts",
     "myName": "Aksenov Vladimir",
-    "myFullName": "Aksenov Vladimir Alekseevich",
+    "myFullName": "Aksenov Vladimir",
     "developer": "Android developer",
-    "myDescribe": "I develop various application software. I specialize in development for mobile devices (Android) and Web. Software development experience since 2014. Worked with server path of different application. Intermediate english level. I am student now <a href='http://ifmo.ru'>(ITMO university)</a>",
-    "technologyStack": "Android technology stack",
-    "csharpDescribeStack": "Work experience 3 years. Usually I use ASP.NET or Unity. Strong language skills",
-    "javaDescribeStack": "Work experience 3 years. Used to write android applications before Kotlin. Strong language skills",
-    "kotlinDescribeStack": "Work experience: 1 year. For some time I use as the main language android development. Strong language skills",
-    "javascriptDescribeStack": "Work experience: 1 year. Used to write frontend parts of web applications and for the backend part in NodeJS. Average language proficiency",
-    "pythonDescribeStack": "Work experience: 1 year. Used to write neural networks and work with Django. Average language proficiency",
-    "phpDescribeStack": "Work experience: 1 year. I use for web applications. Initial knowledge of the language",
+    "myDescribe": "I develop application software from 2014. I specialize in development for mobile devices (Android) and Web applications. I have experience working with client-server applications and understanding how to work with HTTP/S, REST API, XML, JSON, etc. Often I write android application + backend. In designing the architectureI I use clean architecture and common sense. For UI patterns of MVVM, MVP. Currently a student (3rd year) in <a href='http://ifmo.ru'>ITMO</a>. Certified B2 level of English",
+    "technologyStack": "Work with ...",
+    "pdfDownload": "Download PDF",
+    "workExperience": "Work experience",
+    "csharpDescribeStack": [
+      {
+        "name": "NeuralNetwork",
+        "link": "/projects#NeuralNetwork"
+      },
+      {
+        "name": "BlueBoard",
+        "link": "/projects#BlueBoard"
+      }
+    ],
+    "javaDescribeStack": [
+      {
+        "name": "Yandex Translator",
+        "link": "/projects#YandexTranslator"
+      },
+      {
+        "name": "Hawk Java",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "BlueBoard",
+        "link": "/projects#BlueBoard"
+      }
+    ],
+    "kotlinDescribeStack": [
+      {
+        "name": "AkscorpPrivateGallery",
+        "link": "/projects#AkscorpPrivateGallery"
+      },
+      {
+        "name": "Tomodachi",
+        "link": "/projects#tomodachi"
+      },
+      {
+        "name": "CoinSpace",
+        "link": "/projects#CoinSpace"
+      },
+      {
+        "name": "YandexSchoolApp",
+        "link": "/projects#YandexSchoolApp"
+      },
+      {
+        "name": "Hawk Kotlin",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "Notes Android",
+        "link": "/projects#CodeXNotes"
+      }
+    ],
+    "javascriptDescribeStack": [
+      {
+        "name": "Capella",
+        "link": "/projects#Capella"
+      },
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      },
+      {
+        "name": "Wisdom page",
+        "link": "/projects#somewisdom"
+      },
+      {
+        "name": "This site",
+        "link": ""
+      }
+    ],
+    "pythonDescribeStack": [
+      {
+        "name": "MedicalRNN",
+        "link": "/projects#MedicalRNN"
+      }
+    ],
+    "phpDescribeStack": [
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      }
+    ],
     "sqlDescribeStack": "",
-    "webDescribeStack": "Work experience: 1 year. Developed own site and rules existing for a pair of projects",
-    "cppDescribeStack": "Work experience 3 years. Used only for olympiad tasks in programming. Initial knowledge of the language",
+    "webDescribeStack": [
+      {
+        "name": "Capella",
+        "link": "/projects#Capella"
+      },
+      {
+        "name": "HAWK.SO",
+        "link": "/projects#HawkSo"
+      },
+      {
+        "name": "DeltaNews",
+        "link": "/projects#DeltaNews"
+      },
+      {
+        "name": "This site",
+        "link": ""
+      }
+    ],
+    "cppDescribeStack": "Used only for olympiad tasks on programming and practical calculations. Initial knowledge of the language",
     "inProgress": "In progress...",
     "modules": "Modules",
     "result": "Result",
     "projectStack": "Project Stack",
-    "achievements": "Achievements",
+    "achievements": "Achievements and professional development",
     "design": "Design",
     "hobby": "Hobbies"
   },
@@ -45,6 +146,7 @@
     "myDescribe": "Разрабатываю различное прикладное программное обеспечение. Специализируюсь на разработке для мобильных устройств (Android) и Web приложениях. Опыт разработки ПО с 2014 года. Есть опыт работы с клиент-серверными приложениями и понимание как работать с HTTP/S, REST API, XML, JSON и т.д. Часто писал android приложение + backend. В проектировании архитектуры использую clean architecture и здравый смысл. В качестве UI паттернов MVVM, MVP. На данный момент студент (3 курс) в <a href='http://ifmo.ru'>ITMO</a>. Сертифицированный B2 уровень английского.",
     "technologyStack": "Работаю с ...",
     "projectStack": "Стек",
+    "pdfDownload": "Скачать в PDF",
     "workExperience": "Опыт работы",
     "csharpDescribeStack": [
       {
@@ -153,7 +255,7 @@
         "link": ""
       }
     ],
-    "cppDescribeStack": "Использовал только для олимпиадных задач по программирванию и прикладных расчетов. Начальное владение языком",
+    "cppDescribeStack": "Использовал только для олимпиадных задач по программированию и прикладных расчетов. Начальное владение языком",
     "inProgress": "В процессе заполнения...",
     "modules": "Модули",
     "result": "Результат",

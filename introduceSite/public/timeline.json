@@ -26,8 +26,41 @@
         "from": "2017",
         "to": "2019",
         "lines": [
-          "Занимался заказами от компаний и частных лиц. Был ответственным за всю разработку, взаимодействие с заказчиком.",
+          "Занимался заказами от компаний и частных лиц. Был ответственным за всю разработку, взаимодействие с заказчиком",
           "Были разработаны приложения для таких компаний как <a href=\"https://meander-group.ru\">Meander</a>,  <a href=\"https://delta.news\">DeltaNews</a>"
+        ]
+      }
+    ]
+  },
+  "En": {
+    "workExperience": [
+      {
+        "title": "Middle-Android developer",
+        "from": "May, 2019",
+        "to": "now",
+        "lines": [
+          "Developing applications for large companies (Megafon, Lukoil, etc.) as part of the IT department of Touch Instinct",
+          "I perform internal tasks of general improvement of the code base, architecture design",
+          "<a href=\"https://www.touchin.ru\">Touch Instinct</a>"
+        ]
+      },
+      {
+        "title": "Junior-Android developer, Web developer",
+        "from": "2017",
+        "to": "2018",
+        "lines": [
+          "Worked on Open Source projects as part of the Codex team",
+          "Realized front/back part of the image hosting platform <a href=\"https://capella.pics\">Capella</a>. Was responsible for the implementation of android module for error-tracking system <a href=\"https://hawk.so\">Hawk</a>",
+          "<a href=\"https://codex.so\">Codex Team</a>"
+        ]
+      },
+      {
+        "title": "Android developer, Backend developer",
+        "from": "2017",
+        "to": "2019",
+        "lines": [
+          "Worked with projects from companies and individuals. Was responsible for all development, interaction with the customer",
+          "Applications were developed for companies such as <a href=\"https://meander-group.ru\">Meander</a>, <a href=\"https://delta.news\">DeltaNews</a>"
         ]
       }
     ]

@@ -42,52 +42,40 @@
   "En": {
     "events": [
       {
+        "datetime": "2019",
+        "title": "Digital Revolution",
+        "description": "All-Russian competition for IT specialists, designers and managers in the digital economy, registered as the largest hackaton in the world",
+        "status": "Participant in the final stage. Captain of the team. 2nd place in the nomination from the Ministry of Transport"
+      },
+      {
         "datetime": "2018",
         "title": "Food.Hack.1",
-        "description": "Develop smart solutions in FoodTech",
-        "status": "Participant in the final stage. Team captain. Special prize"
+        "description": "Developing smart solutions in Foodtech",
+        "status": "Participant. Captain of the team. Special Prize"
       },
       {
         "datetime": "2018",
         "title": "Hackathon 2025",
-        "description": "EXPO'2025 organizes HACKATHON 2025 to involve talented developers and authors of innovative ideas for the creation of the City of the Future in Yekaterinburg",
-        "status": "Participant in the final stage. Team captain"
+        "description": "Expo'2025 organizes HACKATHON 2025 in order to attract talented developers and authors of innovative ideas to the creation of the City of Future in Ekaterinburg",
+        "status": "Participant. Team Captain"
       },
       {
         "datetime": "2018",
         "title": "XIV Baltic Science and Engineering Competition",
-        "description": "One of the biggest scientific competitions for schoolchildren in Russia",
-        "status": "Contest judge"
+        "description": "One of the largest scientific competitions for schoolchildren in Russia",
+        "status": "Was a member of the jury"
       },
       {
         "datetime": "2017",
-        "title": "Hackaton create university 20.35",
-        "description": "Hackaton to develop innovative educational solutions using neural networks and VR. Received a grant",
-        "status": "Winner. Team captain"
-      },
-      {
-        "datetime": "2017",
-        "title": "XIII Baltic Science and Engineering Competition",
-        "description": "One of the biggest scientific competitions for schoolchildren in Russia",
-        "status": "Winner"
-      },
-      {
-        "datetime": "2017",
-        "title": "Intel Avangard 2017",
-        "description": "Competition conference of scientific and practical works from all over Russia",
-        "status": "Participant in the final stage"
-      },
-      {
-        "datetime": "2015",
-        "title": "Ural Regional Programming Olympiad in 2015",
-        "description": "",
-        "status": "Winner. Diploma of the third degree"
+        "title": "Hackathon Collect University 20.35",
+        "description": "Hackathon to develop innovative solutions for education using neural networks and VR",
+        "status": "Winner. Captain of the team. Received a grant"
       },
       {
         "datetime": "2014-2016",
-        "title": "All-Russia Olympiad of Schoolchildren in Programming",
+        "title": "The All-Russian Olympiad of Schoolchildren in Programming",
         "description": "",
-        "status": "The winner of municipal stages"
+        "status": "Prize-winner, winner of municipal stages"
       }
     ]
   }

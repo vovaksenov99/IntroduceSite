@@ -37,6 +37,12 @@
     "achievements": [
       {
         "datetime": "2019",
+        "title": "Pre-acceleration program \"Fisteh.Start\"",
+        "description": "Preacceleration program for startups, which was realised among the winners of the \"Digital Revolution\" hackathon. The program included a demo day in Senege, a course of lectures and communication with mentros.",
+        "status": "Project CEO"
+      },
+      {
+        "datetime": "2019",
         "title": "Lecturer of android development",
         "description": "Summer computer camp for high school students with courses for preparation to informatic olympiads and software development",
         "status": "Senior lecturer parallel P (Android development)"
@@ -45,7 +51,7 @@
         "datetime": "2018",
         "title": "Moscow Yandex academy",
         "description": "School of mobile development for young professionals with experience in developing on object-oriented programming languages. Android developer",
-        "status": ""
+        "status": "Successfully graduated with certificate and passed all two stages of the school with protection of project"
       },
       {
         "datetime": "2018",
@@ -54,22 +60,10 @@
         "status": "Successful end of the program with a working prototype and business model. Startup manager, developer"
       },
       {
-        "datetime": "2018",
-        "title": "Formation of the Russian-language Kotlin documentation",
-        "description": "Translate and addition Kotlin documentatin (<a href='https://kotlinlang.ru/'>kotlinlang.ru</a>)",
-        "status": ""
-      },
-      {
-        "datetime": "2017",
-        "title": "Unity IT school",
-        "description": "IT school sponsored by Unity for learning the basics of game development on the game engine Unity",
-        "status": "Graduated with a certificate and presented the final draft"
-      },
-      {
         "datetime": "2015",
         "title": "IT school Samsung",
-        "description": "IT ШКОЛА SAMSUNG – program of additional education in IT. Basics of Java and development for Android devices",
-        "status": "Graduated with a diploma and present the final draft"
+        "description": "IT school Samsung – program of additional education in IT. Basics of Java and development for Android devices",
+        "status": "Graduated with a diploma and present the final project"
       }
     ]
   }

@@ -70,7 +70,6 @@ var frontendController =
 
 let frontendController = (function (self) {
     self.setLang = function (lang) {
-        return
         sessionStorage.setItem('lang', lang.toString());
         self.href(location.protocol + '//' + location.host + location.pathname);
     };
