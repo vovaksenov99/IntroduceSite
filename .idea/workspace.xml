@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f94a37a-06aa-4ac2-b7df-5f78170ca090" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/achievements.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/achievements.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/build/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/events.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/public/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/public/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduceSite/views/navBar.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/navBar.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/introduceSite/views/Main/index.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +69,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="167" column="45" selection-start-line="167" selection-start-column="45" selection-end-line="167" selection-end-column="45" />
+              <folding>
+                <element signature="e#3195#3201#0#HTML" expanded="true" />
+                <element signature="e#3524#3544#0#HTML" expanded="true" />
+                <element signature="e#4225#4231#0#HTML" expanded="true" />
+                <element signature="e#4549#4569#0#HTML" expanded="true" />
+                <element signature="e#5250#5256#0#HTML" expanded="true" />
+                <element signature="e#5580#5600#0#HTML" expanded="true" />
+                <element signature="e#6263#6269#0#HTML" expanded="true" />
+                <element signature="e#6595#6615#0#HTML" expanded="true" />
+                <element signature="e#7292#7298#0#HTML" expanded="true" />
+                <element signature="e#7620#7640#0#HTML" expanded="true" />
+                <element signature="e#8298#8304#0#HTML" expanded="true" />
+                <element signature="e#8624#8644#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/public/js/frontendController.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -121,19 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduceSite/routing/PDFVersion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -179,9 +181,9 @@
       <find>Dagger 2</find>
       <find>csharpDescribeStack</find>
       <find>setLang</find>
-      <find>Проекты</find>
       <find>skills</find>
       <find>getLan</find>
+      <find>Проекты</find>
     </findStrings>
     <replaceStrings>
       <replace>projects</replace>
@@ -233,20 +235,20 @@
         <option value="$PROJECT_DIR$/introduceSite/public/css/style.css" />
         <option value="$PROJECT_DIR$/introduceSite/public/css/timeline.less" />
         <option value="$PROJECT_DIR$/introduceSite/views/Main/timelineEvent.twig" />
-        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/timeline.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/projects.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/events.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/layout.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFVersion.js" />
-        <option value="$PROJECT_DIR$/introduceSite/config.js" />
         <option value="$PROJECT_DIR$/introduceSite/public/achievements.json" />
         <option value="$PROJECT_DIR$/introduceSite/public/content.json" />
         <option value="$PROJECT_DIR$/introduceSite/views/PDFVersion/index.twig" />
         <option value="$PROJECT_DIR$/introduceSite/public/js/frontendController.js" />
         <option value="$PROJECT_DIR$/introduceSite/views/navBar.twig" />
         <option value="$PROJECT_DIR$/introduceSite/routing/PDFBuilder.js" />
+        <option value="$PROJECT_DIR$/introduceSite/config.js" />
+        <option value="$PROJECT_DIR$/introduceSite/views/Main/index.twig" />
       </list>
     </option>
   </component>
@@ -306,6 +308,13 @@
               <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
               <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio-site" type="462c0819:PsiDirectoryNode" />
+              <item name="introduceSite" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Portfolio-site" type="b2602c69:ProjectViewProjectNode" />
@@ -520,12 +529,12 @@
       <workItem from="1580326769232" duration="1171000" />
       <workItem from="1580388920944" duration="570000" />
       <workItem from="1580415431960" duration="1629000" />
-      <workItem from="1580498725674" duration="5059000" />
+      <workItem from="1580498725674" duration="5519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415696000" />
+    <option name="totallyTimeSpent" value="416156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,14 +549,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.20337197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.20337197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5156695" side_tool="true" weight="0.17448603" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3277592" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23857301" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.23857301" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39687848" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -807,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
@@ -893,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduceSite/public/achievements.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1416">
@@ -954,10 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
+    <entry file="file://$PROJECT_DIR$/introduceSite/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="119" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
+        <state relative-caret-position="96">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -965,6 +960,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/navBar.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="119" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduceSite/views/Main/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="167" column="45" selection-start-line="167" selection-start-column="45" selection-end-line="167" selection-end-column="45" />
+          <folding>
+            <element signature="e#3195#3201#0#HTML" expanded="true" />
+            <element signature="e#3524#3544#0#HTML" expanded="true" />
+            <element signature="e#4225#4231#0#HTML" expanded="true" />
+            <element signature="e#4549#4569#0#HTML" expanded="true" />
+            <element signature="e#5250#5256#0#HTML" expanded="true" />
+            <element signature="e#5580#5600#0#HTML" expanded="true" />
+            <element signature="e#6263#6269#0#HTML" expanded="true" />
+            <element signature="e#6595#6615#0#HTML" expanded="true" />
+            <element signature="e#7292#7298#0#HTML" expanded="true" />
+            <element signature="e#7620#7640#0#HTML" expanded="true" />
+            <element signature="e#8298#8304#0#HTML" expanded="true" />
+            <element signature="e#8624#8644#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

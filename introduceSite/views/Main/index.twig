@@ -47,7 +47,7 @@
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.javaDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
@@ -68,7 +68,7 @@
                             <li><i class="fa fa-star"></i></li>
                         </ul>
 
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.kotlinDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
@@ -88,7 +88,7 @@
                             <li><i class="fa fa-star"></i></li>
                         </ul>
 
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.csharpDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
@@ -107,7 +107,7 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.webDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.webDescribeStack|last %},&nbsp;{% endif %}
@@ -126,7 +126,7 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.javascriptDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
@@ -145,7 +145,7 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.pythonDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
@@ -165,7 +165,7 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-                        <p>Проекты:
+                        <p>{{ res.projects }}:
                             {% for project in res.phpDescribeStack %}
                                 <a
                                 href="{{ project.link }}">{{ project.name }}</a>{% if project != res.phpDescribeStack|last %},&nbsp;{% endif %}
