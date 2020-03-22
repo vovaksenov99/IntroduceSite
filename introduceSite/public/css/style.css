@@ -154,10 +154,33 @@ ul.instagram-photos li img {
     padding-left: 10px;
 }
 
+/*
+    Default behaviour
+ */
+.profile-photo {
+    height: 75%;
+    width: 100%;
+}
+
+.profile-image-container {
+    margin: 5%;
+}
+
+.profile-card {
+    width: 100%;
+    margin: 100px 30px 10px;
+}
+
+.card-grid {
+    display: grid;
+    grid-auto-columns: 40% 60%;
+    height: fit-content;
+}
+
 /**
     Nav bar fixed style
  */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-aspect-ratio: 1/1) {
     .navbar {
         top: 0;
         right: 0;
@@ -165,13 +188,9 @@ ul.instagram-photos li img {
         z-index: 1030;
     }
 
-    .profile-photo {
-        height: 75%;
-        width: 100%;
-    }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px)  and (max-aspect-ratio: 1/1) {
     .navbar {
         min-height: 160px;
     }
@@ -187,7 +206,7 @@ ul.instagram-photos li img {
         width: 100%;
     }
 
-    .profile-image-container{
+    .profile-image-container {
         margin: 5%;
     }
 }
@@ -195,7 +214,8 @@ ul.instagram-photos li img {
 /**
     Mobile version
  */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) and (max-aspect-ratio: 1/1) {
+
     .current-job {
         padding: 40px;
         display: block;
@@ -248,12 +268,6 @@ ul.instagram-photos li img {
 
 @media screen and (min-width: 1300px) {
 
-    .card-grid {
-        display: grid;
-        grid-auto-columns: 40% 60%;
-        height: fit-content;
-    }
-
     .current-job {
         padding: 20px;
         display: block;
@@ -262,7 +276,7 @@ ul.instagram-photos li img {
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) and (max-aspect-ratio: 1/1) {
     .card-grid {
         display: block;
         height: fit-content;
