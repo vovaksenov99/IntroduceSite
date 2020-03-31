@@ -23,6 +23,10 @@
       {
         "name": "BlueBoard",
         "link": "/projects#BlueBoard"
+      },
+      {
+        "name": "TEC",
+        "link": "/projects#TEC"
       }
     ],
     "javaDescribeStack": [

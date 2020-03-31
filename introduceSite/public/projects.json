@@ -195,6 +195,30 @@
         ]
       },
       {
+        "idName": "TEC",
+        "name": "TEC",
+        "imageLink": "public/myResource/myImage/tec.jpg",
+        "type": "Open source",
+        "customStyle": {},
+        "badges": [],
+        "description": "Visual circuit editor that makes it easy to create schemes and observe their simplification",
+        "technologyStack": [
+          "Unity",
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "ITMO KMU Team",
+            "link": "https://kmu.itmo.ru"
+          }
+        ],
+        "more": {
+          "text": "",
+          "link": ""
+        },
+        "modules": []
+      },
+      {
         "idName": "CodeXNotes",
         "name": "CodeX Notes",
         "imageLink": "public/myResource/myImage/codex_notes.png",
@@ -658,6 +682,30 @@
         },
         "modules": [
         ]
+      },
+      {
+        "idName": "TEC",
+        "name": "TEC",
+        "imageLink": "public/myResource/myImage/tec.jpg",
+        "type": "Open source",
+        "customStyle": {},
+        "badges": [],
+        "description": "Визуальный редактор электрических схем, который позволяет просто и наглядно создавать схемы и наблюдать за их упрощением",
+        "technologyStack": [
+          "Unity",
+          "C#"
+        ],
+        "teams": [
+          {
+            "name": "ITMO KMU Team",
+            "link": "https://kmu.itmo.ru"
+          }
+        ],
+        "more": {
+          "text": "",
+          "link": ""
+        },
+        "modules": []
       },
       {
         "idName": "CodeXNotes",

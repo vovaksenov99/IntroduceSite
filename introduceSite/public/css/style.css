@@ -167,7 +167,7 @@ ul.instagram-photos li img {
 }
 
 .profile-card {
-    width: 100%;
+    max-width: 100%;
     margin: 100px 30px 10px;
 }
 
@@ -232,7 +232,7 @@ ul.instagram-photos li img {
     }
 
     .profile-card {
-        width: 100%;
+        max-width: 100%;
         margin: 200px 30px 10px;
     }
 
