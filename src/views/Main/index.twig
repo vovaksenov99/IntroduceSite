@@ -41,26 +41,6 @@
             <div class="skills-list skill-description">
                 <div class="media mb-1 skill">
                     <div class="media-body">
-                        <h4 class="">Java</h4>
-                        <ul class="star-rating" style="padding: 0px">
-                            <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star amber-text"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                        <p>{{ res.projects }}:
-                            {% for project in res.javaDescribeStack %}
-                                <a
-                                href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
-                            {% endfor %}
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="media mb-1 skill">
-                    <div class="media-body">
                         <h4 class="">Kotlin</h4>
                         <ul class="star-rating" style="padding: 0px">
                             <li><i class="fa fa-star amber-text"></i></li>
@@ -81,7 +61,7 @@
 
                 <div class="media mb-1 skill">
                     <div class="media-body">
-                        <h4 class="">C#</h4>
+                        <h4 class="">Java</h4>
                         <ul class="star-rating" style="padding: 0px">
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star amber-text"></i></li>
@@ -89,15 +69,15 @@
                             <li><i class="fa fa-star amber-text"></i></li>
                             <li><i class="fa fa-star"></i></li>
                         </ul>
-
                         <p>{{ res.projects }}:
-                            {% for project in res.csharpDescribeStack %}
+                            {% for project in res.javaDescribeStack %}
                                 <a
-                                href="{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
+                                href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
                             {% endfor %}
                         </p>
                     </div>
                 </div>
+
 
                 <div class="media mb-1 skill">
                     <div class="media-body">
@@ -136,6 +116,28 @@
                         </p>
                     </div>
                 </div>
+
+                <div class="media mb-1 skill">
+                    <div class="media-body">
+                        <h4 class="">C#</h4>
+                        <ul class="star-rating" style="padding: 0px">
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star amber-text"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+
+                        <p>{{ res.projects }}:
+                            {% for project in res.csharpDescribeStack %}
+                                <a
+                                href="{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
+                            {% endfor %}
+                        </p>
+                    </div>
+                </div>
+
+
 
                 <div class="media mb-1 skill">
                     <div class="media-body">
@@ -210,7 +212,7 @@
     </div>
 
     <script>
-        frontendController.setNavBarColor('main');
+        frontendController.setNavBarTab('main');
     </script>
 
 {% endblock %}

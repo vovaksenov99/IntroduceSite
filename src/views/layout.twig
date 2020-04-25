@@ -11,7 +11,8 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
-
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="./public/css/bootstrap.min.css" rel="stylesheet">
 <link href="./public/css/mdb.min.css" rel="stylesheet">
@@ -39,6 +40,21 @@
 <script type="text/javascript" src="./public/js/mdb.min.js"></script>
 <script>
     new WOW().init()
+
+    let lang = sessionStorage.getItem('lang')
+    console.log(lang)
+    if (lang != null) {
+        if (lang === "Rus") {
+            document.getElementById("rus-lang-btn").classList.add("custom-navbar-language-toggle-selected");
+            document.getElementById("en-lang-btn").classList.add("custom-navbar-language-toggle");
+        } else {
+            document.getElementById("en-lang-btn").classList.add("custom-navbar-language-toggle-selected");
+            document.getElementById("rus-lang-btn").classList.add("custom-navbar-language-toggle");
+        }
+    } else {
+        document.getElementById("rus-lang-btn").classList.add("custom-navbar-language-toggle-selected");
+        document.getElementById("en-lang-btn").classList.add("custom-navbar-language-toggle");
+    }
 </script>
 
 <!-- Yandex.Metrika counter -->

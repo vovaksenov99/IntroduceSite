@@ -1,0 +1,478 @@
+/* Colors */
+.dark-grey-text {
+    color: #1C2A48;
+}
+
+.hawk-color {
+    background: #2e2e3c;
+}
+
+.elegant-gradient {
+    background: -webkit-linear-gradient(50deg, #212121, #444444) !important;
+    background: -o-linear-gradient(50deg, #212121, #444444) !important;
+    background: linear-gradient(40deg, #212121, #444444) !important;
+}
+
+.center-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+@font-face {
+    font-family: Raleway;
+    src: url("/public/font/raleway/Raleway-Regular.ttf");
+}
+
+/**
+    Caption size by screen size
+ */
+.h1-auto-text-size {
+    font-size: calc(6vw)
+}
+
+.h2-auto-text-size {
+    font-size: calc(5vw)
+}
+
+.h3-auto-text-size {
+    font-size: calc(4vw)
+}
+
+.h4-auto-text-size {
+    font-size: calc(3vw)
+}
+
+.h5-auto-text-size {
+    font-size: calc(2vw)
+}
+
+.h6-auto-text-size {
+    font-size: calc(1vw)
+}
+
+cardBlock:first-child {
+    display: flex;
+}
+
+.skill-description p {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+/**
+    Project card styles
+ */
+@media screen and (min-width: 1300px) {
+
+    .project-card {
+        margin: 0px 135px;
+    }
+}
+
+.project-item-list {
+    margin-top: 6%;
+    display: list-item;
+}
+
+.project-item {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: fit-content;
+}
+
+.project-item-list-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+/**
+    Skills page
+ */
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.skills-list {
+    position: relative;
+    height: 100%;
+    display: table;
+    margin-top: 5%;
+}
+
+.badge-element {
+    margin: 5px;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 3px;
+}
+
+.star-rating {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.fa-star {
+    margin-right: 3px;
+}
+
+.icon-contact {
+    width: 35px;
+    height: 35px;
+}
+
+ul.instagram-photos li img {
+    margin: 0
+}
+
+.media .icon-shadow {
+    padding-left: 10px;
+}
+
+/*
+    Default behaviour
+ */
+.profile-photo {
+    height: 75%;
+    width: 100%;
+}
+
+.profile-image-container {
+    margin: 5%;
+}
+
+.profile-card {
+    max-width: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.card-grid {
+    display: grid;
+    grid-auto-columns: 40% 60%;
+    height: fit-content;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    .custom-navbar {
+        min-height: 160px;
+    }
+
+    .profile-photo {
+        height: 75%;
+        width: 100%;
+    }
+
+    .profile-image-container {
+        margin: 5%;
+    }
+}
+
+/**
+    Mobile version
+ */
+@media screen and (max-aspect-ratio: 1/1) {
+
+    cardBlock:first-child {
+        display: block;
+    }
+
+    .project-card {
+        margin: 70px 20px;
+    }
+
+    .profile-card {
+        max-width: 100%;
+        margin: 70px 30px 10px;
+    }
+
+    .achievements-icon {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .navbar-expand .navbar-collapse .navbar-nav {
+        display: list-item;
+        font-size: 2em;
+    }
+
+    .navbar-expand {
+        display: list-item;
+    }
+
+    .skill {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .profile-info {
+        display: inline;
+        width: 100%;
+    }
+
+    .contact-intro {
+        margin-top: 70px
+    }
+
+    .card-grid {
+        display: block;
+        height: fit-content;
+    }
+
+    .center {
+        padding-left: 50%;
+        transform: translate(-25%, 0);
+    }
+
+    html {
+        font-size: 2em;
+    }
+
+    .custom-navbar-logo {
+        font-family: Raleway;
+        font-size: 2.7rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .custom-navbar-menu-element:hover {
+        opacity: 0.95;
+    }
+
+    .custom-navbar-menu-element div:nth-child(1n+1) {
+        font-size: 3rem;
+        line-height: 1.20em;
+    }
+
+
+    .custom-navbar-menu-element div {
+        opacity: 0;
+        font-weight: 600;
+        font-size: 2.1rem;
+    }
+
+    .custom-navbar-menu-element {
+        opacity: 0.65;
+        font-weight: 300;
+        font-size: 2.6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom-navbar {
+        display: block;
+        padding-top: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+    }
+
+    .custom-navbar-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        row-gap: 20px;
+        align-self: center;
+    }
+
+    .custom-navbar-language-toggle-container {
+        width: fit-content;
+        display: inline-grid;
+        font-weight: 400;
+        column-gap: 30px;
+        grid-template-columns: auto auto;
+        align-self: center;
+        font-size: 2rem;
+    }
+
+    .custom-navbar-language-toggle {
+        width: 140px;
+        height: 140px;
+
+    }
+    .custom-navbar-language-toggle a{
+        left: 50%;
+        top: 50%;
+        display: block;
+        width: fit-content;
+        transform: translate(-50%,-50%);
+        position: relative;
+    }
+
+    .custom-navbar-language-toggle-selected a {
+        left: 50%;
+        top: 50%;
+        display: block;
+        width: fit-content;
+        transform: translate(-50%,-50%);
+        position: relative;
+    }
+    .custom-navbar-language-toggle-selected {
+        border-radius:50%;
+        border:solid black 2px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .custom-navbar-actions-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .custom-navbar-menu::after {
+        content: "";
+        width: 70%;
+        margin: 40px;
+        justify-self: center;
+        border-top: 2px solid black;
+    }
+
+    .custom-navbar-actions-download-pdf span {
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+
+    .custom-navbar-actions-download-pdf {
+        border: 2px solid black;
+        padding: 10px 30px 10px 30px;
+        margin-top: 30px;
+        width: fit-content;
+        align-self: center;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+
+    .contact-intro {
+        margin-top: 30px
+    }
+
+    .custom-navbar-logo {
+        font-family: Raleway;
+        align-self: center;
+        font-size: 2.7rem;
+        font-weight: 200;
+        margin-right: 20px;
+    }
+
+    .custom-navbar-menu-element:hover {
+        opacity: 0.95;
+    }
+    /*
+    .custom-navbar-menu-element:hover div:nth-child(1n+1) {
+        opacity: 1;
+    }
+    */
+    .custom-navbar-menu-element div {
+        opacity: 0;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .custom-navbar-menu-element {
+        opacity: 0.65;
+        font-weight: 400;
+        display: flex;
+    }
+
+    .custom-navbar-menu {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 30px;
+        align-self: center;
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+    .custom-navbar {
+        display: inline-grid;
+        grid-template-columns: auto auto 1fr;
+        grid-column-gap: 40px;
+        padding-top: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+    }
+
+    .custom-navbar-language-toggle-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        font-weight: 400;
+        align-self: center;
+    }
+    .custom-navbar-language-toggle-container::after {
+        content: "";
+        height: 60%;
+        align-self: center;
+        border-left: 2px solid black;
+        margin-right: 30px;
+    }
+    .custom-navbar-language-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    .custom-navbar-language-toggle a{
+        left: 50%;
+        top: 50%;
+        display: block;
+        transform: translate(-50%,-50%);
+        position: relative;
+    }
+
+    .custom-navbar-language-toggle-selected a {
+        left: 50%;
+        top: 50%;
+        display: block;
+        width: fit-content;
+        transform: translate(-50%,-50%);
+        position: relative;
+    }
+    .custom-navbar-language-toggle-selected {
+        border-radius:50%;
+        border:solid black 1px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .custom-navbar-actions-buttons {
+        display: flex;
+        justify-self: self-end;
+    }
+
+    .custom-navbar-actions-download-pdf {
+        align-self: center;
+        cursor: pointer;
+        margin-right: 30px;
+        font-weight: 400;
+    }
+
+    .custom-navbar-actions-download-pdf span {
+        margin-right: 8px;
+    }
+
+    .skill {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .profile-card {
+        margin-top: 10px;
+        position: relative;
+    }
+}

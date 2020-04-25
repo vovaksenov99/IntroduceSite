@@ -1,0 +1,31 @@
+<nav class="custom-navbar">
+    <div class="custom-navbar-logo" onclick="frontendController.href('/profile');">A.V</div>
+
+    <div class="custom-navbar-menu">
+        <div id="nav-main-page-tab" class="custom-navbar-menu-element">
+            <div>.</div>
+            <a onclick="frontendController.href('/profile');">{{ res.main }}</a>
+        </div>
+        <div id="nav-projects-page-tab" class="custom-navbar-menu-element">
+            <div>.</div>
+            <a onclick="frontendController.href('/projects');">{{ res.projects }}</a>
+        </div>
+        <div id="nav-contacts-page-tab" class="custom-navbar-menu-element">
+            <div>.</div>
+            <a onclick="frontendController.href('/contacts');">{{ res.contacts }}</a>
+        </div>
+    </div>
+    <div class="custom-navbar-actions-buttons">
+
+        <div class="custom-navbar-language-toggle-container">
+            <div id="rus-lang-btn" onclick="frontendController.setLang('Rus');"><a>Rus</a></div>
+            <div id="en-lang-btn" onclick="frontendController.setLang('En');"><a>En</a></div>
+        </div>
+        <div class="custom-navbar-actions-download-pdf"
+             onclick="window.location = location.protocol + '//' + location.host+'/public/AksenovVladimirCV_'+frontendController.getLang()+'.pdf'">
+            <span class="material-icons-outlined"
+                  style="vertical-align: text-bottom;">cloud_download</span>{{ res.pdfDownload }}
+        </div>
+    </div>
+
+</nav>

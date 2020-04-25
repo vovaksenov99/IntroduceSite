@@ -69,14 +69,6 @@ cardBlock:first-child {
     text-align: center;
 }
 
-/**
-    Nav bar language toggle button
- */
-.lang-button {
-    padding: 8px;
-    margin: 0px;
-    font-size: 1em;
-}
 
 /**
     Skills page

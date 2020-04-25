@@ -2,10 +2,10 @@ var webpack = require('webpack');
 let path = require('path');
 
 module.exports = {
-  entry: './introduceSite/public/js/frontendController.js',
+  entry: './src/public/js/frontendController.js',
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/introduceSite/public/build',
+    path: __dirname + '/src/public/build',
     library: 'frontendController'
   },
   resolve: {

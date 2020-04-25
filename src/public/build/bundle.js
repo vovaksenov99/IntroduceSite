@@ -77,7 +77,7 @@ let frontendController = (function (self) {
     self.getLang = function () {
         let lang = sessionStorage.getItem('lang')
         if (lang != null)
-           return lang;
+            return lang;
         else
             return 'Rus';
     };
@@ -89,29 +89,19 @@ let frontendController = (function (self) {
             window.location = href + '?lang=' + 'Rus';
     };
 
-    self.setNavBarColor = function (page) {
-        console.log(page);
-        let bar = document.getElementsByTagName('nav')[0];
-        bar.classList.remove("elegant-color-dark");
-        bar.classList.remove("blue-gradient");
-        bar.classList.remove("elegant-gradient");
-
+    self.setNavBarTab = function (page) {
         if (page === "main") {
-            bar.classList.add("elegant-color-dark");
+            document.getElementById("nav-main-page-tab").firstElementChild.style.opacity = 1
         }
         if (page === "projects") {
-            bar.classList.add("elegant-gradient");
+            document.getElementById("nav-projects-page-tab").firstElementChild.style.opacity = 1
         }
         if (page === "contacts") {
-            bar.classList.add("blue-gradient");
+            document.getElementById("nav-contacts-page-tab").firstElementChild.style.opacity = 1
         }
-
     };
-
-
     return self;
 })({});
-
 
 module.exports = frontendController;
 
