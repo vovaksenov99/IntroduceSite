@@ -19,7 +19,7 @@
     "file-saver": "^2.0.0",
     "html-pdf": "^2.2.0",
     "html2canvas": "^1.0.0-alpha.12",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "material-design-icons": "^3.0.1",
     "module": "^1.2.5",
     "mongodb": "^2.2.34",
