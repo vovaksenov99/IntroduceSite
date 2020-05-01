@@ -22,12 +22,15 @@ let frontendController = (function (self) {
     self.setNavBarTab = function (page) {
         if (page === "main") {
             document.getElementById("nav-main-page-tab").firstElementChild.style.opacity = 1
+            document.getElementById("nav-main-page-tab").lastElementChild.style.opacity = 1
         }
         if (page === "projects") {
             document.getElementById("nav-projects-page-tab").firstElementChild.style.opacity = 1
+            document.getElementById("nav-projects-page-tab").lastElementChild.style.opacity = 1
         }
         if (page === "contacts") {
             document.getElementById("nav-contacts-page-tab").firstElementChild.style.opacity = 1
+            document.getElementById("nav-contacts-page-tab").lastElementChild.style.opacity = 1
         }
     };
     return self;

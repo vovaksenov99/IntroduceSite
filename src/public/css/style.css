@@ -259,7 +259,8 @@ ul.instagram-photos li img {
 
     .custom-navbar-menu-element div {
         opacity: 0;
-        font-weight: 600;
+        margin-top: 2px;
+        font-weight: 300;
         font-size: 2.1rem;
     }
 
@@ -381,11 +382,13 @@ ul.instagram-photos li img {
     */
     .custom-navbar-menu-element div {
         opacity: 0;
-        font-weight: 600;
-        font-size: 1.4rem;
+        margin-top: -2px;
+        font-weight: 400;
+        font-size: 1.6rem;
     }
 
     .custom-navbar-menu-element {
+        font-family: Raleway;
         opacity: 0.65;
         font-weight: 400;
         display: flex;
