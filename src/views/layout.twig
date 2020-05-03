@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8"/>
-    <title>Сайт портфолио Аксенова Владимира</title>
-    <meta property="og:title" content="Сайт портфолио Аксенова Владимира">
-    <meta name="description" content="Android и web разработчик">
-    <meta property="og:description" content="Android и web разработчик">
+    <title>{{ res.headerTitle }}</title>
+    <meta property="og:title" content="{{ res.headerTitle }}">
+    <meta name="description" content="{{ res.headerDescription }}">
+    <meta property="og:description" content="{{ res.headerDescription }}">
     <meta itemprop="image" content="public/myResource/myImage/my_photo_preview.jpg">
     <meta property="og:image" content="public/myResource/myImage/my_photo_preview.jpg">
     <meta name="twitter:image" content="public/myResource/myImage/my_photo_preview.jpg">
@@ -21,7 +21,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
 <script type="text/javascript" src="../public/build/bundle.js"></script>
 
-<html lang="ru">
+<html lang="{{ res.lang }}">
 <body>
 {% block navBar %}
     {% include 'navBar.twig' %}

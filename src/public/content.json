@@ -1,5 +1,8 @@
 {
   "En": {
+    "lang": "en",
+    "headerTitle": "СV Aksenov Vladimir",
+    "headerDescription": "WEB & Android developer. Working with startups",
     "cv": "Personal information",
     "skills": "Skills",
     "main": "Main",
@@ -136,6 +139,9 @@
     "hobby": "Hobbies"
   },
   "Rus": {
+    "lang": "ru",
+    "headerTitle": "СV Аксенов Владимир",
+    "headerDescription": "WEB и Android разработчик. Работа со стартапами",
     "cv": "Резюме",
     "skills": "Навыки",
     "main": "Главная",
