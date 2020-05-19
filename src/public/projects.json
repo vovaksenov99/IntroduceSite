@@ -519,7 +519,7 @@
         "idName": "tomodachi",
         "name": "Tomodachi",
         "imageLink": "public/myResource/myImage/tomodachi.png",
-        "type": "Коммерческий проект",
+        "type": "Заказной коммерческий проект",
         "customStyle": {
           "background": "",
           "textColorClass": ""
@@ -648,7 +648,7 @@
         "idName": "smartContact",
         "name": "Smart contact",
         "imageLink": "",
-        "type": "Коммерческий проект",
+        "type": "Заказной коммерческий проект",
         "customStyle": {},
         "badges": [],
         "description": "Android приложение, позволяющее ослеживать бизнес контакты, находить связи. Все данные синхронизируются с облаком",
@@ -665,7 +665,7 @@
         "idName": "DeltaNews",
         "name": "<strong><span class=\"blue-text\">Δ</span>elta<span class=\"blue-text\">N</span>ews</strong>",
         "imageLink": "public/myResource/myImage/delta_news.png",
-        "type": "Коммерческий проект",
+        "type": "Заказной коммерческий проект",
         "customStyle": {},
         "badges": [
         ],
@@ -875,7 +875,7 @@
       {
         "idName": "UpUpOnly",
         "name": "Up, up only!",
-        "type": "Коммерческий проект",
+        "type": "Заказной коммерческий проект",
         "imageLink": "public/myResource/myImage/up_up_only.png",
         "customStyle": {
           "background": "",
