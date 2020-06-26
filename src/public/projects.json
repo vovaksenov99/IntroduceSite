@@ -133,7 +133,6 @@
         "modules": [
         ]
       },
-
       {
         "idName": "somewisdom",
         "name": "⚜ Wisdom Page ⚜",
@@ -152,6 +151,27 @@
         "more": {
           "text": "See page",
           "link": "https://some-wisdom.herokuapp.com/"
+        },
+        "modules": []
+      },
+      {
+        "idName": "plugin",
+        "name": "AS module plugin",
+        "imageLink": "",
+        "type": "Open source",
+        "customStyle": {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges": [],
+        "description": "This plugin helps you automate your everyday development by generating all necessary files for your project's MVI architecture when you are creating a new module",
+        "technologyStack": [
+          "Kotlin"
+        ],
+        "teams": [],
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/Create-MVI-Module-AS-Plugin"
         },
         "modules": []
       },
@@ -622,7 +642,6 @@
         "modules": [
         ]
       },
-
       {
         "idName": "somewisdom",
         "name": "⚜ Wisdom Page ⚜",
@@ -682,6 +701,27 @@
         },
         "modules": [
         ]
+      },
+      {
+        "idName": "plugin",
+        "name": "AS module plugin",
+        "imageLink": "",
+        "type": "Open source",
+        "customStyle": {
+          "background": "",
+          "textColorClass": "black-text"
+        },
+        "badges": [],
+        "description": "Этот плагин поможет автоматизировать повседневную разработку, создавая все необходимые template файлы для MVI архитектуры вашего проекта.",
+        "technologyStack": [
+          "Kotlin"
+        ],
+        "teams": [],
+        "more": {
+          "text": "Read more on github",
+          "link": "https://github.com/vovaksenov99/Create-MVI-Module-AS-Plugin"
+        },
+        "modules": []
       },
       {
         "idName": "TEC",
