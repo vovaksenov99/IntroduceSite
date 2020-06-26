@@ -164,7 +164,7 @@
           "textColorClass": "black-text"
         },
         "badges": [],
-        "description": "This plugin helps you automate your everyday development by generating all necessary files for your project's MVI architecture when you are creating a new module",
+        "description": "This plugin helps you automate your everyday development by generating all necessary files for your project's architecture when you are creating a new module",
         "technologyStack": [
           "Kotlin"
         ],
@@ -712,7 +712,7 @@
           "textColorClass": "black-text"
         },
         "badges": [],
-        "description": "Этот плагин поможет автоматизировать повседневную разработку, создавая все необходимые template файлы для MVI архитектуры вашего проекта.",
+        "description": "Этот плагин поможет автоматизировать повседневную разработку, создавая все необходимые template файлы для архитектуры вашего проекта.",
         "technologyStack": [
           "Kotlin"
         ],

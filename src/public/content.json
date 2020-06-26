@@ -70,6 +70,10 @@
       {
         "name": "Notes Android",
         "link": "/projects#CodeXNotes"
+      },
+      {
+        "name": "AS Plugin",
+        "link": "/projects#plugin"
       }
     ],
     "javascriptDescribeStack": [
@@ -210,6 +214,10 @@
       {
         "name": "Notes Android",
         "link": "/projects#CodeXNotes"
+      },
+      {
+        "name": "AS Plugin",
+        "link": "/projects#plugin"
       }
     ],
     "javascriptDescribeStack": [
