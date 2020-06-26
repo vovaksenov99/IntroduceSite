@@ -12,6 +12,15 @@
         ]
       },
       {
+        "title": "Руководитель проекта, Android developer, Full stack developer",
+        "from": "2017",
+        "to": "2020",
+        "lines": [
+          "Занимался заказами от компаний и частных лиц. Был ответственным за всю разработку, взаимодействие с заказчиком",
+          "Были разработаны приложения для таких компаний как <a href=\"https://sevkab.ru\">Севкабель</a>, <a href=\"https://meander-group.ru\">Meander</a>,  <a href=\"https://delta.news\">DeltaNews</a>"
+        ]
+      },
+      {
         "title": "Junior-Android developer, Web developer",
         "from": "2017",
         "to": "2018",
@@ -19,15 +28,6 @@
           "Занимался Open Source проектами в составе команды Codex",
           "Реализовывал front/back часть хостинг платформы изображений <a href=\"https://capella.pics\">Capella</a>. Был ответственным за реализацию android модуля для системы трекинга ошибок <a href=\"https://hawk.so\">Hawk</a>",
           "<a href=\"https://codex.so\">Codex Team</a>"
-        ]
-      },
-      {
-        "title": "Android developer, Backend developer",
-        "from": "2017",
-        "to": "2019",
-        "lines": [
-          "Занимался заказами от компаний и частных лиц. Был ответственным за всю разработку, взаимодействие с заказчиком",
-          "Были разработаны приложения для таких компаний как <a href=\"https://meander-group.ru\">Meander</a>,  <a href=\"https://delta.news\">DeltaNews</a>"
         ]
       }
     ]
@@ -45,6 +45,15 @@
         ]
       },
       {
+        "title": "Head of the project, Android developer, Full stack developer",
+        "from": "2017",
+        "to": "2020",
+        "lines": [
+          "Worked with projects from companies and individuals. Was responsible for all development and interaction with the customer",
+          "Applications were developed for companies such as <a href=\"https://sevkab.ru\">Sevkabel</a>, <a href=\"https://meander-group.ru\">Meander</a>, <a href=\"https://delta.news\">DeltaNews</a>, "
+        ]
+      },
+      {
         "title": "Junior-Android developer, Web developer",
         "from": "2017",
         "to": "2018",
@@ -52,15 +61,6 @@
           "Worked on Open Source projects as a part of the Codex team",
           "I implemented front/back part of the image hosting platform <a href=\"https://capella.pics\">Capella</a>. I was responsible for the implementation of the android module for errortracking system <a href=\"https://hawk.so\">Hawk</a>",
           "<a href=\"https://codex.so\">Codex Team</a>"
-        ]
-      },
-      {
-        "title": "Android developer, Backend developer",
-        "from": "2017",
-        "to": "2019",
-        "lines": [
-          "Worked with projects from companies and individuals. Was responsible for all development and interaction with the customer",
-          "Applications were developed for companies such as <a href=\"https://meander-group.ru\">Meander</a>, <a href=\"https://delta.news\">DeltaNews</a>"
         ]
       }
     ]

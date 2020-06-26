@@ -15,27 +15,15 @@
       },
       {
         "datetime": "2018",
-        "title": "Hackathon 2025",
-        "description": "ЭКСПО’2025 организует HACKATHON 2025 для того, чтобы привлечь талантливых разработчиков и авторов инновационных идей к созданию Города Будущего в Екатеринбурге",
-        "status": "Участник. Капитан команды"
-      },
-      {
-        "datetime": "2018",
         "title": "XIV Балтийский научно-инженерный конкурс",
         "description": "Одно из самых крупных научных соревнований для школьников в России",
-        "status": "Был членом жюри"
+        "status": "Член жюри"
       },
       {
         "datetime": "2017",
         "title": "Хакатон собери университет 20.35",
         "description": "Хакатон по разработке инновационные решений в области образования с использованием нейронных сетей и VR",
         "status": "Победитель. Капитан команды. Получен грант"
-      },
-      {
-        "datetime": "2014-2016",
-        "title": "Всероссийская олимпиада школьников по программированию",
-        "description": "",
-        "status": "Призер, победитель муниципальных этапов"
       }
     ]
   },
@@ -55,12 +43,6 @@
       },
       {
         "datetime": "2018",
-        "title": "Hackathon 2025",
-        "description": "Expo'2025 organizes HACKATHON 2025 in order to attract talented developers and authors of innovative ideas to the creation of the City of Future in Ekaterinburg",
-        "status": "Participant. Team Captain"
-      },
-      {
-        "datetime": "2018",
         "title": "XIV Baltic Science and Engineering Competition",
         "description": "One of the largest scientific competitions for schoolchildren in Russia",
         "status": "Was a member of the jury"
@@ -70,12 +52,6 @@
         "title": "Hackathon Collect University 20.35",
         "description": "Hackathon to develop innovative solutions for education using neural networks and VR",
         "status": "Winner. Captain of the team. Received a grant"
-      },
-      {
-        "datetime": "2014-2016",
-        "title": "The All-Russian Olympiad of Schoolchildren in Programming",
-        "description": "",
-        "status": "Prize-winner, winner of municipal stages"
       }
     ]
   }
