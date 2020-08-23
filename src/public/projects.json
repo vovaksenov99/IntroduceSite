@@ -481,11 +481,19 @@
             }
           },
           {
-            "name": "Custom DatePicker",
-            "description": "DatePicker with choice of date interval",
+            "name": "SmoothSwipeView",
+            "description": "Small customizable view with smooth swipe. There's nothing extra. Supports different view's types.<br><br>View has view pool optimizations, dynamic addition/removing. Has fine performance. Supports multi-touch.",
             "more": {
               "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+              "link": "https://github.com/vovaksenov99/SmoothSwipeView"
+            }
+          },
+          {
+            "name": "DynamicAmountEditText",
+            "description": "Customizable EditText with runtime amount formatting. There's nothing extra. Supports different separator's types.",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/DynamicAmountEditText"
             }
           },
           {
@@ -990,11 +998,19 @@
             }
           },
           {
-            "name": "Custom DatePicker",
-            "description": "Кастомный DatePicker с возможностью выбрать интервал дат",
+            "name": "SmoothSwipeView",
+            "description": "Настраиваемая кастомная вью с хорошей производительностью для добавления плавного свайпа карточек. Подерживает разные типы вью.<br><br>Есть различные оптимизации пула вью, динамическое добавление/удаление и multi-touch.",
             "more": {
               "text": "Read more on github",
-              "link": "https://github.com/vovaksenov99/Custom-DatePicker-AND-DatePickerDialog"
+              "link": "https://github.com/vovaksenov99/SmoothSwipeView"
+            }
+          },
+          {
+            "name": "DynamicAmountEditText",
+            "description": "Настраиваемый EditText с форматированием суммы по ходу ввода. Поддерживает разные виды разделитей, группировки, изменение размера десятичной части. Есть фильтрация и форматирование вставленного текста из буфера обмена ",
+            "more": {
+              "text": "Read more on github",
+              "link": "https://github.com/vovaksenov99/DynamicAmountEditText"
             }
           },
           {
