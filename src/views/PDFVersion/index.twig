@@ -75,37 +75,19 @@
         <h4 style="padding-left: 20px;margin-bottom: 30px">{{ res.projects }}</h4>
         <div class="media mb-1 skill">
             <div class="media-body">
-                <h5 class="">Java</h5>
+                <h4 class="">Kotlin</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                </ul>
 
-                <div>{{ res.projects }}:
-                    {% for project in res.javaDescribeStack %}
-                        <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-
-        <div class="media mb-1 skill">
-            <div class="media-body">
-                <h5 class="">Kotlin</h5>
-                <div>{{ res.projects }}:
+                <p>{{ res.projects }}:
                     {% for project in res.kotlinDescribeStack %}
                         <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="media mb-1 skill">
-            <div class="media-body">
-                <h5 class="">C#</h5>
-                <p>{{ res.projects }}:
-                    {% for project in res.csharpDescribeStack %}
-                        <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
+                        href="{{ project.link }}">{{ project.name }}</a>{% if project != res.kotlinDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
                 </p>
             </div>
@@ -113,57 +95,98 @@
 
         <div class="media mb-1 skill">
             <div class="media-body">
-                <h5 class="">HTML,CSS</h5>
-                <div>{{ res.projects }}:
+                <h4 class="">Java</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+                <p>{{ res.projects }}:
+                    {% for project in res.javaDescribeStack %}
+                        <a
+                        href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javaDescribeStack|last %},&nbsp;{% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h4 class="">HTML,CSS, JavaScript, TypeScript</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+                <p>{{ res.projects }}:
                     {% for project in res.webDescribeStack %}
                         <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.webDescribeStack|last %},&nbsp;{% endif %}
+                                href="{{ project.link }}">{{ project.name }}</a>,&nbsp;
                     {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="media mb-1 skill">
-            <div class="media-body">
-                <h5 class="">Javascript</h5>
-                <div>{{ res.projects }}:
                     {% for project in res.javascriptDescribeStack %}
                         <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
+                        href="{{ project.link }}">{{ project.name }}</a>{% if project != res.javascriptDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </div>
+                </p>
             </div>
         </div>
 
         <div class="media mb-1 skill">
             <div class="media-body">
-                <h5 class="">Python</h5>
-                <div>{{ res.projects }}:
+                <h4 class="">C#</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+
+                <p>{{ res.projects }}:
+                    {% for project in res.csharpDescribeStack %}
+                        <a
+                        href="{{ project.link }}">{{ project.name }}</a>{% if project != res.csharpDescribeStack|last %},&nbsp;{% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+
+
+        <div class="media mb-1 skill">
+            <div class="media-body">
+                <h4 class="">Python</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+                <p>{{ res.projects }}:
                     {% for project in res.pythonDescribeStack %}
                         <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
+                        href="{{ project.link }}">{{ project.name }}</a>{% if project != res.pythonDescribeStack|last %},&nbsp;{% endif %}
                     {% endfor %}
-                </div>
+                </p>
             </div>
         </div>
 
 
         <div class="media mb-1 skill">
             <div class="media-body">
-                <h5 class="">PHP</h5>
-                <div>{{ res.projects }}:
-                    {% for project in res.phpDescribeStack %}
-                        <a
-                        href="{{ hostname }}{{ project.link }}">{{ project.name }}</a>{% if project != res.phpDescribeStack|last %},&nbsp;{% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="media mb-1 skill">
-            <div class="media-body">
-                <h5 class="">C++</h5>
-
+                <h4 class="">C++</h4>
+                <ul class="star-rating" style="padding: 0px">
+                    <li><i class="fa fa-star amber-text"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
                 <p>{{ res.cppDescribeStack }}</p>
             </div>
         </div>
