@@ -150,7 +150,7 @@
     "skills": "Навыки",
     "main": "Главная",
     "events": "Мероприятия",
-    "projects": "Проекты",
+    "projects": "Pet Проекты",
     "specialization": "Придерживаюсь принципов",
     "teams": "В составе команды",
     "contacts": "Контакты",
@@ -260,22 +260,6 @@
     ],
     "sqlDescribeStack": "",
     "webDescribeStack": [
-      {
-        "name": "Capella",
-        "link": "/projects#Capella"
-      },
-      {
-        "name": "HAWK.SO",
-        "link": "/projects#HawkSo"
-      },
-      {
-        "name": "DeltaNews",
-        "link": "/projects#DeltaNews"
-      },
-      {
-        "name": "Cайт портфолио",
-        "link": ""
-      }
     ],
     "cppDescribeStack": "Использовал только для олимпиадных задач по программированию и прикладных расчетов. Начальное владение языком",
     "inProgress": "В процессе заполнения...",
