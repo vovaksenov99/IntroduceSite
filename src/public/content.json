@@ -181,11 +181,13 @@
     "educationList": [
       {
         "name": "ITMO University, Russia",
+        "link": "https://itmo.ru/ru",
         "icon": "public/myResource/myImage/ITMO_University.png",
         "description": "Факультет инфокоммуникационных технологий, Кафедра программных систем"
       },
       {
         "name": "Metropolia University, Finland",
+        "link": "https://www.metropolia.fi/fi",
         "icon": "public/myResource/myImage/metropolia.png",
         "description": "Game dev and web technologies"
       }
