@@ -185,6 +185,14 @@ ul.instagram-photos li img {
  */
 @media screen and (max-aspect-ratio: 1/1) {
 
+    .education-block-title {
+        text-align: center;
+    }
+
+    .education-block {
+        width: 100%
+    }
+
     cardBlock:first-child {
         display: block;
     }
@@ -359,6 +367,11 @@ ul.instagram-photos li img {
 }
 
 @media screen and (min-aspect-ratio: 1/1) {
+
+    .education-block {
+        width: 100%;
+        max-width: 300px
+    }
 
     .contact-intro {
         margin-top: 30px

@@ -15,10 +15,35 @@
                 </div>
 
                 <div class="card-body text-center">
-                    <h3 class="card-title"><strong>{{ res.myFullName }}</strong></h3>
+                    <h3 class="card-title"><strong>
+                            {{ res.myFullName }}
+                            <script>document.write(" (" + Math.floor((Date.now() - Date.parse('1999-03-24')) / 1000 / 60 / 60 / 24 / 365) + " y.o)")
+                            </script>
+                        </strong></h3>
                     <h4>{{ res.developer }}</h4>
-                    <p class="card-text" style="font-size: 1.2em">{{ res.myDescribe }}
+                    <p class="card-text" style="font-size: 1.2em">
+                        {{ res.myDescribe }}
                     </p>
+                </div>
+                <div class="media mb-1" style="padding-left: 20px;">
+                    <div class="media-body">
+                        <h4 class="education-block-title">{{ res.education }}</h4>
+                        <ul style="display: flex;flex-flow: row wrap;list-style: none;padding: 0;">
+                            {% for education in res.educationList %}
+                                <a class="card education-block" style="margin: 8px;cursor: pointer"
+                                   href="{{ education.link }}" target="_blank">
+                                    <div class="card-body">
+                                        <div style="display: flex;align-items: center;">
+                                            <img src="{{ education.icon }}"
+                                                 style="height: auto;width: 70px"/>
+                                            <h5 class="card-title" style="margin-left: 16px">{{ education.name }}</h5>
+                                        </div>
+                                        <p class="card-text" style="margin-top: 12px">{{ education.description }}</p>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
                 <div class="media mb-1 skill">
                     <div class="media-body">
