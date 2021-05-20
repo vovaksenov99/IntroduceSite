@@ -17,7 +17,7 @@
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-saver": "^2.0.0",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "html2canvas": "^1.0.0-alpha.12",
     "jquery": "^3.4.0",
     "material-design-icons": "^3.0.1",
