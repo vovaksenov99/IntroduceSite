@@ -2,9 +2,18 @@
   "Rus": {
     "workExperience": [
       {
+        "title": "Ведущий Android developer ВТБ",
+        "from": "Июнь, 2021",
+        "to": "Настоящее время",
+        "lines": [
+          "Разрабатываю приложение ВТБ.Инвестиции",
+          "Занимаюсь внутренними задачами по общему улучшению кодовой базы, проектированию архитектуры, внедрению новых фич"
+        ]
+      },
+      {
         "title": "Android developer",
         "from": "Май, 2019",
-        "to": "Настоящее время",
+        "to": "Май, 2021",
         "lines": [
           "Разрабатываю приложения для крупных компаний (Мегафон, Лукойл и т.д) в составе IT отдела компании Touch Instinct",
           "Занимаюсь внутренними задачами по общему улучшению кодовой базы, проектированию архитектуры. Занимаюсь разработкой приложений с 1М+ загрузок",
@@ -35,9 +44,18 @@
   "En": {
     "workExperience": [
       {
+        "title": "Senior Android developer VTB Bank",
+        "from": "June, 2021",
+        "to": "Now",
+        "lines": [
+          "Developing VTB.Investments application",
+          "I perform internal tasks of general improvement of the code general, architecture design, implementation of new features"
+        ]
+      },
+      {
         "title": "Android developer",
         "from": "May, 2019",
-        "to": "now",
+        "to": "May, 2021",
         "lines": [
           "Developing applications for large companies (Megafon, Lukoil, Soglasie, etc.) as a part of the IT department of Touch Instinct",
           "I perform internal tasks of general improvement of the code base and architecture design. I take part in the development of applications with 1M+ downloads",
